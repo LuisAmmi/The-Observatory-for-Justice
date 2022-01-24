@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: 'VanchromeFront-Regular';
+    src:url('VanchromeFront-Regular.ttf.woff') format('woff'),
+        url('VanchromeFront-Regular.ttf.svg#VanchromeFront-Regular') format('svg'),
+        url('VanchromeFront-Regular.ttf.eot'),
+        url('VanchromeFront-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.articleauthor {
+  font-family: 'VanchromeFront-Regular';
+  text-transform: uppercase;
+}
+
+.text {
+
+  font-family: 'Cormorant Garamond', serif;
+  text-align: justify;
+  line-height: 1;
+  font-family: "Romana BT"
+}
+
+.section_heading{
+  font-family: 'Work Sans', sans-serif;
+  writing-mode: vertical-rl;
+}
+
+.subsection_heading{
+  font-family: "Hallo Euroboy Regolare";
+  -moz-transform:rotate(-10deg); /* Firefox */
+  -webkit-transform:rotate(-10deg); /* Webkit */
+  -ms-transform:rotate(-10deg); /* IE */
+  -o-transform:rotate(-10deg); /* Opera */
+  transform:rotate(-10deg); /* future */
+}
+
+#tablen1, #tablen2, #tablen3 {
+  -moz-transform:rotate(-180deg); /* Firefox */
+  -webkit-transform:rotate(-180deg); /* Webkit */
+  -ms-transform:rotate(-180deg); /* IE */
+  -o-transform:rotate(-180deg); /* Opera */
+  transform:rotate(-180deg); /* future */
+}
