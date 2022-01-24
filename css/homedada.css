@@ -63,6 +63,32 @@ body{
   list-style: none;
 }
 
+.icone {
+    width: 6vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+
+.hvr-bounce-in:hover{
+           animation: rotate 1s linear;
+       }
+
+@keyframes rotate{
+           0%{
+               transform: rotate(0deg);
+           }
+           25%{
+               transform: rotate(30deg);
+           }
+           50%{
+               transform: rotate(-30deg);
+           }
+           100%{
+               transform: rotate(0deg);
+           }
+       }
+
 .specialedition{
   z-index: 100;
   position: relative;

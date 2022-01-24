@@ -6,9 +6,9 @@
 
 @font-face {
   font-family:'BeVietnamPro-Regular';
-  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.ttf') format('ttf');
-  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff') format('woff');
-  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff2') format('woff2');
+  src: local('BeVietnamPro-Regular'), url('../font/dadafont/BeVietnamPro-Regular.ttf') format('ttf');
+  src: local('BeVietnamPro-Regular'), url('../font/dadafont/BeVietnamPro-Regular.woff') format('woff');
+  src: local('BeVietnamPro-Regular'), url('../font/dadafont/BeVietnamPro-Regular.woff2') format('woff2');
 }
 
 body{
@@ -26,6 +26,44 @@ body{
   line-height: 1;
   font-size: 14px;
 }
+.navbar{
+  color: #282828;
+  text-align: right;
+  cursor: pointer;
+  background-color: black;
+  margin-right: 0;
+  flex-direction: row;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.icone {
+    width: 6vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+
+.hvr-bounce-in:hover{
+           animation: rotate 1s linear;
+       }
+
+@keyframes rotate{
+           0%{
+               transform: rotate(0deg);
+           }
+           25%{
+               transform: rotate(30deg);
+           }
+           50%{
+               transform: rotate(-30deg);
+           }
+           100%{
+               transform: rotate(0deg);
+           }
+       }
 
 a {
   overflow-wrap: break-word;

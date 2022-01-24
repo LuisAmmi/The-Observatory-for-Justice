@@ -16,127 +16,127 @@
 
 @font-face {
     font-family: 'VanchromeFront-Regular';
-    src: local('VanchromeFront-Regular'), url('../The Observatory for Justice/font/dadafont/VanchromeFront-Regular.ttf') format('truetype');
-    src: local('VanchromeFront-Regular'), url('../The Observatory for Justice/font/dadafont/VanchromeFront-Regular.woff') format('woff');
-    src: local('VanchromeFront-Regular'), url('../The Observatory for Justice/font/dadafont/VanchromeFront-Regular.woff2') format('woff2');
+    src: local('VanchromeFront-Regular'), url('../font/dadafont/VanchromeFront-Regular.ttf') format('truetype');
+    src: local('VanchromeFront-Regular'), url('../font/dadafont/VanchromeFront-Regular.woff') format('woff');
+    src: local('VanchromeFront-Regular'), url('../font/dadafont/VanchromeFront-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Romana BT';
-    src: local('Romana BT'), url('../The Observatory for Justice/font/dadafont/romana-bt-roman.ttf') format('ttf');
+    src: local('Romana BT'), url('../font/dadafont/romana-bt-roman.ttf') format('ttf');
   }
 
 @font-face {
     font-family: "Hallo Euroboy Regular";
-    src: local('Hallo Euroboy Regular'), url('../The Observatory for Justice/font/dadafont/HalloEuroboy_Regular.ttf') format('ttf');
-    src: local('Hallo Euroboy Regular'), url('../The Observatory for Justice/font/dadafont/HalloEuroboy-Regular.woff') format('woff');
+    src: local('Hallo Euroboy Regular'), url('../font/dadafont/HalloEuroboy_Regular.ttf') format('ttf');
+    src: local('Hallo Euroboy Regular'), url('../font/dadafont/HalloEuroboy-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family:'Righteous-Regular';
-  src: local('Righteous-Regular'), url('../The Observatory for Justice/font/dadafont/Righteous-Regular.ttf') format('ttf');
-  src: local('Righteous-Regular'), url('../The Observatory for Justice/font/dadafont/Righteous-Regular.woff') format('woff');
-  src: local('Righteous-Regular'), url('../The Observatory for Justice/font/dadafont/Righteous-Regular.woff2') format('woff2');
+  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.ttf') format('ttf');
+  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.woff') format('woff');
+  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'Ultra-Regular';
-  src: local('Ultra-Regular'), url('../The Observatory for Justice/font/dadafont/Ultra-Regular.ttf') format('ttf');
-  src: local('Ultra-Regular'), url('../The Observatory for Justice/font/dadafont/Ultra-Regular.woff') format('woff');
-  src: local('Ultra-Regular'), url('../The Observatory for Justice/font/dadafont/Ultra-Regular.woff2') format('woff2');
+  src: local('Ultra-Regular'), url('../font/dadafont/Ultra-Regular.ttf') format('ttf');
+  src: local('Ultra-Regular'), url('../font/dadafont/Ultra-Regular.woff') format('woff');
+  src: local('Ultra-Regular'), url('../font/dadafont/Ultra-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'PoiretOne-Regular';
-  src: local('PoiretOne-Regular'), url('../The Observatory for Justice/font/dadafont/PoiretOne-Regular.ttf') format('ttf');
-  src: local('PoiretOne-Regular'), url('../The Observatory for Justice/font/dadafont/PoiretOne-Regular.woff') format('woff');
-  src: local('PoiretOne-Regular'), url('../The Observatory for Justice/font/dadafont/PoiretOne-Regular.woff2') format('woff2');
+  src: local('PoiretOne-Regular'), url('../font/dadafont/PoiretOne-Regular.ttf') format('ttf');
+  src: local('PoiretOne-Regular'), url('../font/dadafont/PoiretOne-Regular.woff') format('woff');
+  src: local('PoiretOne-Regular'), url('../font/dadafont/PoiretOne-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'PetitFormalScript-Regular';
-  src: local('PetitFormalScript-Regular'), url('../The Observatory for Justice/font/dadafont/PetitFormalScript-Regular.ttf') format('ttf');
-  src: local('PetitFormalScript-Regular'), url('../The Observatory for Justice/font/dadafont/PetitFormalScript-Regular.woff') format('woff');
-  src: local('PetitFormalScript-Regular'), url('../The Observatory for Justice/font/dadafont/PetitFormalScript-Regular.woff2') format('woff2');
+  src: local('PetitFormalScript-Regular'), url('../font/dadafont/PetitFormalScript-Regular.ttf') format('ttf');
+  src: local('PetitFormalScript-Regular'), url('../font/dadafont/PetitFormalScript-Regular.woff') format('woff');
+  src: local('PetitFormalScript-Regular'), url('../font/dadafont/PetitFormalScript-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'UnifrakturMaguntia';
-  src: local('UnifrakturMaguntia'), url('../The Observatory for Justice/font/dadafont/UnifrakturMaguntia-Regular.ttf') format('ttf');
-  src: local('UnifrakturMaguntia'), url('../The Observatory for Justice/font/dadafont/UnifrakturMaguntia.woff') format('woff');
-  src: local('UnifrakturMaguntia'), url('../The Observatory for Justice/font/dadafont/UnifrakturMaguntia.woff2') format('woff2');
+  src: local('UnifrakturMaguntia'), url('../font/dadafont/UnifrakturMaguntia-Regular.ttf') format('ttf');
+  src: local('UnifrakturMaguntia'), url('../font/dadafont/UnifrakturMaguntia.woff') format('woff');
+  src: local('UnifrakturMaguntia'), url('../font/dadafont/UnifrakturMaguntia.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'Sancreek-Regular';
-  src: local('Sancreek-Regular'), url('../The Observatory for Justice/font/dadafont/Sancreek-Regular.ttf') format('ttf');
-  src: local('Sancreek-Regular'), url('../The Observatory for Justice/font/dadafont/Sancreek-Regular.woff') format('woff');
-  src: local('Sancreek-Regular'), url('../The Observatory for Justice/font/dadafont/Sancreek-Regular.woff2') format('woff2');
+  src: local('Sancreek-Regular'), url('../font/dadafont/Sancreek-Regular.ttf') format('ttf');
+  src: local('Sancreek-Regular'), url('../font/dadafont/Sancreek-Regular.woff') format('woff');
+  src: local('Sancreek-Regular'), url('../font/dadafont/Sancreek-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'Nordica';
-  src: local('Nordica'), url('../The Observatory for Justice/font/dadafont/Nordica.ttf') format('ttf');
-  src: local('Nordica'), url('../The Observatory for Justice/font/dadafont/Nordica.woff') format('woff');
-  src: local('Nordica'), url('../The Observatory for Justice/font/dadafont/Nordica.woff2') format('woff2');
+  src: local('Nordica'), url('../font/dadafont/Nordica.ttf') format('ttf');
+  src: local('Nordica'), url('../font/dadafont/Nordica.woff') format('woff');
+  src: local('Nordica'), url('../font/dadafont/Nordica.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'DK P.I.';
-  src: local('DK P.I.'), url('../The Observatory for Justice/font/dadafont/DK P.I..ttf') format('ttf');
-  src: local('DK P.I.'), url('../The Observatory for Justice/font/dadafont/DKPI.woff') format('woff');
-  src: local('DK P.I.'), url('../The Observatory for Justice/font/dadafont/DKPI.woff2') format('woff2');
+  src: local('DK P.I.'), url('../font/dadafont/DK P.I..ttf') format('ttf');
+  src: local('DK P.I.'), url('../font/dadafont/DKPI.woff') format('woff');
+  src: local('DK P.I.'), url('../font/dadafont/DKPI.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'GravitasOne';
-  src: local('GravitasOne'), url('../The Observatory for Justice/font/dadafont/GravitasOne.ttf') format('ttf');
-  src: local('GravitasOne'), url('../The Observatory for Justice/font/dadafont/GravitasOne.woff') format('woff');
-  src: local('GravitasOne'), url('../The Observatory for Justice/font/dadafont/GravitasOne.woff2') format('woff2');
+  src: local('GravitasOne'), url('../font/dadafont/GravitasOne.ttf') format('ttf');
+  src: local('GravitasOne'), url('../font/dadafont/GravitasOne.woff') format('woff');
+  src: local('GravitasOne'), url('../font/dadafont/GravitasOne.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'Old Town Regular';
-  src: local('Old Town Regular'), url('../The Observatory for Justice/font/dadafont/Old Town Regular.ttf') format('ttf');
-  src: local('Old Town Regular'), url('../The Observatory for Justice/font/dadafont/Old Town Regular.woff') format('woff');
-  src: local('Old Town Regular'), url('../The Observatory for Justice/font/dadafont/Old Town Regular.woff2') format('woff2');
+  src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.ttf') format('ttf');
+  src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.woff') format('woff');
+  src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'Dolphins-SemiBoldItalic';
-  src: local('Dolphins-SemiBoldItalic'), url('../The Observatory for Justice/font/dadafont/Dolphins-SemiBoldItalice.ttf') format('ttf');
-  src: local('Dolphins-SemiBoldItalic'), url('../The Observatory for Justice/font/dadafont/Dolphins-SemiBoldItalic.woff') format('woff');
-  src: local('Dolphins-SemiBoldItalic'), url('../The Observatory for Justice/font/dadafont/Dolphins-SemiBoldItalic.woff2') format('woff2');
+  src: local('Dolphins-SemiBoldItalic'), url('../font/dadafont/Dolphins-SemiBoldItalice.ttf') format('ttf');
+  src: local('Dolphins-SemiBoldItalic'), url('../font/dadafont/Dolphins-SemiBoldItalic.woff') format('woff');
+  src: local('Dolphins-SemiBoldItalic'), url('../font/dadafont/Dolphins-SemiBoldItalic.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'Caledo Bold';
-  src: local('Caledo Bold'), url('../The Observatory for Justice/font/dadafont/caledo_bold-webfont.ttf') format('ttf');
-  src: local('Caledo Bold'), url('../The Observatory for Justice/font/dadafont/caledo_bold-webfont.woff') format('woff');
+  src: local('Caledo Bold'), url('../font/dadafont/caledo_bold-webfont.ttf') format('ttf');
+  src: local('Caledo Bold'), url('../font/dadafont/caledo_bold-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family:'Lobster-Regular';
-  src: local('Lobster-Regular'), url('../The Observatory for Justice/font/dadafont/Lobster-Regular.ttf') format('ttf');
-  src: local('Lobster-Regular'), url('../The Observatory for Justice/font/dadafont/Lobster-Regular.woff') format('woff');
-  src: local('Lobster-Regular'), url('../The Observatory for Justice/font/dadafont/Lobster-Regular.woff2') format('woff2');
+  src: local('Lobster-Regular'), url('../font/dadafont/Lobster-Regular.ttf') format('ttf');
+  src: local('Lobster-Regular'), url('../font/dadafont/Lobster-Regular.woff') format('woff');
+  src: local('Lobster-Regular'), url('../font/dadafont/Lobster-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family:'Phorssa';
-  src: local('Phorssa'), url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/font/dadafont/Phorssa.ttf') format('ttf');
-  src: local('Phorssa'), url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/font/dadafont/Phorssa.woff') format('woff');
-  src: local('Phorssa'), url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/font/dadafont/Phorssa.woff2') format('woff2');
+  src: local('Phorssa'), url('../font/dadafont/Phorssa.ttf') format('ttf');
+  src: local('Phorssa'), url('../font/dadafont/Phorssa.woff') format('woff');
+  src: local('Phorssa'), url('../font/dadafont/Phorssa.woff2') format('woff2');
 }
 
 body {
-  background-image: url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/imgs/dada/sfondo ultimo.png');
+  background-image: url('../imgs/dada/sfondo ultimo.png');
   background-attachment: fixed;
   background-size: contain;
 }
 
 .container {
-  background-image: url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/imgs/dada/paper book.jpeg');
+  background-image: url('../imgs/dada/paper book.jpeg');
   margin-top: 5vh;
   border: #302a2c double 3vh;
   padding: 1vh;
@@ -166,7 +166,7 @@ body {
 }
 
 .navbar{
-  background-image: url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/imgs/dada/paper book.jpeg');
+  background-image: url('../imgs/dada/paper book.jpeg');
   text-align: right;
   cursor: pointer;
   background-color: black;
@@ -177,6 +177,32 @@ body {
   margin-bottom: 0;
   list-style: none;
 }
+
+.icone {
+    width: 6vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+
+.hvr-bounce-in:hover{
+           animation: rotate 1s linear;
+       }
+
+@keyframes rotate{
+           0%{
+               transform: rotate(0deg);
+           }
+           25%{
+               transform: rotate(30deg);
+           }
+           50%{
+               transform: rotate(-30deg);
+           }
+           100%{
+               transform: rotate(0deg);
+           }
+       }
 
 img {
   border: 10px solid;
