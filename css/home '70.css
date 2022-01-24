@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:'BeVietnamPro-Regular';
+  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.ttf') format('ttf');
+  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff') format('woff');
+  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff2') format('woff2');
+}
+
+body{
+  background-color: #0F0F0F;
+  font-family:'BeVietnamPro-Regular';
+}
+.img0{
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+}
+
+
+.navbar{
+  color: #282828;
+  text-align: right;
+  cursor: pointer;
+  background-color: black;
+  margin-right: 0;
+  flex-direction: row;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.specialedition{
+  z-index: 100;
+  position: relative;
+  padding: 5vh;
+  margin:  10vh 0 5vh 5vh;
+}
+.question{
+  font-size: 10vh;
+  padding-right: 50%;
+  text-align: left;
+  color: #fff;
+}
+
+.illustration{
+  z-index: 100;
+  position: relative;
+  padding: 8vh;
+  font-size: 3vh;
+  padding-left: 50%;
+  text-align: justify;
+  color: #fff;
+  background-size: cover;
+}
+.magazine, .project{
+  z-index: 100;
+  position: relative;
+  padding: 8vh;
+  font-size: 3vh;
+  padding-right: 50%;
+  text-align: justify;
+  color: #fff;
+  background-size: cover;
+}
+
+.issue{
+  z-index: 100;
+  position: relative;
+  padding: 8vh;
+  font-size: 3vh;
+  padding-left: 50%;
+  text-align: justify;
+  background-size: cover;
+  background-color: #fff;
+}
+img{
+  width: 50vh;
+  padding: 0;
+}
+
+footer{
+  font-size: 1.8vh;
+}

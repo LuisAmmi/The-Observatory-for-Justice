@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'VanchromeFront-Regular';
+    src:url('VanchromeFront-Regular.ttf.woff') format('woff'),
+        url('VanchromeFront-Regular.ttf.svg#VanchromeFront-Regular') format('svg'),
+        url('VanchromeFront-Regular.ttf.eot'),
+        url('VanchromeFront-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VanchromeFront-Regular';
+    src: local('VanchromeFront-Regular'), url('../The Observatory for Justice/font/dadafont/VanchromeFront-Regular.ttf') format('truetype');
+    src: local('VanchromeFront-Regular'), url('../The Observatory for Justice/font/dadafont/VanchromeFront-Regular.woff') format('woff');
+    src: local('VanchromeFront-Regular'), url('../The Observatory for Justice/font/dadafont/VanchromeFront-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Romana BT';
+    src: local('Romana BT'), url('../The Observatory for Justice/font/dadafont/romana-bt-roman.ttf') format('ttf');
+  }
+
+@font-face {
+    font-family: "Hallo Euroboy Regular";
+    src: local('Hallo Euroboy Regular'), url('../The Observatory for Justice/font/dadafont/HalloEuroboy_Regular.ttf') format('ttf');
+    src: local('Hallo Euroboy Regular'), url('../The Observatory for Justice/font/dadafont/HalloEuroboy-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family:'Righteous-Regular';
+  src: local('Righteous-Regular'), url('../The Observatory for Justice/font/dadafont/Righteous-Regular.ttf') format('ttf');
+  src: local('Righteous-Regular'), url('../The Observatory for Justice/font/dadafont/Righteous-Regular.woff') format('woff');
+  src: local('Righteous-Regular'), url('../The Observatory for Justice/font/dadafont/Righteous-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Ultra-Regular';
+  src: local('Ultra-Regular'), url('../The Observatory for Justice/font/dadafont/Ultra-Regular.ttf') format('ttf');
+  src: local('Ultra-Regular'), url('../The Observatory for Justice/font/dadafont/Ultra-Regular.woff') format('woff');
+  src: local('Ultra-Regular'), url('../The Observatory for Justice/font/dadafont/Ultra-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'PoiretOne-Regular';
+  src: local('PoiretOne-Regular'), url('../The Observatory for Justice/font/dadafont/PoiretOne-Regular.ttf') format('ttf');
+  src: local('PoiretOne-Regular'), url('../The Observatory for Justice/font/dadafont/PoiretOne-Regular.woff') format('woff');
+  src: local('PoiretOne-Regular'), url('../The Observatory for Justice/font/dadafont/PoiretOne-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'PetitFormalScript-Regular';
+  src: local('PetitFormalScript-Regular'), url('../The Observatory for Justice/font/dadafont/PetitFormalScript-Regular.ttf') format('ttf');
+  src: local('PetitFormalScript-Regular'), url('../The Observatory for Justice/font/dadafont/PetitFormalScript-Regular.woff') format('woff');
+  src: local('PetitFormalScript-Regular'), url('../The Observatory for Justice/font/dadafont/PetitFormalScript-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'UnifrakturMaguntia';
+  src: local('UnifrakturMaguntia'), url('../The Observatory for Justice/font/dadafont/UnifrakturMaguntia-Regular.ttf') format('ttf');
+  src: local('UnifrakturMaguntia'), url('../The Observatory for Justice/font/dadafont/UnifrakturMaguntia.woff') format('woff');
+  src: local('UnifrakturMaguntia'), url('../The Observatory for Justice/font/dadafont/UnifrakturMaguntia.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Sancreek-Regular';
+  src: local('Sancreek-Regular'), url('../The Observatory for Justice/font/dadafont/Sancreek-Regular.ttf') format('ttf');
+  src: local('Sancreek-Regular'), url('../The Observatory for Justice/font/dadafont/Sancreek-Regular.woff') format('woff');
+  src: local('Sancreek-Regular'), url('../The Observatory for Justice/font/dadafont/Sancreek-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Nordica';
+  src: local('Nordica'), url('../The Observatory for Justice/font/dadafont/Nordica.ttf') format('ttf');
+  src: local('Nordica'), url('../The Observatory for Justice/font/dadafont/Nordica.woff') format('woff');
+  src: local('Nordica'), url('../The Observatory for Justice/font/dadafont/Nordica.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DK P.I.';
+  src: local('DK P.I.'), url('../The Observatory for Justice/font/dadafont/DK P.I..ttf') format('ttf');
+  src: local('DK P.I.'), url('../The Observatory for Justice/font/dadafont/DKPI.woff') format('woff');
+  src: local('DK P.I.'), url('../The Observatory for Justice/font/dadafont/DKPI.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'GravitasOne';
+  src: local('GravitasOne'), url('../The Observatory for Justice/font/dadafont/GravitasOne.ttf') format('ttf');
+  src: local('GravitasOne'), url('../The Observatory for Justice/font/dadafont/GravitasOne.woff') format('woff');
+  src: local('GravitasOne'), url('../The Observatory for Justice/font/dadafont/GravitasOne.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Old Town Regular';
+  src: local('Old Town Regular'), url('../The Observatory for Justice/font/dadafont/Old Town Regular.ttf') format('ttf');
+  src: local('Old Town Regular'), url('../The Observatory for Justice/font/dadafont/Old Town Regular.woff') format('woff');
+  src: local('Old Town Regular'), url('../The Observatory for Justice/font/dadafont/Old Town Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Dolphins-SemiBoldItalic';
+  src: local('Dolphins-SemiBoldItalic'), url('../The Observatory for Justice/font/dadafont/Dolphins-SemiBoldItalice.ttf') format('ttf');
+  src: local('Dolphins-SemiBoldItalic'), url('../The Observatory for Justice/font/dadafont/Dolphins-SemiBoldItalic.woff') format('woff');
+  src: local('Dolphins-SemiBoldItalic'), url('../The Observatory for Justice/font/dadafont/Dolphins-SemiBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Caledo Bold';
+  src: local('Caledo Bold'), url('../The Observatory for Justice/font/dadafont/caledo_bold-webfont.ttf') format('ttf');
+  src: local('Caledo Bold'), url('../The Observatory for Justice/font/dadafont/caledo_bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family:'Lobster-Regular';
+  src: local('Lobster-Regular'), url('../The Observatory for Justice/font/dadafont/Lobster-Regular.ttf') format('ttf');
+  src: local('Lobster-Regular'), url('../The Observatory for Justice/font/dadafont/Lobster-Regular.woff') format('woff');
+  src: local('Lobster-Regular'), url('../The Observatory for Justice/font/dadafont/Lobster-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Phorssa';
+  src: local('Phorssa'), url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/font/dadafont/Phorssa.ttf') format('ttf');
+  src: local('Phorssa'), url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/font/dadafont/Phorssa.woff') format('woff');
+  src: local('Phorssa'), url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/font/dadafont/Phorssa.woff2') format('woff2');
+}
+
+body {
+  background-image: url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/imgs/dada/sfondo ultimo.png');
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.container {
+  background-image: url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/imgs/dada/paper book.jpeg');
+  margin-top: 5vh;
+  border: #302a2c double 3vh;
+  padding: 1vh;
+}
+
+.text {
+  font-family: 'Romana BT';
+  text-align: justify;
+  line-height: 1;
+  font-size: 14px;
+}
+
+
+.article {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: justify;
+  height: 85vh;
+  margin: auto;
+  padding: 25px;
+}
+
+.navbar-brand{
+  font-family: 'Phorssa';
+  color: #f8221f;
+  letter-spacing: 0;
+}
+
+.navbar{
+  background-image: url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/imgs/dada/paper book.jpeg');
+  text-align: right;
+  cursor: pointer;
+  background-color: black;
+  margin-right: 0;
+  flex-direction: row;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+img {
+  border: 10px solid;
+  max-width: 100%;
+  height: auto;
+  object-position: right;
+  filter: sepia(80%);
+}
+
+.img1art1{
+  shape-outside: polygon(20.67px 113.00px,67.33px 139.47px,176.67px 140.47px,229.33px 126.00px,241.50px 73.26px,233.67px 21.53px,186.58px 14.03px,127.50px 40.53px,14.33px 8.53px,10.50px 71.76px);
+  clip-path:polygon(20.67px 113.00px,67.33px 139.47px,176.67px 140.47px,229.33px 126.00px,241.50px 73.26px,233.67px 21.53px,186.58px 14.03px,127.50px 40.53px,14.33px 8.53px,10.50px 71.76px);
+  filter: grayscale(90%);
+  opacity:90%;
+}
+.img1art2 {
+  shape-outside: polygon(12.67px 137.00px,70.33px 158.47px,185.67px 155.47px,232.33px 133.00px,227.67px 12.53px,127.50px 21.53px,14.33px 8.53px,9.50px 72.76px);
+  clip-path: polygon(12.67px 137.00px,70.33px 158.47px,185.67px 155.47px,232.33px 133.00px,227.67px 12.53px,127.50px 21.53px,14.33px 8.53px,9.50px 72.76px);
+  filter: grayscale(90%);
+  -moz-transform:rotate(+5deg); /* Firefox */
+  -webkit-transform:rotate(+5deg); /* Webkit */
+  -ms-transform:rotate(+5deg); /* IE */
+  -o-transform:rotate(+5deg); /* Opera */
+  transform:rotate(+5deg); /* future */
+}
+
+.img3art2{
+  shape-outside: polygon(5.35% 69.07%,35.25% 91.91%,67.17% 92.60%,95.86% 55.33%,75.05% 3.96%,28.89% 7.05%);
+  clip-path: polygon(5.35% 69.07%,35.25% 91.91%,67.17% 92.60%,95.86% 55.33%,75.05% 3.96%,28.89% 7.05%);
+  filter: grayscale(90%);
+  opacity: 90%;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+table{
+  padding: 5px;
+  box-sizing: border-box;
+  margin:auto;
+}
+
+.articleauthor {
+  font-family: 'Righteous-Regular';
+  color: #cb3a35;
+  text-transform: uppercase;
+}
+
+.articletitle {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 30px;
+}
+
+#articletitle1 {
+  font-family: 'Old Town Regular';
+  font-size: 80px;
+  color: #cb3a35;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+#articletitle2 {
+  font-family: 'GravitasOne';
+  text-align: left;
+}
+#articletitle3{
+  font-family: 'Caledo Bold';
+  text-align: center;
+}
+.articlesubtitle {
+  font-family: 'PoiretOne-Regular';
+  font-size: 20px;
+}
+
+.subtitle {
+  font-family: 'Nordica';
+  font-size: 20px;
+}
+
+.linkandinfo {
+  font-size: 18px;
+  font-family: 'Ultra-Regular';
+}
+
+.articledate, .geoinfo {
+  font-family: 'Ultra-Regular';
+  font-size: 20px;
+}
+
+#abstract3{
+  font-family: 'DK P.I.';
+}
+
+.section_heading{
+  font-family: 'Work Sans', sans-serif;
+  writing-mode: vertical-rl;
+}
+
+.subsection_heading{
+  font-family: "Hallo Euroboy Regular";
+  -moz-transform:rotate(-10deg); /* Firefox */
+  -webkit-transform:rotate(-10deg); /* Webkit */
+  -ms-transform:rotate(-10deg); /* IE */
+  -o-transform:rotate(-10deg); /* Opera */
+  transform:rotate(-10deg); /* future */
+  margin: 5%;
+
+}
+
+.table>:not(:first-child) {
+    border-top: None;
+}
+
+figcaption{
+  font-family: 'Dolphins-SemiBoldItalic';
+  color: #b94842;
+  background: none;
+  transform-origin: right;
+/*  transform: rotate(90deg);*/
+/*   margin-right: 55px;*/
+  line-height: 1;
+}
+
+#tablen1, #tablen2, #tablen3 {
+  -moz-transform:rotate(-180deg); /* Firefox */
+  -webkit-transform:rotate(-180deg); /* Webkit */
+  -ms-transform:rotate(-180deg); /* IE */
+  -o-transform:rotate(-180deg); /* Opera */
+  transform:rotate(-180deg); /* future */
+}
+
+#updatesandcorrectionstitle, #authorandarticleinfotitle {
+  writing-mode: horizontal-tb;
+  font-family: "Sancreek-Regular";
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  color: #b94842;
+}
+
+#updatesandcorrections2, #authorandarticleinfo3 {
+  box-sizing: border-box;
+  border: 10px dotted #b94842;
+  padding: 5px;
+  margin-bottom: 10px;
+  float: left;
+  text-align: left;
+  color: #b94842;
+}
+
+a {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+  letter-spacing: 10px;
+  word-spacing: 5px;
+}
+
+a:hover{
+  opacity: 50%;
+  color: #b94842;
+}
+
+.possiblepolygon{
+  height: 30vh;
+  width: 15vw;
+  float: right;
+  background: black center top no-repeat;
+  opacity: 80%;
+  padding: white 20px;
+  background-size: cover;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 40% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+}
+
+.claim {
+  margin:10px;
+  font-family: 'Lobster-Regular';
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+.quote {
+  font-family: 'Lobster-Regular';
+}
+
+#vivailduce {
+  color: #b94842;
+  margin: 20;
+  -moz-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}

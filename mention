@@ -1,0 +1,278 @@
+I ARTICOLO
+mention person  v
+mention place   v
+mention ethnic_group (#black #white #latino) v
+mention type-of-aggression v
+                          shooting
+                          chokeholds
+mention concept
+                #brutality v
+                #fascism x
+                #torture  x
+                #use of force  v       <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q96441150" data-label="police violence">use of force</span>
+                #racism        v       <span class="mention concept" about="racism" id="?" data-wikidata-id="Q8461" data-label="racism">racism/span>
+                #racial bias v
+                #misconduct v
+                #police accountability v
+                #abuse of power v
+
+mention data/time v
+
+mention event   v   #killing of George Floyd <span class="mention event" about="killing of George Floyd" id="?"></span>
+                v   #killing of Eric Garner (Q17400785) <span class="mention event" about="killing of Eric Garner" id="?" data-wikidata-id="Q17400785" data-label="killing of Eric Garner"></span>
+
+mention institution x
+mention institution University  v
+
+mention institution Police Department v
+mention company v PubMed, Google scholar, GettyImage, Reuters
+mention company newspaper v   Nature
+-------------------------------------------------------------------------------------------------------------------------------------------
+II ARTICOLO
+mention person v
+mention place v
+mention ethnic_group  v   #black race #black citizens
+mention disorder          #mental disorder   (#mental illness)  v
+                          #dementia                             v
+                          #intellectual disability              v
+                          #bipolar                              v
+                          #schizophreni                         v
+
+mention concept           #brutality
+                          #fascism x
+                          #torture  x
+                          #use of force        <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q96441150" data-label="police violence">use of force</span>
+                          #racism    x          <span class="mention concept" about="racism" id="?" data-wikidata-id="Q8461" data-label="racism">racism/span>
+                          #racial bias x
+                          #misconduct  x
+                          #police accountability x
+                          #abuse of power      x
+
+#mention data/time  v
+
+mention Institution       #healt care system
+                          #social programs /
+                          #social support system
+                          #social service systems
+                          #criminal justice system/process
+
+mention company  v        #PubMed
+                          #Google scholar
+                          #Web of Science (Q1201886)
+                          #PsycINFO Q5542226
+                          #JSTOR
+                          #Criminal Justice Abstracts
+                          #Sociological Abstracts
+                          #National Criminal Justice Reference Service.
+                          GettyImage, Reuters
+mention company newspaper
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+III ARTICOLO
+mention person  v         #Mark Covell  v       <span class="mention person" about="" id="?"></span>
+                          #Enrico Zucca   v
+                          #Michael Gieser  v
+                          #Melanie Jonasch  v
+                          #Katherina Ottoway  v
+                          #Dan McQuillan    v
+                          #Norman Blair    v
+                          #Sam Buchanan    v
+                          #Nicola Doherty  v
+                          #Richard Moth    v
+                          #Daniel Albrech  v
+                          #Karl Boro       v
+                          #Jaraslaw Engel  v
+                          #Lena Zuhlke     v
+                          #Niels Martensen v
+                          #Mohammed Tabach v
+                          #Mussolini #duce v
+                          #Pinochet        v
+                          #Stefan Bauer    v
+                          #Marco Bistacchia v
+                          #Ester Percivati  v
+                          #David Larroquelle v
+                          #Tony Blair        v
+                          #Gianfranco Fini   v
+                          #Silvio Berlusconi v
+                          #Massimo Pastore   v
+
+mention place    v        #Genoa          v
+                          #Berlin         v
+                          #Stansted       v
+                          #New Zealand    v
+                          #London         v
+                          #Poland         v
+                          #San Martino hospital v
+                          #Bolzaneto     v
+                          #European Union   v
+
+#mention data/time   v    #July 21 2001
+                          <time datetime="1987-08-07">Aug. 7, 1987</time>
+
+mention event        v    #G8 (27th G8 summit (Q1143209)) <span class="mention event" about="27th G8 summit" id="?" data-wikidata-id="Q1143209" data-label="27th G8 summit"></span>
+                          G8 summit
+
+                     v    #2001 raid on Armando Diaz (Q3740141)  <span class="mention event" about="raid on Armando Diaz" id="?" data-wikidata-id="Q3740141" data-label="2001 raid on Armando Diaz"></span>
+                          Diaz raid
+
+mention ethnic_group  v   #black race #black citizens
+mention type-of-aggression
+                    v     BASTONATE/MANGANELLATE (BEATING) <span class="mention type-of-aggression" about="beating" id="?"></span>
+                          #thrashing him with their sticks  (manganellate/bastonate)
+                          #one cracked him round the head with his baton;
+                          #battered with truncheons
+                          #beat their heads
+                          #a baton slow
+                          #beating her head
+                          #beating and
+                          #beating us,
+                          #beating each person
+                          #beating the first
+                          #hit the parts of my body
+                          #flipped their batons around
+                          #an extra beating.
+                          #smashed him over the head,
+                          #and beaten by a dozen
+                          #She was beaten around the head
+                          #lashing her with their batons
+                          #beat them
+                          #beaten
+                          #savage beating
+
+                    v     CALCI   <span class="mention type-of-aggression" about="kicking" id="?"></span>
+                          #kicked him in the chest   (CALCIO nel petto)
+                          # by strolling over to use Covell as a football
+                          #bout of kicking
+                          #the other kicked him several times in the mouth
+                          #kicking her limp body,
+                          #kicking And
+                          #kicked from all sides on the floor
+                          #kicked
+
+                    v     TRASCINAMENTO  <span class="mention type-of-aggression" about="dragging" id="?"></span>
+                          #drag (trascinare)
+                          #was dragged out
+                          #dragged her out by her dreadlocks.
+                          #dragged Zuhlke into the ground-floor hall
+                          #dragged by her hair
+
+                    v     VIOLENZA VERBALE
+                          #shouting of insults; [verbal violence: Verbal abuse (Q3138174)]
+                          #injured not to move around or look out of the window,
+                          #shouted at
+                          #calling her a whore
+                          #threats of rape, anal and vaginal
+                          #threats...
+
+                    v     VIOLENZA SESSUALE
+                          #grabbed his groin and thrust it into her face [sexual misconduct (Q7458798)] <span class="mention type-of-aggression" about="sexual misconduct" id="?" data-wikidata-id="Q7458798" data-label="sexual misconduct"></span>
+
+                          #a knife to cut off hair from his victim [cut]
+                          #illegally incarcerated [false imprisonment (Q694752)]
+                          #humiliation
+                          #smoking while his blood ran out
+                          #kneed her in the groin while (ginocchiata)
+                          #battering  (pugni)
+                          #to batter them around
+
+mention concept           #fascism         v      <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascism</span>
+                          #neo-fascism     v      <span class="mention concept" about="neo-fascism" id="?" data-wikidata-id="Q696116" data-label="neo-fascism">neo-fascism</span>
+                          #torture         v     <span class="mention concept" about="torture" id="?" data-wikidata-id="Q132781" data-label="torture">torture</span>
+                          #use of force    x     <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q96441150" data-label="police violence">use of force</span>
+                          #racism (race problem) x
+                          #police brutality
+                          #racism        x
+                          #racial bias   x
+                          #misconduct    x
+                          #police accountability x
+                          #abuse of power x
+
+
+mention Institution    v #city council  city council (Q3154693)  <span class="mention Institution" about="city council" id="?" data-wikidata-id="Q3154693" data-label="city council">city council</span>
+
+mention institution Police Department     v #Bolzaneto Department <span class="mention institution Police Department" about="Bolzaneto Department" id="?">Bolzaneto district</span>
+
+
+mention company         v  #Independent Media Center             <span class="mention company" about="Independent Media Center" id="?" data-wikidata-id="Q1137514" data-label="Independent Media Center"></span>
+mention company newspaper v   #La Repubblica                         <span class="mention company newspaper" about="la Repubblica" id="?" data-wikidata-id="Q85329" data-label="la Repubblica">la Repubblica</span>
+                          v  #Daily Mail --> Daily Mail (Q210534)   <span class="mention company newspaper" about="Daily Mail" id="?" data-wikidata-id="Q210534" data-label="Daily Mail">Daily Mail</span>
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+<span class="mention disorder" about="mental disorder" id="?" data-wikidata-id="Q12135" data-label="mental disorder">mental disorder</span>
+<a href=""><span class="mention company" about="GoogleScholar" id="?" data-wikidata-id="Q494817" data-label="Google Scholar">Google Scholar</span></a>
+<a href=""><span class="mention company" about="Medline" id="?" data-wikidata-id="Q1540899" data-label="MEDLINE">Medline</span></a>
+<a href=""><span class="mention company" about="Crossref" id="?" data-wikidata-id="Q5188229" data-label="Crossref">Crossref</span></a>
+
+#FBI
+#US Major League Baseball teams
+#Cambridge Centre for Evidence-Based Policing
+#Center for Police Research and Policy
+#Vera Institute of Justice Q7920786
+
+<span class="mention ?" about="?" id="?" data-wikidata-id="?" data-label="?">?</span>
+<span class="mention Institution Research" about="" id="?" data-wikidata-id="" data-label=""></span>
+
+
+*police brutality  Q1996993 <<-- compare 2 volte
+*racial bias Q16630756  <<-- compare spesso
+use of force Q971119   + "using excessive force"  <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q971119" data-label="use of force">use of force</span>
+*-->5 volte  <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q96441150" data-label="police violence">use of force</span>
+*  police violence Q96441150 1volta
+* misconduct (Q6875295) <<--7 volte <span class="mention concept" about="misconduct" id="?" data-wikidata-id="Q6875295" data-label="misconduct">misconduct</span>
+* abuse of power Q1975478 <<-- 1 volta <span class="mention concept" about="abuse of power" id="?" data-wikidata-id="Q1975478" data-label="abuse of power">abuse of power</span>
+*police accountability (Q7209546) 4 volte <span class="mention concept" about="police accountability" id="?" data-wikidata-id="Q7209546" data-label="police accountability">police accountability</span>
+
+#homelessness (Q131327)
+#substance abuse (Q3184856)
+#mental disorder (Q12135)
+discrimination  169207
+#bad temper
+
+protest -->"demonstration" Q175331 (street protest)
+protest protest Q273120 (expression of objection)
+
+----------------------------------------------------------------------------------------
+<a href="#footn1b"><sup>1</sup></a>
+
+
+Table
+<div class="table">
+    <h2>Table 2</h2>
+    <p>Police involvement in care pathway among persons with mental disorders in 49 studies</p>
+    <div class="table_2"  id="3b-table">
+      <table border=1>
+        <header style="text-align: center";>
+        <tr>
+          <th></th>
+          <th rowspan="2"><b>With disorder</b></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+        <tr>
+          <th><b>Study</b></th>
+          <th><b>Police involvement in mental health care pathway</b></th>
+          <th><b>Sought or accessed mental health care</b></th>
+          <th><b>Rate of police involvement (%)</b></th>
+          <th><b>99% CI</b></th>
+        </tr>
+        </header>
+        <tr>
+          <th>Evans and Boothroyd, 2002 (37)</th>
+          <td>53</td>
+          <td>1,779</td>
+          <td>3</td>
+          <td>1.96–4.04</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+  </table>
+  </div>

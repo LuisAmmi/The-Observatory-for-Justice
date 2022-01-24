@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:'BeVietnamPro-Regular';
+  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.ttf') format('ttf');
+  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff') format('woff');
+  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff2') format('woff2');
+}
+
+body{
+  background-color: #0F0F0F;
+  font-family:'BeVietnamPro-Regular';
+}
+
+.container {
+  margin-top: 5vh;
+  background-color: #fff;
+}
+
+.text {
+  text-align: justify;
+  line-height: 1;
+  font-size: 14px;
+}
+
+a {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  text-decoration: none;
+}
+
+.article {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: justify;
+  height: 650px;
+  margin: auto;
+  padding: 15px;
+}
