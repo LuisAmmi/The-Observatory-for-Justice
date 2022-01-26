@@ -35,6 +35,7 @@
 body{
   background-color: #0F0F0F;
   font-family:'BeVietnamPro-Regular';
+   overflow-x: hidden;
 }
 
 .navbar-brand{
@@ -81,7 +82,7 @@ body{
                transform: rotate(0deg);
            }
        }
-video{
+#collagedada{
 right: 0;
 bottom: 0;
 min-width: 100%;

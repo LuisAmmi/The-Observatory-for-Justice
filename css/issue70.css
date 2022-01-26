@@ -475,14 +475,11 @@ p {
   object-position: right;
 }
 
-.possiblepolygon{
-  min-width: 100%;
-  min-height: 100%;
-  background-image: url("../imgs/70/clang.png");
-}
-
 #vivailduce:hover {
   cursor: url('../imgs/70/dito medio cursore.png') 2 2, pointer;
+}
+.possiblepolygon{
+  display: hidden;
 }
 
 .claim{

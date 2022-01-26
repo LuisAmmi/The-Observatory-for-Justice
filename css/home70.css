@@ -20,6 +20,7 @@
 body{
   background-image: url("../imgs/70/sfondo bianco.png");
   font-family:'BeVietnamPro-Regular';
+  overflow-x: hidden;
 }
 
 .nav-link{
@@ -71,17 +72,9 @@ body{
                transform: rotate(0deg);
            }
        }
-video{
-right: 0;
-bottom: 0;
+#comicshomepage{
+border: black double 2vh;
 min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -100;
-background: no-repeat;
-background-size: cover;
-z-index: 0;
 }
 
 .container{
@@ -99,12 +92,30 @@ z-index: 0;
   max-width: inherit;
   max-height: inherit;
 }
+
 .question{
-  font-size: 10vh;
-  padding-right: 50%;
-  text-align: left;
-  color: #fff;
-}
+  	width:150px;
+  	height:100px;
+  	background:orange;
+  	position:relative;
+  	border-radius:12px;
+  	-moz-transform:rotate(0);
+  	-webkit-transform:rotate(0);
+  	-ms-transform:rotate(0);
+  	-o-transform:rotate(0);
+  	transform:rotate(0);
+  }
+.question:before {
+  		content:"";
+  		width:0;
+  		height:0;
+  		position:absolute;
+  		right:100%;
+  		top:35px;
+  		border-top:15px solid transparent;
+  		border-right:30px solid orange;
+  		border-bottom:15px solid transparent;
+  	}
 
 .issue{
   z-index: 100;

@@ -14,6 +14,7 @@
 body{
   background-color: #0F0F0F;
   font-family:'BeVietnamPro-Regular';
+  overflow-x: hidden;
 }
 video{
 right: 0;
