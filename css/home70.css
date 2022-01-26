@@ -5,29 +5,38 @@
 }
 
 @font-face {
-  font-family:'BeVietnamPro-Regular';
-  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.ttf') format('ttf');
-  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff') format('woff');
-  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff2') format('woff2');
+  font-family:'SunlightScript';
+  src: local('SunlightScript'), url('./font/70font/SunlightScript.ttf') format('ttf');
+  src: local('SunlightScript'), url('./font/70font/SunlightScript.woff') format('woff');
+  src: local('SunlightScript'), url('./font/70font/SunlightScript.woff2') format('woff2');
+}
+@font-face {
+  font-family:'FrightNight-Outline';
+  src: local('FrightNight-Outline'), url('../font/70font/FrightNight-Outline.ttf') format('ttf');
+  src: local('FrightNight-Outline'), url('../font/70font/FrightNight-Outline.woff') format('woff');
+  src: local('FrightNight-Outline'), url('../font/70font/FrightNight-Outline.woff2') format('woff2');
 }
 
 body{
-  background-color: #0F0F0F;
+  background-image: url("../imgs/70/sfondo bianco.png");
   font-family:'BeVietnamPro-Regular';
 }
-.img0{
-right: 0;
-bottom: 0;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
+
+.nav-link{
+  font-family: 'SunlightScript';
+  font-size: 2.5vh;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+.navbar-brand{
+  font-family: 'FrightNight-Outline';
+  text-transform: uppercase;
+  color: #f8221f;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
 
 .navbar{
-  color: #282828;
   text-align: right;
-  cursor: pointer;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
   background-color: black;
   margin-right: 0;
   flex-direction: row;
@@ -62,11 +71,33 @@ height: auto;
                transform: rotate(0deg);
            }
        }
-.specialedition{
+video{
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+background: no-repeat;
+background-size: cover;
+z-index: 0;
+}
+
+.container{
+  max-width: inherit;
+  max-height: inherit;
+}
+
+#specialedition{
+  background-image: url("../imgs/70/sfondo petrolio.png");
+  background-size: cover;
   z-index: 100;
   position: relative;
   padding: 5vh;
-  margin:  10vh 0 5vh 5vh;
+  margin:  10vh 0 5vh 0;
+  max-width: inherit;
+  max-height: inherit;
 }
 .question{
   font-size: 10vh;
@@ -75,42 +106,81 @@ height: auto;
   color: #fff;
 }
 
-.illustration{
+.issue{
   z-index: 100;
   position: relative;
-  padding: 8vh;
-  font-size: 3vh;
-  padding-left: 50%;
-  text-align: justify;
-  color: #fff;
-  background-size: cover;
-}
-.magazine, .project{
-  z-index: 100;
-  position: relative;
-  padding: 8vh;
-  font-size: 3vh;
+  padding: 5vh;
+  font-size: 2.7vh;
   padding-right: 50%;
   text-align: justify;
   color: #fff;
   background-size: cover;
+    background-image: url("../imgs/70/sfondo arancione.png");
 }
 
-.issue{
+.magazine{
   z-index: 100;
   position: relative;
-  padding: 8vh;
-  font-size: 3vh;
+  padding: 5vh;
+  font-size: 2.7vh;
   padding-left: 50%;
   text-align: justify;
   background-size: cover;
-  background-color: #fff;
-}
-img{
-  width: 50vh;
-  padding: 0;
+  background-image: url("../imgs/70/sfondo viola.png");
+  margin: 0;
 }
 
+.projectinfo{
+  padding: 6vh 38vh 30vh 28vh;
+  font-size: 2.7vh;
+  position: center;
+  background-color: #fff;
+  text-align: justify;
+}
+
+.section_heading{
+  text-align: center;
+  padding: 5vh;
+}
+h2:hover{
+           animation: rotate 0.5s linear;
+       }
+
+@keyframes rotate{
+           0%{
+               transform: rotate(0deg);
+           }
+           25%{
+               transform: rotate(20deg);
+           }
+           50%{
+               transform: rotate(-20deg);
+           }
+           100%{
+               transform: rotate(0deg);
+           }
+       }
+
+ h2{
+  text-align: center;
+  padding: 5vh 0;
+ }
+
+ #about{
+   text-transform: uppercase;
+ }
+
+.designerinfo{
+   padding: 6vh 38vh 30vh 28vh;
+   font-size: 2.7vh;
+   position: center;
+   color: #fff;
+   text-align: justify;
+ }
+.fotodesigner{
+  border: 1vh;
+  border-radius: 50%;
+}
 footer{
   font-size: 1.8vh;
 }

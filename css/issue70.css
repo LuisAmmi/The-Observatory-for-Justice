@@ -188,6 +188,24 @@ body{
   font-size: 2.5vh;
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
+.navbar-brand{
+  font-family: 'FrightNight-Outline';
+  text-transform: uppercase;
+  color: #f8221f;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+
+.navbar{
+  text-align: right;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+  background-color: black;
+  margin-right: 0;
+  flex-direction: row;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
 
 .icone {
     width: 6vh;
@@ -317,17 +335,6 @@ p {
   -ms-transform:rotate(-180deg); /* IE */
   -o-transform:rotate(-180deg); /* Opera */
   transform:rotate(-180deg); /* future */
-}
-
-.navbar-brand{
-  font-family: 'FrightNight-Outline';
-  text-transform: uppercase;
-  color: #f8221f;
-  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
-}
-
-.navbar{
-  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
 
 #articletitle1{

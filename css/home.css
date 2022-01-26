@@ -67,7 +67,7 @@ z-index: 0;
            }
        }
 
-.specialedition{
+#specialedition{
   z-index: 100;
   position: relative;
   padding: 5vh;
@@ -80,42 +80,85 @@ z-index: 0;
   color: #fff;
 }
 
-.illustration{
-  z-index: 100;
-  position: relative;
-  padding: 8vh;
-  font-size: 3vh;
-  padding-left: 50%;
-  text-align: justify;
-  color: #fff;
-  background-size: cover;
+.container{
+  max-width: inherit;
+  max-height: inherit;
 }
-.magazine, .project{
+
+.issue{
   z-index: 100;
   position: relative;
-  padding: 8vh;
-  font-size: 3vh;
+  padding: 5vh;
+  font-size: 2.7vh;
   padding-right: 50%;
   text-align: justify;
   color: #fff;
   background-size: cover;
 }
 
-.issue{
+.magazine{
   z-index: 100;
   position: relative;
-  padding: 8vh;
-  font-size: 3vh;
+  padding: 5vh;
+  font-size: 2.7vh;
   padding-left: 50%;
   text-align: justify;
   background-size: cover;
   background-color: #fff;
-}
-img{
-  width: 50vh;
-  padding: 0;
+  margin: 0;
 }
 
+.projectinfo{
+  padding: 6vh 38vh 30vh 28vh;
+  font-size: 2.7vh;
+  position: center;
+  background-color: #fff;
+  text-align: justify;
+}
+
+.section_heading{
+  text-align: center;
+  padding: 5vh;
+}
+h2:hover{
+           animation: rotate 0.5s linear;
+       }
+
+@keyframes rotate{
+           0%{
+               transform: rotate(0deg);
+           }
+           25%{
+               transform: rotate(20deg);
+           }
+           50%{
+               transform: rotate(-20deg);
+           }
+           100%{
+               transform: rotate(0deg);
+           }
+       }
+
+ h2{
+  text-align: center;
+  padding: 5vh 0;
+ }
+
+ #about{
+   text-transform: uppercase;
+ }
+
+.designerinfo{
+   padding: 6vh 38vh 30vh 28vh;
+   font-size: 2.7vh;
+   position: center;
+   color: #fff;
+   text-align: justify;
+ }
+.fotodesigner{
+  border: 1vh;
+  border-radius: 50%;
+}
 footer{
   font-size: 1.8vh;
 }
