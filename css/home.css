@@ -135,6 +135,11 @@ h2{
   padding: 5vh 0;
  }
 
+h3{
+  text-align: center;
+  padding: 2vh 0;
+}
+
 h2:hover, h3:hover{
            animation: rotate 0.5s linear;
        }
