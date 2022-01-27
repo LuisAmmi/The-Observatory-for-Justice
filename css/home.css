@@ -110,10 +110,18 @@ z-index: 0;
 }
 
 .projectinfo{
-  padding: 6vh 38vh 30vh 28vh;
+  padding: 6vh 30vh 30vh 30vh;
   font-size: 2.7vh;
   position: center;
   background-color: #fff;
+  text-align: justify;
+}
+
+.documentationinfo{
+  padding: 6vh 30vh 30vh 30vh;
+  font-size: 2.7vh;
+  position: center;
+  color: #fff;
   text-align: justify;
 }
 
@@ -121,7 +129,13 @@ z-index: 0;
   text-align: center;
   padding: 5vh;
 }
-h2:hover{
+
+h2{
+  text-align: center;
+  padding: 5vh 0;
+ }
+
+h2:hover, h3:hover{
            animation: rotate 0.5s linear;
        }
 
@@ -140,26 +154,39 @@ h2:hover{
            }
        }
 
- h2{
-  text-align: center;
-  padding: 5vh 0;
- }
-
- #about{
+#about{
    text-transform: uppercase;
  }
 
+ .fonts, .sources{
+
+ }
+ .layout, .colors{
+
+ }
+
 .designerinfo{
-   padding: 6vh 38vh 30vh 28vh;
+   padding: 6vh 30vh 30vh 30vh;
    font-size: 2.7vh;
    position: center;
-   color: #fff;
+   background-color: #fff;
    text-align: justify;
+   weight: 50%;
+   flex: 0 0 auto;
  }
+
 .fotodesigner{
   border: 1vh;
-  border-radius: 50%;
+  max-width: 30%;
+  float:left;
+  shape-outside: circle(50%);
+  -webkit-shape-outside: circle(50%);
+  shape-margin: 10px;
+  -webkit-shape-margin: 10px;
+  clip-path: circle(50%);
+  -webkit-clip-path: circle(50%);
 }
+
 footer{
   font-size: 1.8vh;
 }
