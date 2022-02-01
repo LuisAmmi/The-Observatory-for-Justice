@@ -14,3 +14,21 @@ $(document).ready(function(){
           $('#containermultimedia').html('<img id="collagedada"  alt="collage dada style" src="./Documentation/dada/Home collage/collage homepage-cutout.png">');
   });
 });
+
+$(document).ready(function(){
+  $("#sources").click(function(){
+    $("#panelsource").slideToggle("slow");
+  });
+
+  $("#fonts").click(function(){
+    $("#panelfonts").slideToggle("slow");
+  });
+
+  $("#layout").click(function(){
+    $("#panellayout").slideToggle("slow");
+  });
+
+  $("#colors").click(function(){
+    $("#panelcolors").slideToggle("slow");
+  });
+});

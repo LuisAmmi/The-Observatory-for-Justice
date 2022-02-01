@@ -178,13 +178,6 @@ body {
   list-style: none;
 }
 
-.icone {
-    width: 6vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
-    cursor: pointer;
-}
-
 .hvr-bounce-in:hover{
            animation: rotate 1s linear;
        }
@@ -210,6 +203,14 @@ img {
   height: auto;
   object-position: right;
   filter: sepia(80%);
+}
+
+.icone {
+    width: 6vh;
+    border: 0;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    cursor: pointer;
 }
 
 .img1art1{

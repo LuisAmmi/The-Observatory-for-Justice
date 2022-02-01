@@ -26,6 +26,7 @@ body{
   line-height: 1;
   font-size: 14px;
 }
+
 .navbar{
   color: #282828;
   text-align: right;
@@ -78,4 +79,7 @@ a {
   height: 650px;
   margin: auto;
   padding: 15px;
+}
+.table>:not(:first-child) {
+  border-top: 0;
 }
