@@ -69,6 +69,26 @@
   src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.woff') format('woff');
   src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.woff2') format('woff2');
 }
+@font-face {
+  font-family:'GravitasOne';
+  src: local('GravitasOne'), url('../font/dadafont/GravitasOne.ttf') format('ttf');
+  src: local('GravitasOne'), url('../font/dadafont/GravitasOne.woff') format('woff');
+  src: local('GravitasOne'), url('../font/dadafont/GravitasOne.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'PoiretOne-Regular';
+  src: local('PoiretOne-Regular'), url('../font/dadafont/PoiretOne-Regular.ttf') format('ttf');
+  src: local('PoiretOne-Regular'), url('../font/dadafont/PoiretOne-Regular.woff') format('woff');
+  src: local('PoiretOne-Regular'), url('../font/dadafont/PoiretOne-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Rallisaguen-Bold';
+  src: local('Rallisaguen-Bold'), url('../font/dadafont/Rallisaguen-Bold.ttf') format('ttf');
+  src: local('Rallisaguen-Bold'), url('../font/dadafont/Rallisaguen-Bold.woff') format('woff');
+  src: local('Rallisaguen-Bold'), url('../font/dadafont/Rallisaguen-Bold.woff2') format('woff2');
+}
 
 body{
   background-image: url("../imgs/dada/Home collage/sfondo dada bianco.png");
@@ -148,30 +168,33 @@ a:hover{
   z-index: 100;
   position: relative;
   padding: 7vh;
-  margin:  10vh 20vh 10vh 5vh;
+  margin:  10vh;
+  border: 2vh dotted;
+  border-right: 2vh dotted;
 }
 
 #hurrahurra{
   height: 90%;
   position: absolute;
-  right: 10vh;
+  right: 20vh;
   bottom:0;
 }
 #specialtext{
   font-size: 5vh;
-  text-orientation:
 }
+
 .wh{
+  font-family: 'GravitasOne';
   writing-mode: vertical-lr;
   text-orientation: upright;
   text-transform: uppercase;
   text-align: center;
-  font-size: 15vh;
+  font-size: 10vh;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.finalpart{
+#finalpart{
   font-size: 8vh;
 }
 
@@ -195,6 +218,11 @@ a:hover{
   -ms-transform:rotate(-10deg); /* IE */
   -o-transform:rotate(-10deg); /* Opera */
   transform:rotate(-10deg); /* future */
+}
+
+#first, #third{
+  font-family: 'PoiretOne-Regular';
+  font-size: 3vh;
 }
 
 #magazineparagraph{
