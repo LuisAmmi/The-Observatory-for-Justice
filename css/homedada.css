@@ -32,9 +32,43 @@
 }
 
 @font-face {
-    font-family: 'Romana BT';
-    src: local('Romana BT'), url('../font/dadafont/romana-bt-roman.ttf') format('ttf');
-  }
+  font-family: 'Romana BT';
+  src: local('Romana BT'), url('../font/dadafont/romana-bt-roman.ttf') format('ttf');
+}
+@font-face {
+  font-family:'Ultra-Regular';
+  src: local('Ultra-Regular'), url('../font/dadafont/Ultra-Regular.ttf') format('ttf');
+  src: local('Ultra-Regular'), url('../font/dadafont/Ultra-Regular.woff') format('woff');
+  src: local('Ultra-Regular'), url('../font/dadafont/Ultra-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'PetitFormalScript-Regular';
+  src: local('PetitFormalScript-Regular'), url('../font/dadafont/PetitFormalScript-Regular.ttf') format('ttf');
+  src: local('PetitFormalScript-Regular'), url('../font/dadafont/PetitFormalScript-Regular.woff') format('woff');
+  src: local('PetitFormalScript-Regular'), url('../font/dadafont/PetitFormalScript-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Righteous-Regular';
+  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.ttf') format('ttf');
+  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.woff') format('woff');
+  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DK P.I.';
+  src: local('DK P.I.'), url('../font/dadafont/DK P.I..ttf') format('ttf');
+  src: local('DK P.I.'), url('../font/dadafont/DKPI.woff') format('woff');
+  src: local('DK P.I.'), url('../font/dadafont/DKPI.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Old Town Regular';
+  src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.ttf') format('ttf');
+  src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.woff') format('woff');
+  src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.woff2') format('woff2');
+}
 
 body{
   background-image: url("../imgs/dada/Home collage/sfondo dada bianco.png");
@@ -114,13 +148,31 @@ a:hover{
   z-index: 100;
   position: relative;
   padding: 7vh;
-  margin:  10vh 0 10vh 5vh;
+  margin:  10vh 20vh 10vh 5vh;
 }
-.question{
-  font-size: 10vh;
-  padding-right: 50%;
-  text-align: left;
-  color: #fff;
+
+#hurrahurra{
+  height: 90%;
+  position: absolute;
+  right: 10vh;
+  bottom:0;
+}
+#specialtext{
+  font-size: 5vh;
+  text-orientation:
+}
+.wh{
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.finalpart{
+  font-size: 8vh;
 }
 
 .container{
@@ -129,11 +181,12 @@ a:hover{
 }
 
 .issue{
+  font-family:'PetitFormalScript-Regular';
   z-index: 100;
   position: relative;
   padding: 5vh;
   font-size: 2.7vh;
-  margin-right: 50%;
+  margin: 5vh 30vh;
   border: 1vh solid  #cb3a35;
   text-align: center;
   color: #cb3a35;
@@ -144,18 +197,24 @@ a:hover{
   transform:rotate(-10deg); /* future */
 }
 
-.magazine{
+#magazineparagraph{
   z-index: 100;
-  position: relative;
-  font-size: 2.7vh;
-  margin-left: 50%;
-  text-align: justify;
-  max-height: 30vh;
-  -moz-transform:rotate(+90deg); /* Firefox */
-  -webkit-transform:rotate(+90deg); /* Webkit */
-  -ms-transform:rotate(+90deg); /* IE */
-  -o-transform:rotate(+90deg); /* Opera */
-  transform:rotate(+90deg); /* future */
+  width: 100%;
+  margin: 0 5vh;
+  font-size: 2.2vh;
+  max-height: 25%;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-align: center;
+}
+
+#magazinetitle{
+  writing-mode: horizontal-tb;
+  font-family: 'Ultra-Regular';
+  font-size: 8vh;
+  text-decoration: underline;
+  text-align: right;
+  margin-right: 10vh;
 }
 
 .projectinfo{
@@ -172,16 +231,50 @@ hr{
 }
 
 .documentationinfo{
-  padding: 6vh 20vh 20vh 20vh;
+  padding: 0 20vh 20vh 20vh;
   font-size: 2.7vh;
   position: center;
-  color: #fff;
   text-align: center;
+}
+
+#markup{
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  position: absolute;
+  font-family: 'Righteous-Regular';
+  color: #cb3a35;
+  text-transform: uppercase;
+}
+#markupparagraph{
+  padding: 4vh 10vh 10vh 10vh;
+  font-size: 2vh;
+  position: center;
+  text-align: justify;
+  column-count: 2;
+  column-gap: 30px;
+  column-rule: 1vh solid;
+  border-bottom: 1vh solid;
+  font-family: 'DK P.I.';
+}
+#styleparagraph{
+  text-align: justify;
+  float: inherit;
+  display: table-row;
 }
 
 #documentation{
   text-align: center;
   position: right;
+  font-family: 'Ultra-Regular';
+  font-size: 8vh;
+}
+#styles{
+  font-family: 'Old Town Regular';
+  font-size: 40vh;
+  float: right;
+  display: block;
+  text-decoration: double underline;
+
 }
 
 h3{
@@ -189,7 +282,7 @@ h3{
   padding: 2vh 0;
 }
 
-h2:hover, h3:hover{
+h2:hover{
     animation: rotate 0.5s linear;
 }
 h3:hover{
@@ -213,12 +306,19 @@ h3:hover{
 
 #about{
    text-transform: uppercase;
+   writing-mode: vertical-rl;
+   text-orientation: upright;
+   display: contents;
 }
 
 #theproject{
   font-size: 25vh;
+  margin-bottom: 20vh;
 }
 
+#ingranaggio{
+  background-size: contain;
+}
  .fonts, .sources{
 }
 
