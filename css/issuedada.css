@@ -130,7 +130,7 @@
 }
 
 body {
-  background-image: url('../imgs/dada/sfondo ultimo.png');
+  background-image: url("../imgs/dada/Home collage/sfondo dada bianco.png");
   background-attachment: fixed;
   background-size: contain;
 }

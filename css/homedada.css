@@ -90,6 +90,64 @@
   src: local('Rallisaguen-Bold'), url('../font/dadafont/Rallisaguen-Bold.woff2') format('woff2');
 }
 
+@font-face {
+  font-family:'Higher';
+  src: local('Higher'), url('../font/dadafont/Higher.ttf') format('ttf');
+  src: local('Higher'), url('../font/dadafont/Higher.woff') format('woff');
+  src: local('Higher'), url('../font/dadafont/Higher.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Nordica';
+  src: local('Nordica'), url('../font/dadafont/Nordica.ttf') format('ttf');
+  src: local('Nordica'), url('../font/dadafont/Nordica.woff') format('woff');
+  src: local('Nordica'), url('../font/dadafont/Nordica.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Sancreek-Regular';
+  src: local('Sancreek-Regular'), url('../font/dadafont/Sancreek-Regular.ttf') format('ttf');
+  src: local('Sancreek-Regular'), url('../font/dadafont/Sancreek-Regular.woff') format('woff');
+  src: local('Sancreek-Regular'), url('../font/dadafont/Sancreek-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'UnifrakturMaguntia';
+  src: local('UnifrakturMaguntia'), url('../font/dadafont/UnifrakturMaguntia-Regular.ttf') format('ttf');
+  src: local('UnifrakturMaguntia'), url('../font/dadafont/UnifrakturMaguntia.woff') format('woff');
+  src: local('UnifrakturMaguntia'), url('../font/dadafont/UnifrakturMaguntia.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Lobster-Regular';
+  src: local('Lobster-Regular'), url('../font/dadafont/Lobster-Regular.ttf') format('ttf');
+  src: local('Lobster-Regular'), url('../font/dadafont/Lobster-Regular.woff') format('woff');
+  src: local('Lobster-Regular'), url('../font/dadafont/Lobster-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Righteous-Regular';
+  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.ttf') format('ttf');
+  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.woff') format('woff');
+  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'VanchromeFront-Regular';
+    src:url('VanchromeFront-Regular.ttf.woff') format('woff'),
+        url('VanchromeFront-Regular.ttf.svg#VanchromeFront-Regular') format('svg'),
+        url('VanchromeFront-Regular.ttf.eot'),
+        url('VanchromeFront-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VanchromeFront-Regular';
+    src: local('VanchromeFront-Regular'), url('../font/dadafont/VanchromeFront-Regular.ttf') format('truetype');
+    src: local('VanchromeFront-Regular'), url('../font/dadafont/VanchromeFront-Regular.woff') format('woff');
+    src: local('VanchromeFront-Regular'), url('../font/dadafont/VanchromeFront-Regular.woff2') format('woff2');
+}
+
 body{
   background-image: url("../imgs/dada/Home collage/sfondo dada bianco.png");
   overflow-x: hidden;
@@ -144,8 +202,7 @@ a:hover{
     cursor: pointer;
 }
 
-
-.hvr-bounce-in:hover{
+.hvr-bounce-in:hover, #hand:hover{
            animation: rotate 1s linear;
        }
 
@@ -171,12 +228,13 @@ a:hover{
   margin:  10vh;
   border: 2vh dotted;
   border-right: 2vh dotted;
+
 }
 
 #hurrahurra{
-  height: 90%;
+  height: 80%;
   position: absolute;
-  right: 20vh;
+  right: 5vh;
   bottom:0;
 }
 #specialtext{
@@ -194,13 +252,52 @@ a:hover{
   padding-bottom: 0;
 }
 
-#finalpart{
-  font-size: 8vh;
+.finalpart{
+  display: flex;
+  justify-content: flex-start;
+  width: min-content;
+}
+
+#abusers{
+  font-family:'Righteous-Regular';
+  font-size: 20vh;
+  color: #cb3a35;
+
+}
+#questionmark{
+  font-size: 30vh;
 }
 
 .container{
-  max-width: inherit;
   max-height: inherit;
+}
+
+#magazineparagraph{
+  z-index: 100;
+  margin: 0 5vh 5vh 5vh;
+  font-size: 2.2vh;
+  max-height: 25%;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-align: center;
+}
+#magazineparagraph:hover{
+  writing-mode: horizontal-tb;
+  font-size: 2.2vh;
+  line-height: 2vh;
+  letter-spacing: 1.5vh;
+  text-align: justify;
+  margin-right: 7vh;
+}
+
+#magazinetitle{
+  writing-mode: horizontal-tb;
+  font-family: 'Ultra-Regular';
+  font-size: 8vh;
+  text-decoration: underline;
+  text-align: right;
+  text-transform: lowercase;
+  margin-right: 10vh;
 }
 
 .issue{
@@ -209,7 +306,7 @@ a:hover{
   position: relative;
   padding: 5vh;
   font-size: 2.7vh;
-  margin: 5vh 30vh;
+  margin: 10vh 30vh;
   border: 1vh solid  #cb3a35;
   text-align: center;
   color: #cb3a35;
@@ -224,27 +321,6 @@ a:hover{
   font-family: 'PoiretOne-Regular';
   font-size: 3vh;
 }
-
-#magazineparagraph{
-  z-index: 100;
-  width: 100%;
-  margin: 0 5vh;
-  font-size: 2.2vh;
-  max-height: 25%;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-  text-align: center;
-}
-
-#magazinetitle{
-  writing-mode: horizontal-tb;
-  font-family: 'Ultra-Regular';
-  font-size: 8vh;
-  text-decoration: underline;
-  text-align: right;
-  margin-right: 10vh;
-}
-
 .projectinfo{
   padding: 4vh 10vh 10vh 10vh;
   font-size: 2.7vh;
@@ -254,8 +330,12 @@ a:hover{
   column-gap: 30px;
   column-rule: 1vh solid;
 }
+
 hr{
   border: 0.5vh;
+}
+#projectparagraph{
+
 }
 
 .documentationinfo{
@@ -285,9 +365,11 @@ hr{
   font-family: 'DK P.I.';
 }
 #styleparagraph{
+  font-family: "Nordica";
   text-align: justify;
   float: inherit;
-  display: table-row;
+  padding: 2vh;
+  border-left: 2vh double;
 }
 
 #documentation{
@@ -302,12 +384,14 @@ hr{
   float: right;
   display: block;
   text-decoration: double underline;
+  padding-left: 2vh;
 
 }
 
 h3{
   text-align: center;
   padding: 2vh 0;
+
 }
 
 h2:hover{
@@ -347,10 +431,88 @@ h3:hover{
 #ingranaggio{
   background-size: contain;
 }
- .fonts, .sources{
+#fork{
+  position: absolute;
+  left: 3vh;
+  height: 50vh;
+}
+#sources{
+  font-family: 'VanchromeFront-Regular';
+  font-size: 7vh;
+  text-align: justify;
+  margin: 10vh 0;
+  position: relative;
+  display: inline;
+}
+#panelsource{
+  margin: 10vh 1vh;
+}
+#hand{
+  width: 15vh;
+  display: inline;
 }
 
- .layout, .colors{
+#fonts{
+  font-family:'UnifrakturMaguntia';
+  font-size: 10vh;
+  margin:10vh;
+  text-align: center
+  -moz-transform:rotate(-55deg); /* Firefox */
+  -webkit-transform:rotate(-55deg); /* Webkit */
+  -ms-transform:rotate(-55deg); /* IE */
+  -o-transform:rotate(-55deg); /* Opera */
+  transform:rotate(-55deg); /* future */
+}
+#panelfonts{
+  font-family:'PoiretOne-Regular';
+  -moz-transform:rotate(+10deg); /* Firefox */
+  -webkit-transform:rotate(+10deg); /* Webkit */
+  -ms-transform:rotate(+10deg); /* IE */
+  -o-transform:rotate(+10deg); /* Opera */
+  transform:rotate(+10deg); /* future */
+}
+
+#layout{
+  font-family: "Higher";
+  font-size: 15vh;
+  color: #cb3a35;
+  margin:5vh 0;
+  padding: 3vh;
+  text-align: center;
+}
+#panellayout{
+  margin: 10vh;
+}
+#cointainerlayout{
+  border: 1vh dotted;
+}
+#fontsandlayout{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+#colors{
+  font-family:'Lobster-Regular';
+  font-size: 8vh;
+  color: #cb3a35;
+  writing-mode: tb;
+  text-orientation: upright;
+  border: 1vh solid black;
+  height: 67vh;
+}
+#colorsandpanel{
+  margin: 5vh 0;
+  flex-direction: row;
+  display: flex;
+  max-height: inherit;
+  height: 67vh;
+}
+
+#panelcolors{
+  border:1vh solid;
+  padding-left: 5vh;
+  border-left: 0;
+  height: 67vh;
 }
 
 .designerinfo{
@@ -372,6 +534,12 @@ h3:hover{
   -webkit-shape-margin: 10px;
   clip-path: circle(50%);
   -webkit-clip-path: circle(50%);
+}
+
+#spoon{
+  position: absolute;
+  right: 0;
+  height: 60vh;
 }
 
 footer{
