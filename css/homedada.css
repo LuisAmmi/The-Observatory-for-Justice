@@ -578,6 +578,7 @@ ul.images {
   white-space: nowrap;
   height: 40vh;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 li {
@@ -585,8 +586,9 @@ li {
   max-height: 40vh;
 }
 .item{
- max-height: 40vh;
- padding:0 2vh;
+  max-height: 35vh;
+  margin: 3vh;
+  border: 1vh double;
 }
 
 /* COLOR PALETTE--------------------------------------------------- */

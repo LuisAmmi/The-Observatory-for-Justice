@@ -25,6 +25,14 @@
   src: local('Inkslinger BB'), url('../font/70font/Inkslinger BB.woff') format('woff');
   src: local('Inkslinger BB'), url('../font/70font/Inkslinger BB.woff2') format('woff2');
 }
+
+@font-face {
+  font-family:'Mahavishnu-Regular';
+  src: local('Mahavishnu-Regular'), url('../font/70font/Mahavishnu-Regular.ttf') format('ttf');
+  src: local('Mahavishnu-Regular'), url('../font/70font/Mahavishnu-Regular.woff') format('woff');
+  src: local('Mahavishnu-Regular'), url('../font/70font/Mahavishnu-Regular.woff2') format('woff2');
+}
+
 body{
   background-image: url("../imgs/70/sfondo bianco.png");
   font-family:'Inkslinger BB';
@@ -89,74 +97,73 @@ body{
 #specialedition{
   z-index: 100;
   position: relative;
-  padding: 7vh;
-  margin:  10vh 0 10vh 5vh;
-}
-.question{
-  font-size: 10vh;
-  margin-right: 50%;
-  text-align: left;
+  padding: 5vh;
 }
 
 .container{
-  max-width: inherit;
+  z-index: 100;
   border: 1vh solid;
-}
-
-.issue{
-  padding: 5vh;
-  font-size: 2.7vh;
-  margin: 3vh;
-  margin-right: 50%;
-  border: solid black;
-  border-width: 3px 3px 5px 5px;
-  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
-  transform: rotate(-2deg);
-}
-
-#issuetitle{
-  font-family: 'Bangers', cursive;
-  font-size: 25px;
-  transform: rotate(2deg);
-  margin:15px;
-  padding:0 5px;
-  float:left;
-  background:#ddd;
-  border:1px solid #222;
-  box-shadow:3px 3px 0 #222;
+  margin-top: 3vh;
+  background-image: url("../imgs/70/sfondo bianchissimo.png");
 }
 
 #paperino{
-  flex-direction: row;
-  display: flex;
-}
-.magazine{
-  z-index: 100;
-  position: relative;
-  padding: 5vh;
-  font-size: 2.7vh;
-  margin: 5vh;
-  flex-direction: row;
-  display: flex;
   border-width: 3px 4px 3px 5px;
   border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
   transform: rotate(2deg);
   border: solid black;
-  border-color: black;
+}
+.magazine{
+  padding: 2vh;
+}
+.magazineinfo {
+  padding: 7vh;
+  border: 0.5vh solid;
+  column-count: 3;
+  column-gap: 2vh;
+  column-rule: solid;
+  min-height: 40vh;
+  margin-block: 3vh;
+  background-image: url("../imgs/70/sfondo rosa.png");
+}
+
+#magazineparagraph{
+  background-image: url("../imgs/70/sfondo giallo.png");
+}
+
+.issueinfo{
+  padding: 7vh;
+  border: 0.5vh solid;
+  column-count: 3;
+  column-gap: 2vh;
+  column-rule: solid;
+  min-height: 40vh;
+  margin-block: 3vh;
+}
+
+#issuetitle{
+  font-family: 'Bangers', cursive;
+  transform: rotate(2deg);
+  margin:15px;
+  padding:0 5px;
+}
+#issuetopolino{
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+  border: solid black;
 }
 
 .project{
   max-height: inherit;
 }
 .projectinfo{
-  padding: 0 30vh 0vh 30vh;
   font-size: 2.7vh;
   position: center;
   text-align: justify;
 }
 
 .documentationinfo{
-  padding: 6vh 30vh 10vh 30vh;
   font-size: 2.7vh;
   position: center;
   text-align: justify;
@@ -166,7 +173,20 @@ body{
   text-align: center;
   padding: 5vh;
 }
-
+.documentation{
+  padding:1vh;
+}
+#documentation{
+  background-image: url("../imgs/70/sfondo giallo.png");
+  padding: 25vh;
+  font-family:'Mahavishnu-Regular';
+  font-size: 15vh;
+  background-image: linear-gradient(90deg, #8500ff, #ff8100);
+  color: black;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+}
 
 h3{
   text-align: center;
@@ -199,6 +219,15 @@ h3:hover{
    text-transform: uppercase;
  }
 
+ #sources{
+   text-align: center;
+   position: relative;
+
+ }
+
+ #panelsource{
+   margin: 10vh 1vh;
+ }
  .fonts, .sources{
 
  }
@@ -210,21 +239,17 @@ h3:hover{
    padding: 6vh 20vh 30vh 20vh;
    position: center;
    text-align: justify;
-   flex-direction: row;
-   display: flex;
+   display: inline-block;
  }
 
-#designertitle{
 
-}
 .fotodesigner{
   border: 1vh;
   max-width: 30%;
-  float:left;
   border: solid black;
-  border-color: black;
   border-width: 3px 3px 5px 5px;
   border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+
 }
 
 
@@ -237,20 +262,37 @@ footer{
 /* horizonal scrolling for images*/
 
 ul.images {
-  margin: 0;
+  margin-bottom: 1vh;
   padding: 0;
+  border: 0.5vh solid;
   white-space: nowrap;
   height: 40vh;
   overflow-x: scroll;
+  overflow-y: hidden;
+  background-image: url("../imgs/70/sfondo celestino.png");
+}
+
+ul.middleimages{
+  background-image: url("../imgs/70/sfondo rosa.png");
 }
 
 li {
   display: inline;
   max-height: 40vh;
 }
-.item{
- max-height: 40vh;
- padding:0 2vh;
+.item {
+    max-height: 35vh;
+    margin: 3vh;
+    border: solid black;
+    border-width: 3px 3px 5px 5px;
+    border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+}
+.item2{
+  border: solid black;
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
 }
 
 /* COLOR PALETTE--------------------------------------------------- */
