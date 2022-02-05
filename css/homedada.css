@@ -148,6 +148,11 @@
     src: local('VanchromeFront-Regular'), url('../font/dadafont/VanchromeFront-Regular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family:'Caledo Bold';
+  src: local('Caledo Bold'), url('../font/dadafont/caledo_bold-webfont.ttf') format('ttf');
+  src: local('Caledo Bold'), url('../font/dadafont/caledo_bold-webfont.woff') format('woff');
+}
 body{
   background-image: url("../imgs/dada/Home collage/sfondo dada bianco.png");
   overflow-x: hidden;
@@ -155,6 +160,7 @@ body{
   text-align: justify;
   line-height: 1;
   font-size: 14px;
+  cursor: url('../imgs/dada/dadax.png') 2 2, auto;
 }
 
 #collagedada{
@@ -170,7 +176,7 @@ width: 100%;
 .navbar{
   background-image: url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/imgs/dada/paper book.jpeg');
   text-align: right;
-  cursor: pointer;
+  cursor: url('../imgs/dada/icondada.png') 2 2, pointer;
   background-color: black;
   margin-right: 0;
   flex-direction: row;
@@ -193,6 +199,7 @@ a {
 a:hover{
   opacity: 50%;
   color: #b94842;
+  cursor: url('../imgs/dada/fingercursor.png') 2 2, pointer);
 }
 
 .icone {
@@ -339,7 +346,7 @@ hr{
 }
 
 .documentationinfo{
-  padding: 0 20vh 20vh 20vh;
+  padding: 5vh 20vh 0 20vh;
   font-size: 2.7vh;
   position: center;
   text-align: center;
@@ -515,8 +522,15 @@ h3:hover{
   height: 67vh;
 }
 
+.designer {
+  background-image: repeating-linear-gradient(0deg, #333333, #333333 10px, transparent 10px, transparent 20px, #333333 20px), repeating-linear-gradient(90deg, #333333, #333333 10px, transparent 10px, transparent 20px, #333333 20px), repeating-linear-gradient(180deg, #333333, #333333 10px, transparent 10px, transparent 20px, #333333 20px), repeating-linear-gradient(270deg, #333333, #333333 10px, transparent 10px, transparent 20px, #333333 20px);
+  background-size: 3px 100%, 100% 3px, 3px 100% , 100% 3px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  padding:3vh;
+}
 .designerinfo{
-   padding: 6vh 30vh 30vh 30vh;
+   padding: 0 15vh 15vh 15vh;
    font-size: 2.7vh;
    position: center;
    text-align: justify;
@@ -525,17 +539,25 @@ h3:hover{
  }
 
 .fotodesigner{
-  border: 1vh;
-  max-width: 30%;
+  max-width: 38%;
   float:left;
-  shape-outside: circle(50%);
-  -webkit-shape-outside: circle(50%);
-  shape-margin: 10px;
-  -webkit-shape-margin: 10px;
-  clip-path: circle(50%);
-  -webkit-clip-path: circle(50%);
+  -moz-transform:rotate(+10deg); /* Firefox */
+  -webkit-transform:rotate(+10deg); /* Webkit */
+  -ms-transform:rotate(+10deg); /* IE */
+  -o-transform:rotate(+10deg); /* Opera */
+  transform:rotate(+10deg); /* future */
 }
-
+#designertitle{
+  font-family:'Caledo Bold';
+  font-size: 20vh;
+}
+#lower{
+  font-size: 10vh;
+}
+#designerparagraph{
+  writing-mode: vertical-rl;
+  max-height: 30%;
+}
 #spoon{
   position: absolute;
   right: 0;

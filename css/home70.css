@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
 @font-face {
   font-family:'SunlightScript';
   src: local('SunlightScript'), url('./font/70font/SunlightScript.ttf') format('ttf');
@@ -17,10 +19,17 @@
   src: local('FrightNight-Outline'), url('../font/70font/FrightNight-Outline.woff2') format('woff2');
 }
 
+@font-face {
+  font-family:'Inkslinger BB';
+  src: local('Inkslinger BB'), url('../font/70font/Inkslinger BB.ttf') format('ttf');
+  src: local('Inkslinger BB'), url('../font/70font/Inkslinger BB.woff') format('woff');
+  src: local('Inkslinger BB'), url('../font/70font/Inkslinger BB.woff2') format('woff2');
+}
 body{
   background-image: url("../imgs/70/sfondo bianco.png");
-  font-family:'BeVietnamPro-Regular';
+  font-family:'Inkslinger BB';
   overflow-x: hidden;
+  cursor: url('../imgs/70/handcursor.png') 2 2, pointer;
 }
 
 .nav-link{
@@ -85,52 +94,71 @@ body{
 }
 .question{
   font-size: 10vh;
-  padding-right: 50%;
+  margin-right: 50%;
   text-align: left;
-  color: #fff;
 }
 
 .container{
   max-width: inherit;
-  max-height: inherit;
+  border: 1vh solid;
 }
 
 .issue{
-  z-index: 100;
-  position: relative;
   padding: 5vh;
   font-size: 2.7vh;
-  padding-right: 50%;
-  text-align: justify;
-  color: #fff;
-  background-size: cover;
+  margin: 3vh;
+  margin-right: 50%;
+  border: solid black;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
 }
 
+#issuetitle{
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  transform: rotate(2deg);
+  margin:15px;
+  padding:0 5px;
+  float:left;
+  background:#ddd;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+}
+
+#paperino{
+  flex-direction: row;
+  display: flex;
+}
 .magazine{
   z-index: 100;
   position: relative;
   padding: 5vh;
   font-size: 2.7vh;
-  padding-left: 50%;
-  text-align: justify;
-  background-size: cover;
-  background-color: #fff;
-  margin: 0;
+  margin: 5vh;
+  flex-direction: row;
+  display: flex;
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+  border: solid black;
+  border-color: black;
 }
 
+.project{
+  max-height: inherit;
+}
 .projectinfo{
-  padding: 6vh 30vh 30vh 30vh;
+  padding: 0 30vh 0vh 30vh;
   font-size: 2.7vh;
   position: center;
-  background-color: #fff;
   text-align: justify;
 }
 
 .documentationinfo{
-  padding: 6vh 30vh 30vh 30vh;
+  padding: 6vh 30vh 10vh 30vh;
   font-size: 2.7vh;
   position: center;
-  color: #fff;
   text-align: justify;
 }
 
@@ -139,10 +167,6 @@ body{
   padding: 5vh;
 }
 
-h2{
-  text-align: center;
-  padding: 5vh 0;
- }
 
 h3{
   text-align: center;
@@ -182,27 +206,27 @@ h3:hover{
 
  }
 
-.designerinfo{
-   padding: 6vh 30vh 30vh 30vh;
-   font-size: 2.7vh;
+.designer{
+   padding: 6vh 20vh 30vh 20vh;
    position: center;
-   background-color: #fff;
    text-align: justify;
-   weight: 50%;
-   flex: 0 0 auto;
+   flex-direction: row;
+   display: flex;
  }
 
+#designertitle{
+
+}
 .fotodesigner{
   border: 1vh;
   max-width: 30%;
   float:left;
-  shape-outside: circle(50%);
-  -webkit-shape-outside: circle(50%);
-  shape-margin: 10px;
-  -webkit-shape-margin: 10px;
-  clip-path: circle(50%);
-  -webkit-clip-path: circle(50%);
+  border: solid black;
+  border-color: black;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
 }
+
 
 footer{
   font-size: 1.8vh;
