@@ -10,8 +10,17 @@ $(document).ready(function(){
     $('#fork').remove();
     $('#spoon').remove();
     $('#hurrahurra').remove();
+
+    $("#specialedition").html('<p class="question" id="specialtext"><span class="wh">Who</span> do you call <span class="wh">when</span> people <span class="wh">who</span> <span class="finalpart">should protect you are the abusers?</span></p><img id="paperinoquestion" src="./imgs/70/paperinoquestion.jpg">');
+
     $(".magazine").html('<img id="paperino" src="./imgs/70/paperino.jpg"><h2 id="magazinetitle">The magazine</h2><p id="magazineparagraph">Founded in 2022, The Observer for Justice is a monthly magazine that reports about forms of iniquity and violence which victimize social communities all over the world. Our motto is ‘Fight injustice trough information’ and we decide to devote our first release to 20 years of chronic police abuse: from the 27th G8 summit, held in Genoa in 2001, marked by violent clashes between anti-globalization protesters and police, to the "Black Lives Matter" movement, boomed after the murder of George Floyd and other episodes of racial hatred perpetuated by white officers. </p>');
+
     $(".issue").html('<h2 id="issuetitle">The issue</h2><p>In the <a href="issue.html">Issue</a> section, you will find three selected insights on the topic. <span id="first">The first one is a detailed and unvarnished chronicle of what happened during those painful days of Genoa, due to which the European Court of Human Rights found Italy guilty of torture.</span> <span id="second">The second is a recent analysis on data about racial bias and police brutality in United States.</span> <span id="third">The last insight is a scientific article that highlight how intense and numerically significant are the contacts between police and people suffering from mental disorders.</span> </p><img id="issuetopolino" src="./imgs/70/issuetopolino.jpeg">');
+
+    $("#documentation").html('<span id="documentationtitle">Documentation</span><img id="quiquoqua" src="./imgs/70/quiquoquabg.png">');
+
+    $("#markup").html('<span id="m">M</span><span id="a">a</span><span id="r">r</span><span id="k">k</span><span id="u">u</span><span id="p">p</span>');
+
     $(".designer").html('<img class="fotodesigner" src="imgs/70/designer70.png"><h2 class="section_heading" id="designertitle">The designer</h2><p id="designerparagraph">I graduated in February 2020 in Humanities (Modern Curriculum) at Federico II in Naples with a thesis in Romance Philology. I’m currently attending “Digital Humanities and Digital Knowledge” (LM-43 Master degree) at the Alma Mater Studiorum University in Bologna. I am a huge fan of photography: after studying and practicing digital photography (and postproduction in Photoshop) for years, I have also extended my knowledge to analogic photography.  The image-based modelling, the 3d modelling and the graphic design represent fields of knowledge that I would have a sincere pleasure to deepen. </p>');
   });
 

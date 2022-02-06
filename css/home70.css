@@ -33,6 +33,45 @@
   src: local('Mahavishnu-Regular'), url('../font/70font/Mahavishnu-Regular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family:'MissAmandaJonesExp';
+  src: local('MissAmandaJonesExp'), url('../font/70font/MissAmandaJonesExp.ttf') format('ttf');
+  src: local('MissAmandaJonesExp'), url('../font/70font/MissAmandaJonesExp.woff') format('woff');
+  src: local('MissAmandaJonesExp'), url('../font/70font/MissAmandaJonesExp.woff2') format('woff2');
+}
+@font-face {
+  font-family:'BrillanteSt';
+  src: local('BrillanteSt'), url('../font/70font/BrillanteSt.ttf') format('ttf');
+  src: local('BrillanteSt'), url('../font/70font/BrillanteSt.woff') format('woff');
+  src: local('BrillanteSt'), url('../font/70font/BrillanteSt.woff2') format('woff2');
+}
+@font-face {
+  font-family:'SansSerifShaded';
+  src: local('SansSerifShaded'), url('../font/70font/SansSerifShaded.ttf') format('ttf');
+  src: local('SansSerifShaded'), url('../font/70font/SansSerifShaded.woff') format('woff');
+  src: local('SansSerifShaded'), url('../font/70font/SansSerifShaded.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Cursivestandard';
+  src: local('Cursivestandard'), url('../font/70font/Cursivestandard.ttf') format('ttf');
+  src: local('Cursivestandard'), url('../font/70font/Cursivestandard.woff') format('woff');
+  src: local('Cursivestandard'), url('../font/70font/Cursivestandard.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'';
+  src: local(''), url('../font/70font/.ttf') format('ttf');
+  src: local(''), url('../font/70font/.woff') format('woff');
+  src: local(''), url('../font/70font/.woff2') format('woff2');
+}
+@font-face {
+  font-family:'';
+  src: local(''), url('../font/70font/.ttf') format('ttf');
+  src: local(''), url('../font/70font/.woff') format('woff');
+  src: local(''), url('../font/70font/.woff2') format('woff2');
+}
+
 body{
   background-image: url("../imgs/70/sfondo bianco.png");
   font-family:'Inkslinger BB';
@@ -98,8 +137,37 @@ body{
   z-index: 100;
   position: relative;
   padding: 5vh;
+  background-image: url("../imgs/70/sfondo arancione.png");
+}
+#specialtext{
+  font-family:'Cursivestandard';
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  color: #4B7198;
+  padding: 5vh;
+  font-size: 10vh;
+  background-color: #E2E1C3;
+  background-image: url("../imgs/70/sfondo giallino.png");
+  margin: 0;
+  border-radius: 20%;
+  border: 0.3vh dotted black;
+  position: inherit;
 }
 
+.finalpart{
+ font-family:'BrillanteSt';
+ text-shadow: 0;
+ color: #DDA061;
+}
+
+.wh{
+  font-family:'SansSerifShaded';
+  text-shadow: 0;
+  color: #62A1C0;
+}
+
+#paperinoquestion{
+  margin-top: -3vh;
+}
 .container{
   z-index: 100;
   border: 1vh solid;
@@ -153,7 +221,27 @@ body{
   transform: rotate(2deg);
   border: solid black;
 }
+#about{
+  position: relative;
+  max-width: 40vh;
+  margin-bottom: -1em;
+  margin-left: -1em;
+  margin-right: 1em;
+  margin-top: -1em;
+  border: 0.5vh solid;
+  background-image: url("../imgs/70/sfondo giallo.png");
+  font-style: italic;
+  text-transform: uppercase;
+}
+#about::first-letter {
+  font-size: 8vh;
+}
 
+#about::after {
+  content: "  ●●●";
+  font-size: 18px;
+  letter-spacing: 0.6vh;
+}
 .project{
   max-height: inherit;
 }
@@ -162,7 +250,14 @@ body{
   position: center;
   text-align: justify;
 }
-
+#projectparagraph{
+  font-family: Arial;
+  padding: 10vh;
+  font-size: 2vh;
+  column-count: 2;
+  column-gap: 5vh;
+  column-rule: 0.5vh solid;
+}
 .documentationinfo{
   font-size: 2.7vh;
   position: center;
@@ -173,51 +268,115 @@ body{
   text-align: center;
   padding: 5vh;
 }
+hr{
+  display: none;
+}
 .documentation{
-  padding:1vh;
+  padding: 1vh;
+  margin: 1vh 0;
+  background-image: url("../imgs/70/sfondo giallino.png");
 }
 #documentation{
-  background-image: url("../imgs/70/sfondo giallo.png");
-  padding: 25vh;
+  background-image: linear-gradient(90deg, #8500ff, #ff8100);
+  padding: 15vh 20vh 25vh 30vh;
   font-family:'Mahavishnu-Regular';
   font-size: 15vh;
-  background-image: linear-gradient(90deg, #8500ff, #ff8100);
-  color: black;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-box-decoration-break: clone;
+  color: #DCC65F;
+  border: 0.5vh solid black;
+  background-image: url("../imgs/70/sfondo blu.png");
+}
+#documentationtitle{
+  display: flex;
+  padding-left: 15vh;
+  -moz-transform:rotate(-5deg); /* Firefox */
+  -webkit-transform:rotate(-5deg); /* Webkit */
+  -ms-transform:rotate(-5deg); /* IE */
+  -o-transform:rotate(-5deg); /* Opera */
+  transform:rotate(-5deg); /* future */
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+#quiquoqua{
+  max-height: 55vh;
+  position: absolute;
+  left: 5vh;
+  top: 349vh;
+}
+#markup{
+  font-family:'MissAmandaJonesExp';
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  color: #C00022;
+}
+#m{
+  font-size: 30vh;
+  display: inline;
+  position: absolute;
+  top: 386vh;
+  left: 52vh;
+  transform: rotate(-15deg);
+}
+
+#a{
+  font-size: 30vh;
+  display: inline;
+  position: absolute;
+  top: 376vh;
+  left: 75vh;
+  transform: rotate(-5deg);
+}
+
+#r{
+  font-size: 30vh;
+    display: inline;
+    position: absolute;
+    top: 379vh;
+    left: 92vh;
+}
+#k{
+  font-size: 40vh;
+  display: inline;
+  position: absolute;
+  top: 363vh;
+  left: 108vh;
+  transform: rotate(+5deg);
+}
+
+#u{
+  font-size: 30vh;
+  display: inline;
+  position: absolute;
+  top: 363vh;
+  left: 125vh;
+  transform: rotate(-10deg);
+}
+#p{
+  font-size: 25vh;
+  display: inline;
+  position: absolute;
+  top: 363vh;
+  left: 140vh;
+  transform: rotate(+10deg);
+}
+#markupparagraph{
+  font-family: Arial;
+  padding: 10vh;
+  font-size: 2vh;
+  column-count: 2;
+  column-gap: 5vh;
+  column-rule: 0.5vh solid;
+}
+#markupparagraph::first-letter {
+  font-size: 5vh;
+  color: #C00022;
 }
 
 h3{
   text-align: center;
   padding: 2vh 0;
 }
-
-h2:hover, h3:hover{
-           animation: rotate 0.5s linear;
        }
 h3:hover{
   cursor:pointer;
 }
-
-@keyframes rotate{
-           0%{
-               transform: rotate(0deg);
-           }
-           25%{
-               transform: rotate(20deg);
-           }
-           50%{
-               transform: rotate(-20deg);
-           }
-           100%{
-               transform: rotate(0deg);
-           }
-       }
-
-#about{
-   text-transform: uppercase;
- }
 
  #sources{
    text-align: center;
