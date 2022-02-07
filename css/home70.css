@@ -139,19 +139,6 @@ body{
   padding: 5vh;
   background-image: url("../imgs/70/sfondo arancione.png");
 }
-#specialtext{
-  font-family:'Cursivestandard';
-  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-  color: #4B7198;
-  padding: 5vh;
-  font-size: 10vh;
-  background-color: #E2E1C3;
-  background-image: url("../imgs/70/sfondo giallino.png");
-  margin: 0;
-  border-radius: 20%;
-  border: 0.3vh dotted black;
-  position: inherit;
-}
 
 .finalpart{
  font-family:'BrillanteSt';
@@ -165,9 +152,26 @@ body{
   color: #62A1C0;
 }
 
-#paperinoquestion{
-  margin-top: -3vh;
+
+/*bubble*/
+blockquote.bubble {
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 0;
+  box-sizing: content-box;
+  line-height: 1;
 }
+/*speech*/
+blockquote.speech {
+  background-image: url("../imgs/70/fumetto.png");
+  width: 25%;
+  padding-top: 6%;
+  padding-bottom: 20%;
+}
+
 .container{
   z-index: 100;
   border: 1vh solid;
@@ -175,52 +179,129 @@ body{
   background-image: url("../imgs/70/sfondo bianchissimo.png");
 }
 
-#paperino{
-  border-width: 3px 4px 3px 5px;
-  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
-  transform: rotate(2deg);
-  border: solid black;
-}
 .magazine{
-  padding: 2vh;
 }
 .magazineinfo {
-  padding: 7vh;
-  border: 0.5vh solid;
-  column-count: 3;
-  column-gap: 2vh;
-  column-rule: solid;
-  min-height: 40vh;
-  margin-block: 3vh;
-  background-image: url("../imgs/70/sfondo rosa.png");
 }
-
-#magazineparagraph{
+#magazinetitle{
+  position: relative;
+  max-width: 50vh;
+  padding:1vh;
+  padding-bottom: 2vh;
+  margin-bottom: -1em;
+  margin-left: -1em;
+  margin-right: 1em;
+  margin-top: -1em;
+  border: 0.5vh solid;
   background-image: url("../imgs/70/sfondo giallo.png");
+  font-style: italic;
+  text-transform: uppercase;
+}
+#magazinetitle::first-letter {
+  font-size: 8vh;
 }
 
-.issueinfo{
-  padding: 7vh;
+#magazinetitle::after {
+  content: "  ●●●";
+  font-size: 18px;
+  letter-spacing: 0.6vh;
+}
+.comicstrip{
+  flex-direction: row;
+  display: flex;
   border: 0.5vh solid;
-  column-count: 3;
-  column-gap: 2vh;
-  column-rule: solid;
-  min-height: 40vh;
-  margin-block: 3vh;
+  height: 60vh;
+  background-image: url("../imgs/70/sfondo viola.png");
+}
+#secondstrip{
+  background: none;
+  border: none;
+}
+#magazineparagraph{
+}
+.issue{
+  max-height: 68vh;
+}
+#issuetitle{
+  position: relative;
+  max-width: 40vh;
+  margin-left: 33em;
+  margin-right: -2em;
+  margin-top: -1em;
+  margin-bottom: -1em;
+  border: 0.5vh solid;
+  background-image: url("../imgs/70/sfondo giallo.png");
+  font-style: italic;
+  text-transform: uppercase;
+}
+#issuetitle::first-letter {
+  font-size: 8vh;
 }
 
-#issuetitle{
-  font-family: 'Bangers', cursive;
-  transform: rotate(2deg);
-  margin:15px;
-  padding:0 5px;
+#issuetitle::after {
+  content: "  ●●●";
+  font-size: 18px;
+  letter-spacing: 0.6vh;
 }
+#issueparagraph{
+  border: 0.5vh solid black;
+  background-image: url("../imgs/70/sfondo arancione.png");
+  text-align: justify;
+  padding: 2vh 4vh;
+  margin-right: 1vh;
+  font-style: italic;
+}
+#issueparagraph::first-letter{
+  font-size: 8vh;
+}
+
+#issueparagraph::after{
+  content: "  ●●●";
+  font-size: 18px;
+  letter-spacing: 0.6vh;
+}
+
 #issuetopolino{
-  border-width: 3px 4px 3px 5px;
-  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
-  transform: rotate(2deg);
-  border: solid black;
+  border: 0.5vh solid black;
+  margin: 0 1vh 2vh;
 }
+#paperinosalto{
+  border: 0.5vh solid black;
+  margin: 0 1vh 2vh;
+}
+#first{
+  background-image: url("../imgs/70/fumettoleft.png");
+  display: flex;
+  position: relative;
+  top: -74vh;
+  left: -28vh;
+  font-size: 2vh;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#second{
+  background-image: url("../imgs/70/nuvoletta.png");
+  display: flex;
+  position: relative;
+  width: min-content;
+  top: -80vh;
+  left: -50vh;
+  font-size: 2vh;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 6%;
+}
+
+#third{
+  background-image: url("../imgs/70/fumettoquadrato.png");
+  display: flex;
+  position: relative;
+  top: -57vh;
+  left: 66vh;
+}
+
 #about{
   position: relative;
   max-width: 40vh;
@@ -278,87 +359,92 @@ hr{
 }
 #documentation{
   background-image: linear-gradient(90deg, #8500ff, #ff8100);
-  padding: 15vh 20vh 25vh 30vh;
   font-family:'Mahavishnu-Regular';
   font-size: 15vh;
   color: #DCC65F;
   border: 0.5vh solid black;
+  padding:0;
+  flex-direction: row;
   background-image: url("../imgs/70/sfondo blu.png");
 }
 #documentationtitle{
+  max-height: 55vh;
+  flex-direction: row;
   display: flex;
-  padding-left: 15vh;
-  -moz-transform:rotate(-5deg); /* Firefox */
-  -webkit-transform:rotate(-5deg); /* Webkit */
-  -ms-transform:rotate(-5deg); /* IE */
-  -o-transform:rotate(-5deg); /* Opera */
-  transform:rotate(-5deg); /* future */
+  position: relative;
+  top: 15vh;
+  left: 40vh;
+  text-align: center;
+  -moz-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
+
 #quiquoqua{
   max-height: 55vh;
-  position: absolute;
-  left: 5vh;
-  top: 349vh;
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  left: -10vh;
+  bottom: -8vh;
+  margin: 0;
 }
 #markup{
   font-family:'MissAmandaJonesExp';
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
   color: #C00022;
+  flex-direction: row;
+  display: flex;
+  font-family: 'MissAmandaJonesExp';
+  position: relative;
+  top: -35vh;
+  left: 40vh;
+  -moz-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
+
 #m{
   font-size: 30vh;
   display: inline;
-  position: absolute;
-  top: 386vh;
-  left: 52vh;
   transform: rotate(-15deg);
 }
 
 #a{
   font-size: 30vh;
   display: inline;
-  position: absolute;
-  top: 376vh;
-  left: 75vh;
   transform: rotate(-5deg);
 }
 
 #r{
   font-size: 30vh;
     display: inline;
-    position: absolute;
-    top: 379vh;
-    left: 92vh;
 }
 #k{
   font-size: 40vh;
   display: inline;
-  position: absolute;
-  top: 363vh;
-  left: 108vh;
   transform: rotate(+5deg);
 }
 
 #u{
   font-size: 30vh;
   display: inline;
-  position: absolute;
-  top: 363vh;
-  left: 125vh;
   transform: rotate(-10deg);
 }
 #p{
   font-size: 25vh;
   display: inline;
-  position: absolute;
-  top: 363vh;
-  left: 140vh;
   transform: rotate(+10deg);
 }
 #markupparagraph{
   font-family: Arial;
   padding: 10vh;
+  margin-top: -45vh;
   font-size: 2vh;
   column-count: 2;
   column-gap: 5vh;
