@@ -60,6 +60,18 @@
 }
 
 @font-face {
+  font-family:'AbstractGroovy';
+  src: local('AbstractGroovy'), url('../font/70font/AbstractGroovy.ttf') format('ttf');
+  src: local('AbstractGroovy'), url('../font/70font/AbstractGroovy.woff') format('woff');
+  src: local('AbstractGroovy'), url('../font/70font/AbstractGroovy.woff2') format('woff2');
+}
+@font-face {
+  font-family:'Goop';
+  src: local('Goop'), url('../font/70font/Goop.ttf') format('ttf');
+  src: local('Goop'), url('../font/70font/Goop.woff') format('woff');
+  src: local('Goop'), url('../font/70font/Goop.woff2') format('woff2');
+}
+@font-face {
   font-family:'';
   src: local(''), url('../font/70font/.ttf') format('ttf');
   src: local(''), url('../font/70font/.woff') format('woff');
@@ -112,6 +124,7 @@ body{
 
 #comicshomepage{
   width: 100%;
+  display: none;
 }
 
 .hvr-bounce-in:hover{
@@ -134,24 +147,42 @@ body{
        }
 
 #specialedition{
-  z-index: 100;
+  max-height: -webkit-fill-available;
+  background-image: url("../imgs/70/sfondo rosa.png");
+}
+#specialtext{
+  font-family:'Inkslinger BB';
+  background-image: url("../imgs/70/nuvola2.png");
+  background-repeat: no-repeat;
+  display: flex;
   position: relative;
-  padding: 5vh;
-  background-image: url("../imgs/70/sfondo arancione.png");
-}
+  left: 70vh;
+  font-size: 3vh;
+  text-align: center;
+  padding: 10% 20% 20% 20%;
 
-.finalpart{
- font-family:'BrillanteSt';
- text-shadow: 0;
- color: #DDA061;
 }
+/*
+.finalpart{
+  font-family: 'AbstractGroovy';
+  text-shadow: 0;
+  color: #DDA061;
+  letter-spacing: -1vh;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+*/
 
 .wh{
-  font-family:'SansSerifShaded';
+  font-family:'Goop';
   text-shadow: 0;
   color: #62A1C0;
 }
-
+#clarabella{
+  position: relative;
+  top: -31vh;
+  left:-1vh;
+}
 
 /*bubble*/
 blockquote.bubble {
@@ -175,7 +206,7 @@ blockquote.speech {
 .container{
   z-index: 100;
   border: 1vh solid;
-  margin-top: 3vh;
+  margin-top: 4vh;
   background-image: url("../imgs/70/sfondo bianchissimo.png");
 }
 
@@ -211,22 +242,54 @@ blockquote.speech {
   display: flex;
   border: 0.5vh solid;
   height: 60vh;
-  background-image: url("../imgs/70/sfondo viola.png");
+  background-image: url("../imgs/70/collagemagazine.jpg");
+  background-repeat: no-repeat;
 }
 #secondstrip{
   background: none;
   border: none;
 }
-#magazineparagraph{
+#magazineparagraph1{
+  background-image: url("../imgs/70/fumettolaterale.png");
+  display: flex;
+  position: relative;
+  top: -22vh;
+  left: 18vh;
+  font-size: 2vh;
+  text-align: center;
+  padding: 10% 20% 20% 20%;
 }
+#magazineparagraph2{
+  background-image: url("../imgs/70/nuvoletta.png");
+  display: flex;
+  position: relative;
+  width: min-content;
+  top: 16vh;
+  left: -50vh;
+  font-size: 2vh;
+  text-align: center;
+  padding: 3% 6% 22% 3%;
+  margin: 0;
+}
+
+#magazineparagraph3{
+  background-image: url("../imgs/70/fumettoup.png");
+  display: flex;
+  position: relative;
+  left: -33vh;
+  top: -10vh;
+  padding: 4% 2.5% 23% 2.5%;
+}
+
 .issue{
   max-height: 68vh;
 }
+
 #issuetitle{
   position: relative;
   max-width: 40vh;
-  margin-left: 33em;
-  margin-right: -2em;
+  margin-left: 32em;
+  margin-right: -1em;
   margin-top: -1em;
   margin-bottom: -1em;
   border: 0.5vh solid;
@@ -246,8 +309,9 @@ blockquote.speech {
 #issueparagraph{
   border: 0.5vh solid black;
   background-image: url("../imgs/70/sfondo arancione.png");
-  text-align: justify;
-  padding: 2vh 4vh;
+  text-align: left;
+  padding: 2vh;
+  padding-right: 10vh;
   margin-right: 1vh;
   font-style: italic;
 }
@@ -273,12 +337,11 @@ blockquote.speech {
   background-image: url("../imgs/70/fumettoleft.png");
   display: flex;
   position: relative;
-  top: -74vh;
+  top: -65vh;
   left: -28vh;
   font-size: 2vh;
   text-align: center;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding: 4% 4% 15% 3%;
 }
 
 #second{
@@ -295,11 +358,14 @@ blockquote.speech {
 }
 
 #third{
-  background-image: url("../imgs/70/fumettoquadrato.png");
+  background-image: url("../imgs/70/fumettoellisse.png");
   display: flex;
   position: relative;
-  top: -57vh;
-  left: 66vh;
+  top: -135vh;
+  left: 33vh;
+  font-size: 2vh;
+  text-align: center;
+  padding: 4% 4% 12% 3%;
 }
 
 #about{
@@ -331,9 +397,13 @@ blockquote.speech {
   position: center;
   text-align: justify;
 }
+#theproject{
+  font-size: 8vh;
+}
 #projectparagraph{
   font-family: Arial;
   padding: 10vh;
+  padding-top: 2vh;
   font-size: 2vh;
   column-count: 2;
   column-gap: 5vh;
@@ -451,6 +521,18 @@ hr{
   column-rule: 0.5vh solid;
 }
 #markupparagraph::first-letter {
+  font-size: 5vh;
+  color: #C00022;
+}
+#styleparagraph{
+  font-family: Arial;
+  padding: 10vh;
+  font-size: 2vh;
+  column-count: 2;
+  column-gap: 5vh;
+  column-rule: 0.5vh solid;
+}
+#styleparagraph::first-letter {
   font-size: 5vh;
   color: #C00022;
 }

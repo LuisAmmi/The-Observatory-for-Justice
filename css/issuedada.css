@@ -154,9 +154,9 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   text-align: justify;
-  height: 85vh;
+  height: 80vh;
   margin: auto;
-  padding: 25px;
+  padding: 15px;
 }
 
 .navbar-brand{
@@ -197,7 +197,7 @@ body {
            }
        }
 
-img {
+.graphicimg {
   border: 10px solid;
   max-width: 100%;
   height: auto;
@@ -213,21 +213,11 @@ img {
     cursor: pointer;
 }
 
-.img1art1{
-  shape-outside: polygon(20.67px 113.00px,67.33px 139.47px,176.67px 140.47px,229.33px 126.00px,241.50px 73.26px,233.67px 21.53px,186.58px 14.03px,127.50px 40.53px,14.33px 8.53px,10.50px 71.76px);
-  clip-path:polygon(20.67px 113.00px,67.33px 139.47px,176.67px 140.47px,229.33px 126.00px,241.50px 73.26px,233.67px 21.53px,186.58px 14.03px,127.50px 40.53px,14.33px 8.53px,10.50px 71.76px);
-  filter: grayscale(90%);
-  opacity:90%;
+#img1art1{
+
 }
-.img1art2 {
-  shape-outside: polygon(12.67px 137.00px,70.33px 158.47px,185.67px 155.47px,232.33px 133.00px,227.67px 12.53px,127.50px 21.53px,14.33px 8.53px,9.50px 72.76px);
-  clip-path: polygon(12.67px 137.00px,70.33px 158.47px,185.67px 155.47px,232.33px 133.00px,227.67px 12.53px,127.50px 21.53px,14.33px 8.53px,9.50px 72.76px);
-  filter: grayscale(90%);
-  -moz-transform:rotate(+5deg); /* Firefox */
-  -webkit-transform:rotate(+5deg); /* Webkit */
-  -ms-transform:rotate(+5deg); /* IE */
-  -o-transform:rotate(+5deg); /* Opera */
-  transform:rotate(+5deg); /* future */
+
+#img1art2 {
 }
 
 .img3art2{
@@ -322,11 +312,10 @@ table{
 figcaption{
   font-family: 'Dolphins-SemiBoldItalic';
   color: #b94842;
-  background: none;
   transform-origin: right;
-/*  transform: rotate(90deg);*/
-/*   margin-right: 55px;*/
+  text-align: end;
   line-height: 1;
+  margin: 1vh;
 }
 
 #tablen1, #tablen2, #tablen3 {

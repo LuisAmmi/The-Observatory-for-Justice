@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="">
+    <link rel="icon" type="image/png" href="./imgs/OJ.png">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -27,25 +27,32 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid"><a class="navbar-brand" href="#">The Observatory for Justice</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="container-fluid">
+        <div class="dropdown" id="dropdownMenuButton1">
+          <button class="btn dropdown-toggle navbar-brand" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            The Observatory for Justice
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li class="nav-item"><a class="dropdown-item" href="main.html">Home</a></li>
+            <li class="nav-item"><a class="dropdown-item" href="#about">About</a></li>
+            <li class="nav-item"><a class="dropdown-item" href="#Documentation">Documentation</a></li>
+          </ul>
+        </div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="main.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="issue.html">Issue</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Documentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Disclaimer</a></li>
           </ul>
         </div>
       </div>
       <div class="contained ms-auto">
         <ul class="navbar-nav ms-auto" id="styleicons">
           <li class="nav-item styles hvr-bounce-in" id="dadaicon"><img class="icone" src="imgs/dada/fontainduchamp.svg"></li>
-          <li class="nav-item styles hvr-bounce-in" id="topolinoicon"><img class="icone" src="imgs/70/topolino.svg"></il>
+          <li class="nav-item styles hvr-bounce-in" id="topolinoicon"><img class="icone" src="imgs/70/topolino.svg"></li>
           </ul>
       </div>
     </nav>
+
 
     <div class="container">
       <div class="row">
@@ -61,8 +68,8 @@
                 <div class="text">
                   <div class="section" id="1-articlefullbody">
 
-                    <figure>
-                    <img class="img1art1" src="imgs/image1art1.jpeg" alt="injured protester in genoa" width="300">
+                    <figure id="fig1art1">
+                    <img id="img1art1" src="imgs/image1art1.jpeg" alt="injured protester in genoa" width="300">
                     <figcaption>Riot police surround an injured anti-globalisation protester lying on a pavement in central <span class="mention place" about="Genoa" id="?" data-wikidata-id="Q1449" data-label="Genoa">Genoa</span>. <span class="credit">Photograph: <span class="mention person" id="" about="Sergei Karpukhin" data-label="">Sergei Karpukhin</span>/<span class="mention organization" id="" about="Reuters" data-wikidata-id="" data-label="/Reuters">Reuters</span></span></figcaption>
                     </figure>
                     <p class='narrativeparagraph'>It was just before midnight when the first police officer hit <span class="mention person" about="Mark Covell" id="?">Mark Covell</span>, swiping his truncheon down on his left shoulder. <span class="mention person" about="Mark Covell" id="?">Covell</span> did his best to yell out in Italian that he was a journalist but, within seconds, he was surrounded by riot-squad officers <span class="mention type-of-aggression" about="beating" id="?">thrashing him with their sticks</span>. For a while, he managed to stay on his feet but then <span class="mention type-of-aggression" about="beating" id="?">a baton blow to the knee</span> sent him crashing to the pavement.</p>
@@ -167,13 +174,16 @@
                     <span class="mention event" about="raid on Armando Diaz" id="?" data-wikidata-id="Q3740141" data-label="2001 raid on Armando Diaz">Diaz raid</span> escaped trial because <span class="mention person" about="Enrico Zucca" id="?">Zucca</span> was simply unable to prove that a chain of command existed. Even now, the trial of the 28 officers who have been charged is in jeopardy because the prime minister, <span class="mention person" about="Silvio Berlusconi" id="?" data-wikidata-id="Q11860" data-label="Silvio Berlusconi">Silvio Berlusconi</span>, is pushing through legislation to delay all trials dealing with events that occurred before <time datetime="2002-06">June 2002</time>. Nobody has been charged with the violence inflicted on <span class="mention person" about="Mark Covell" id="?">Covell</span>. And as one of the victims' lawyers,
                     <span class="mention person" about="Massimo Pastore" id="?">Massimo Pastore</span>, put it:</p>
 
-                    <p class='possiblepolygon'></p>
+
+                    <div id="possibleaddfeature">
                     <p class='quote'>"Nobody wants to listen to what this story has to say. That is about <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascism</span>. There are plenty of rumours that the police and carabinieri and prison staff belonged to <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascist</span> groups, but no evidence to support that.
                     <span class="mention person" about="Massimo Pastore" id="?">Pastore</span> argues that that misses the bigger point: "It is not just a matter of a few drunken <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascists</span>. This is mass behaviour by the police. No one said 'No.' This is a culture of
                     <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascism</span>." At its heart, this involved what <span class="mention person" about="Enrico Zucca" id="?">Zucca</span> described in his report as "a situation in which every rule of law appears to have been suspended."</p>
+                    </div>
 
                     <p class="lastparagraph">Fifty-two days after <span class="mention event" about="raid on Armando Diaz" id="?" data-wikidata-id="Q3740141" data-label="2001 raid on Armando Diaz">the attack on the Diaz school</span>, 19 men used planes full of passengers as flying bombs and shifted the bedrock of assumptions on which western democracies had based their business. Since then, politicians who would never describe themselves as fascists have allowed the mass tapping of telephones and monitoring of emails, detention without trial, systematic <span class="mention concept" about="torture" id="?" data-wikidata-id="Q132781" data-label="torture">torture</span>, the calibrated drowning of detainees, unlimited house arrest and the targeted killing of suspects, while the procedure of extradition has been replaced by "extraordinary rendition". This isn't
                     <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascism</span> with jack-booted dictators with foam on their lips. It's the pragmatism of nicely turned-out politicians. But the result looks very similar. Genoa tells us that when the state feels threatened, the rule of law can be suspended. Anywhere.</p>
+                    <div id="end"></div>
                   </div>
                 </div>
           </div>
@@ -188,8 +198,8 @@
                 </div>
                 <div class="text">
                   <div class="section" id="2-intro">
-                    <figure>
-                      <img class="img1art2" src="imgs/image1art2.jpg" alt="A police officer wearing a body cam and riot gear in Atlanta" width="300">
+                    <figure id="fig1art2">
+                      <img id="img1art2" src="imgs/image1art2.jpg" alt="A police officer wearing a body cam and riot gear in Atlanta" width="300">
                       <figcaption>Body-worn cameras can increase the <span class="mention concept" about="police accountability" id="?" data-wikidata-id="Q7209546" data-label="police accountability">accountability</span> of the police, but studies on their use have produced mixed results. <span class="credit">Credit: <span class="mention person" id="?" about="ElijahNouvelage" data-label="Elijah Nouvelage">Elijah Nouvelage</span>/
                         <span class="mention company" id="?" about="Getty" data-wikidata-id="Q1520122" data-label="Getty Images">Getty</span></span></figcaption>
                     </figure>
@@ -224,8 +234,8 @@
                     <p>Based on information from more than two million 911 calls in two US cities, he concluded that <span class="mention ethnic_group" about="White people" id="?">white officers</span> dispatched to <span class="mention ethnic_group" about="Black people" id="?">Black neighbourhoods</span>  <span class="mention type-of-aggression" about="shooting" id="?">fired their guns</span> five times as often as Black officers dispatched for similar calls to the same neighbourhoods<a href="#footn4"><sup>4</sup></a> (see ‘Answering the call’). <span class="mention person" about="Mark Hoekstra" id="?">Hoekstra</span> wonders whether the factors that contribute to an officer <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q96441150" data-label="police violence">using excessive force</span> might be predicted in a similar way to how US Major League Baseball teams use sophisticated statistical models to predict whether a player has the potential to be a future all-star.</p>
 
                       <figure>
-                      <img class="img2art2"src="imgs/image2art2.png"  alt="Graphic showing the use of force by US police involving a gun across neighbourhoods based on racial composition" width="300">
-                      <p>Source: Ref. 4</p>
+                      <img class="graphicimg" id="img2art2" src="imgs/image2art2.png"  alt="Graphic showing the use of force by US police involving a gun across neighbourhoods based on racial composition" width="300">
+                      <figcaption>Source: Ref. 4</figcaption>
                       </figure>
 
                     <p>Scientists have tried to identify some predictive factors, such as <span class="mention concept" about="racial bias" id="?" data-wikidata-id="Q16630756" data-label="racial bias">racial bias</span>, a bad temper, insecure masculinity and other individual characteristics, many of which can be identified through simulations already used in officer training<a href="#footn5"><sup>5</sup></a>. <span class="mention person" about="Justin Nix" id="?" data-wikidata-id="Q98156837" data-label="Justin Nix">Nix</span> suggests that such screening could help with vetting officers before they are recruited. But raising the bar for hiring might be impractical, he cautions, because many police departments are already struggling to attract and retain highly qualified candidates.</p>
@@ -240,8 +250,8 @@
                     <span class="mention concept" about="misconduct" id="?" data-wikidata-id="Q6875295" data-label="misconduct">misconduct</span>. “One thing we need to take a hard look at are those state laws and union contracts that provide either flawed or overly protective procedures that insulate officers from appropriate <span class="mention concept" about="police accountability" id="?" data-wikidata-id="Q7209546" data-label="police accountability">accountability</span>,” says <span class="mention person" about="Seth Stoughton" id="?">Seth Stoughton</span>, a former police officer who is a law professor at the
                     <span class="mention institution University" about="University of South Carolina" id="?" data-wikidata-id="Q1024426" data-label="University of South Carolina">University of South Carolina</span> in <span class="mention place" about="Columbia" id="?" data-wikidata-id="Q49088" data-label="Columbia">Columbia</span>.</p>
 
-                      <figure>
-                      <img class="img3art2" src="imgs/image3art2.jpg" alt="A woman holds up a sign of the victims during a Black Lives Matter protest in New York City" width="300">
+                      <figure id="fig3art2">
+                      <img id="img3art2" src="imgs/image3art2.jpg" alt="A woman holds up a sign of the victims during a Black Lives Matter protest in New York City" width="300">
                       <figcaption>Massive protests after <span class="mention event" about="killing of George Floyd" id="?">the death of <span class="mention person" about="George Floyd" id="?" data-wikidata-id="Q95677819" data-label="George Floyd">George Floyd</span></span> have renewed pressure to reform policies for US law-enforcement agencies.<span class="credit">Credit: <span class="mention person" id="mention-?" about="SteveSanchez" data-label="Steve Sanchez">Steve Sanchez</span>/<span class="mention company" id="" about="PacificPress" data-wikidata-id="Q7122635" data-label="Pacific Press Publishing Association">Pacific Press</span>via Zuma/eyevine</span></figcaption>
                       </figure>
 
@@ -292,7 +302,7 @@
                     <span class="mention type-of-aggression" about="shooting" id="?">shooting</span> civilians<a href="#footn17"><sup>17</sup></a> (see ‘Small-town problems’).</p>
 
                       <figure>
-                      <img class="img4art2" src="imgs/image4art2.png" alt="Graphic showing how he rate of police shootings per 100 homicides is much higher in smaller communities" width="300">
+                      <img class="graphicimg" id="img4art2" src="imgs/image4art2.png" alt="Graphic showing how he rate of police shootings per 100 homicides is much higher in smaller communities" width="300">
                       <figcaption>Source: Ref. 17</figcaption>
                       </figure>
 

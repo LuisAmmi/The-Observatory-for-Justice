@@ -183,6 +183,10 @@ body{
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
 
+img{
+  max-width: -webkit-fill-available;
+  border: black solid 0.5vh;
+}
 .nav-link{
   font-family: 'SunlightScript';
   font-size: 2.5vh;
@@ -212,6 +216,8 @@ body{
     margin-left: 2vh;
     margin-right: 2vh;
     cursor: pointer;
+    border: none;
+    padding: 0;
 }
 
 .hvr-bounce-in:hover{
@@ -256,7 +262,7 @@ a {
   overflow-y: scroll;
   overflow-x: hidden;
   text-align: justify;
-  height: 85vh;
+  height: 80vh;
   margin: auto;
   padding: 15px;
   border: black solid 0.5vh;
@@ -267,6 +273,9 @@ a {
   border: black solid 0.5vh;
   background-image: url("../imgs/70/sfondo giallo.png");
 }
+ #img1art1{
+
+ }
 
 p {
   padding: 1vh;
@@ -453,28 +462,6 @@ p {
   letter-spacing: 0.6vh;
 }
 
-.img1art1, .img1art2{
-  display: none;
-}
-
-#possibleimage1{
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
-  background-image: url("../imgs/70/calcio.png");
-}
-
-#possibleimage2{
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center right;
-  min-width: 100%;
-  min-height: 100%;
-  background-image: url("../imgs/70/topolino poliziotto.png");
-  border: 0;
-  object-position: right;
-}
-
 #vivailduce:hover {
   cursor: url('../imgs/70/dito medio cursore.png') 2 2, pointer;
 }
@@ -485,4 +472,44 @@ p {
 .claim{
   font-size: 4vh;
   font-family: "PalookaBB";
+}
+
+/*bubble*/
+blockquote.bubble {
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 0;
+  box-sizing: content-box;
+  line-height: 1;
+}
+/*speech*/
+blockquote.speech {
+  background-image: url("../imgs/70/nuvola 2.png");
+  display: -webkit-inline-box;
+  font-style: italic;
+  font-size: small;
+  padding: 20% 20% 80% 15%;
+  position: relative;
+  bottom: -5vh;
+}
+
+#possibleaddfeature{
+  margin-top: -5vh;
+}
+
+#angrypaperino{
+  margin-bottom: 2vh;
+}
+
+#quofine{
+  max-width: 15vh;
+  border: 0;
+  position: relative;
+  top: -6vh;
+  right: -30vh;
+  transform: rotate(-15deg);
+  margin-bottom: -8vh;
 }
