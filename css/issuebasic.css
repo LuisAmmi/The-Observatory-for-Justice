@@ -169,6 +169,9 @@ a {
 .table>:not(:first-child) {
   border-top: 0;
 }
+.articletitle{
+  text-align: right;
+}
 .articlesubtitle, .subtitle{
   font-size: 2vh;
 }
