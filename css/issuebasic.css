@@ -17,8 +17,9 @@ body{
 }
 
 .container {
-  margin-top: 5vh;
   background-color: #fff;
+  margin: 0;
+  max-width: fit-content;
 }
 
 .text {
