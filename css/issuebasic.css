@@ -163,9 +163,9 @@ a {
   overflow-y: scroll;
   overflow-x: hidden;
   text-align: justify;
-  height: 82vh;
+  height: 85vh;
   margin: auto;
-  padding: 15px;
+  padding: 2em;
 }
 .table>:not(:first-child) {
   border-top: 0;
