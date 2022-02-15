@@ -172,6 +172,9 @@ a {
 .articletitle{
   text-align: right;
 }
+.articleauthor, .linkandinfo{
+  font-size: 1vh;
+}
 .articlesubtitle, .subtitle{
   font-size: 2vh;
 }
