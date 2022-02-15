@@ -102,10 +102,15 @@ body{
   color: #f8221f;
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
+#navbar-brand{
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+.nav-item{
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
 
 .navbar{
   text-align: right;
-  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
   background-color: black;
   margin-right: 0;
   flex-direction: row;
@@ -119,8 +124,114 @@ body{
     width: 6vh;
     margin-left: 2vh;
     margin-right: 2vh;
-    cursor: pointer;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
+
+a {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  text-decoration: none;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+
+/* Disclaimer */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 15vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+#disclaimer{
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  float: right;
+  font-size: 4vh;
+  font-weight: bold;
+  padding-left: 3vh;
+  color: firebrick;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+
+.modal-header {
+  padding: 0;
+  background-image: url("../imgs/70/sfondo bianco.png");
+  border: 0.5vh solid;
+  border-bottom: 0;
+}
+
+#disclaimertitle{
+  padding: 1vh 3vh;
+  font-size: 3vh;
+  margin: 0;
+  margin-right: -2vh;
+  margin-top: -2vh;
+  background-image: url("../imgs/70/sfondo giallo.png");
+  border: 0.5vh solid;
+}
+.modal-body {
+  padding: 2vh 3vh;
+  font-family: Arial;
+  text-align: justify;
+  background-image: url("../imgs/70/sfondo bianco.png");
+  border: 0.5vh solid;
+  border-top: 0;
+}
+#modal_body{
+  background-image: url("../imgs/70/sfondo petrolio.png");
+  border: 0.5vh solid;
+  padding: 1vh;
+}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: red;
+  color: white;
+}
+button{
+  border: none;
+  background-color: inherit;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+/*fine Disclaimer */
 
 #comicshomepage{
   width: 100%;
@@ -543,7 +654,7 @@ h3{
 }
        }
 h3:hover{
-  cursor:pointer;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
 
  #sources{
@@ -674,6 +785,42 @@ li {
 }
 .PersianRed{
   background-color: #cb3a34;
+}
+.OldLace{
+  background-color: #FAF2E2;
+}
+.Sindbad{
+  background-color: #9BD1C6;
+}
+.Java {
+  background-color: #319393;
+}
+.GoldenYellow{
+  background-color: #F7E802;
+}
+.Conifer{
+  background-color: #C2DA53;
+}
+.TrendyPink{
+  background-color: #745072;
+}
+.CarrotOrange{
+  background-color: #EE9218;
+}
+.Cabaret{
+  background-color: #D05D79;
+}
+.JellyBean{
+  background-color: #47759A;
+}
+.Salomie{
+  background-color: #FFD581;
+}
+.OrangeRed{
+  background-color: #F64218;
+}
+.BlackPearl{
+  background-color: #0D1B2C;
 }
 
 

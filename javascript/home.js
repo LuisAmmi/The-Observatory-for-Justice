@@ -55,6 +55,23 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+  $("#referencemagazine2").click(function(){
+    $("#panelsource2").slideToggle("slow");
+  });
+
+  $("#fonts2").click(function(){
+    $("#panelfonts2").slideToggle("slow");
+  });
+
+  $("#layout2").click(function(){
+    $("#panellayout2").slideToggle("slow");
+  });
+
+  $("#colors2").click(function(){
+    $("#panelcolors2").slideToggle("slow");
+  });
+});
 // Disclaimer
 function disclaimer(){
       var modal = document.getElementById("myModal");
@@ -77,3 +94,11 @@ function disclaimer(){
         }
       }
 };
+// Tab 1920-1970 styles
+$('#myTab a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tabs('show')
+})
+
+$('#myTab a[href="#nav-1920"]').tabs('show'); // Select tab by name
+$('#myTab a[href="#nav-1970"]').tabs('show'); // Select tab by name

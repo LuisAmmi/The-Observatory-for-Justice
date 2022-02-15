@@ -180,7 +180,7 @@ body{
   background-attachment: fixed;
   background-size: cover;
   font-family:'Inkslinger BB';
-  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+  cursor: url('../imgs/70/handcursor.png') 2 2, pointer;
 }
 
 img{
@@ -198,10 +198,15 @@ img{
   color: #f8221f;
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
+#navbar-brand{
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+.nav-item{
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
 
 .navbar{
   text-align: right;
-  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
   background-color: black;
   margin-right: 0;
   flex-direction: row;
@@ -212,13 +217,123 @@ img{
 }
 
 .icone {
-    width: 6vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
-    cursor: pointer;
-    border: none;
-    padding: 0;
+  width: 6vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+  border:0;
 }
+
+a {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  text-decoration: none;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+
+p {
+  padding: 1vh;
+  border: black solid 0.5vh;
+  background-image: url("../imgs/70/possibile sfondo fumetto.png");
+}
+/* Disclaimer */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 15vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+#disclaimer{
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  float: right;
+  font-size: 4vh;
+  font-weight: bold;
+  padding-left: 3vh;
+  color: firebrick;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+
+.modal-header {
+  padding: 0;
+  background-image: url("../imgs/70/sfondo bianco.png");
+  border: 0.5vh solid;
+  border-bottom: 0;
+}
+
+#disclaimertitle{
+  padding: 1vh 3vh;
+  font-size: 3vh;
+  margin: 0;
+  margin-right: -2vh;
+  margin-top: -2vh;
+  background-image: url("../imgs/70/sfondo giallo.png");
+  border: 0.5vh solid;
+}
+.modal-body {
+  padding: 2vh 3vh;
+  font-family: Arial;
+  text-align: justify;
+  background-image: url("../imgs/70/sfondo bianco.png");
+  border: 0.5vh solid;
+  border-top: 0;
+}
+#modal_body{
+  background-image: url("../imgs/70/sfondo petrolio.png");
+  border: 0.5vh solid;
+  padding: 1vh;
+}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: red;
+  color: white;
+}
+button{
+  border: none;
+  background-color: inherit;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+/*fine Disclaimer */
 
 .hvr-bounce-in:hover{
            animation: rotate 1s linear;
@@ -256,6 +371,7 @@ a {
   overflow-wrap: break-word;
   word-break: break-all;
   text-decoration: none;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
 
 .article {
@@ -276,12 +392,6 @@ a {
  #img1art1{
 
  }
-
-p {
-  padding: 1vh;
-  border: black solid 0.5vh;
-  background-image: url("../imgs/70/possibile sfondo fumetto.png");
-}
 
 .section_heading{
   padding: 2vh;

@@ -60,6 +60,7 @@ body{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+
 /* Modal Content */
 .modal-content {
   position: relative;
@@ -90,28 +91,34 @@ body{
 .close {
   color: white;
   float: right;
-  font-size: 28px;
+  font-size: 4vh;
   font-weight: bold;
+  padding-right: 3vh;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
 
 .modal-header {
-  padding: 2px 16px;
-  background-color: #56BECE;
+  padding: 0;
+  background-color: #842029;
   color: white;
+  text-align: left;
+  display: block;
 }
 
+#disclaimertitle{
+  padding: 1vh 3vh;
+  font-size: 3vh;
+  margin: 0;
+}
 .modal-body {
-  padding: 2px 16px;
-  font-family:'BeVietnamPro-Regular';
+  padding: 2vh 3vh;
+  font-family: 'BeVietnamPro-Regular';
   text-align: justify;
-
 }
 
 .modal-footer {
@@ -124,6 +131,7 @@ button{
   background-color: inherit;
 }
 /*fine Disclaimer */
+
 
 .hvr-bounce-in:hover{
            animation: rotate 1s linear;

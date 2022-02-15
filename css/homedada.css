@@ -153,6 +153,44 @@
   src: local('Caledo Bold'), url('../font/dadafont/caledo_bold-webfont.ttf') format('ttf');
   src: local('Caledo Bold'), url('../font/dadafont/caledo_bold-webfont.woff') format('woff');
 }
+
+@font-face {
+  font-family:'ABoxFor';
+  src: local('ABoxFor'), url('../font/dadafont/ABoxFor.ttf') format('ttf');
+  src: local('ABoxFor'), url('../font/dadafont/ABoxFor.woff') format('woff');
+  src: local('ABoxFor'), url('../font/dadafont/ABoxFor.woff2') format('woff2');
+}
+@font-face {
+  font-family:'DdaftT-lowercase';
+  src: local('DdaftT-lowercase'), url('../font/dadafont/DdaftT-lowercase.ttf') format('ttf');
+  src: local('DdaftT-lowercase'), url('../font/dadafont/DdaftT-lowercase.woff') format('woff');
+  src: local('DdaftT-lowercase'), url('../font/dadafont/DdaftT-lowercase.woff2') format('woff2');
+}
+@font-face {
+  font-family:'dDAFTt-UPPERcase';
+  src: local('dDAFTt-UPPERcase'), url('../font/dadafont/dDAFTt-UPPERcase.ttf') format('ttf');
+  src: local('dDAFTt-UPPERcase'), url('../font/dadafont/dDAFTt-UPPERcase.woff') format('woff');
+  src: local('dDAFTt-UPPERcase'), url('../font/dadafont/dDAFTt-UPPERcase.woff2') format('woff2');
+}
+@font-face {
+  font-family:'Jadefedga08';
+  src: local('Jadefedga08'), url('../font/dadafont/Jadefedga08.ttf') format('ttf');
+  src: local('Jadefedga08'), url('../font/dadafont/Jadefedga08.woff') format('woff');
+  src: local('Jadefedga08'), url('../font/dadafont/Jadefedga08.woff2') format('woff2');
+}
+@font-face {
+  font-family:'Jadefedgah80';
+  src: local('Jadefedgah80'), url('../font/dadafont/Jadefedgah80.ttf') format('ttf');
+  src: local('Jadefedgah80'), url('../font/dadafont/Jadefedgah80.woff') format('woff');
+  src: local('Jadefedgah80'), url('../font/dadafont/Jadefedgah80.woff2') format('woff2');
+}
+@font-face {
+  font-family:'Soopafresh';
+  src: local('Soopafresh'), url('../font/dadafont/Soopafresh.ttf') format('ttf');
+  src: local('Soopafresh'), url('../font/dadafont/Soopafresh.woff') format('woff');
+  src: local('Soopafresh'), url('../font/dadafont/Soopafresh.woff2') format('woff2');
+}
+
 body{
   background-image: url("../imgs/dada/Home collage/sfondo dada bianco.png");
   overflow-x: hidden;
@@ -168,13 +206,12 @@ width: 100%;
 }
 
 .navbar-brand{
-  font-family: 'Phorssa';
-  color: #f8221f;
+  font-family:'Jadefedgah80';
   letter-spacing: 0;
 }
 
 .navbar{
-  background-image: url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/imgs/dada/paper book.jpeg');
+  background-image: url('../imgs/dada/paper book.jpeg');
   text-align: right;
   cursor: url('../imgs/dada/icondada.png') 2 2, pointer;
   background-color: black;
@@ -208,6 +245,105 @@ a:hover{
     margin-right: 2vh;
     cursor: pointer;
 }
+
+/* Disclaimer */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 15vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-family: Arial;
+  font-size: 4vh;
+  font-weight: bold;
+  padding: 3vh;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 0;
+  background-color: #842029;
+  color: white;
+  text-align: left;
+  display: block;
+}
+
+#disclaimertitle{
+  font-family: 'ABoxFor';
+  padding: 2vh 3vh;
+  font-size: 6vh;
+  margin: 0;
+}
+.modal-body {
+  text-align: justify;
+  background-image: url('../imgs/dada/paper.jpeg');
+  font-family: Arial;
+  padding: 1vh 3vh;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 2vh;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: red;
+  color: white;
+}
+
+button{
+  border: none;
+  background-color: inherit;
+  font-family: Arial;
+  letter-spacing: 10px;
+  word-spacing: 5px;
+}
+
+button:hover{
+  opacity: 50%;
+  color: #b94842;
+  cursor: url('../imgs/dada/fingercursor.png') 2 2, pointer);
+}
+/*fine Disclaimer */
 
 .hvr-bounce-in:hover, #hand:hover{
            animation: rotate 1s linear;
@@ -341,6 +477,7 @@ a:hover{
 hr{
   border: 0.5vh;
 }
+
 #projectparagraph{
 
 }
@@ -385,6 +522,7 @@ hr{
   font-family: 'Ultra-Regular';
   font-size: 8vh;
 }
+
 #styles{
   font-family: 'Old Town Regular';
   font-size: 40vh;
@@ -392,13 +530,11 @@ hr{
   display: block;
   text-decoration: double underline;
   padding-left: 2vh;
-
 }
 
 h3{
   text-align: center;
   padding: 2vh 0;
-
 }
 
 h2:hover{
@@ -643,13 +779,49 @@ li {
 .PersianRed{
   background-color: #cb3a34;
 }
-
+.OldLace{
+  background-color: #FAF2E2;
+}
+.Sindbad{
+  background-color: #9BD1C6;
+}
+.Java {
+  background-color: #319393;
+}
+.GoldenYellow{
+  background-color: #F7E802;
+}
+.Conifer{
+  background-color: #C2DA53;
+}
+.TrendyPink{
+  background-color: #745072;
+}
+.CarrotOrange{
+  background-color: #EE9218;
+}
+.Cabaret{
+  background-color: #D05D79;
+}
+.JellyBean{
+  background-color: #47759A;
+}
+.Salomie{
+  background-color: #FFD581;
+}
+.OrangeRed{
+  background-color: #F64218;
+}
+.BlackPearl{
+  background-color: #0D1B2C;
+}
 
 .color-intro{
   width:100%;
   padding:10px 10px;
   font-family: monospace;
 }
+
 h5.key{
   margin: 0;
   margin-bottom: -2px;
