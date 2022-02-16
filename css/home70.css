@@ -72,6 +72,19 @@
   src: local('Goop'), url('../font/70font/Goop.woff2') format('woff2');
 }
 @font-face {
+  font-family:'dDAFTt-UPPERcase';
+  src: local('dDAFTt-UPPERcase'), url('../font/dadafont/dDAFTt-UPPERcase.ttf') format('ttf');
+  src: local('dDAFTt-UPPERcase'), url('../font/dadafont/dDAFTt-UPPERcase.woff') format('woff');
+  src: local('dDAFTt-UPPERcase'), url('../font/dadafont/dDAFTt-UPPERcase.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Soopafresh';
+  src: local('Soopafresh'), url('../font/dadafont/Soopafresh.ttf') format('ttf');
+  src: local('Soopafresh'), url('../font/dadafont/Soopafresh.woff') format('woff');
+  src: local('Soopafresh'), url('../font/dadafont/Soopafresh.woff2') format('woff2');
+}
+@font-face {
   font-family:'';
   src: local(''), url('../font/70font/.ttf') format('ttf');
   src: local(''), url('../font/70font/.woff') format('woff');
@@ -510,6 +523,7 @@ blockquote.speech {
 }
 #theproject{
   font-size: 8vh;
+  font-family:'Soopafresh';
 }
 #projectparagraph{
   font-family: Arial;
@@ -520,6 +534,15 @@ blockquote.speech {
   column-gap: 5vh;
   column-rule: 0.5vh solid;
 }
+#projectparagraph::first-letter{
+  font-size: 5vh;
+  color: #C00022;
+  display: block;
+  float: left;
+  margin: 0.04em 0.2em 0 0;
+  line-height: 1;
+}
+
 .documentationinfo{
   font-size: 2.7vh;
   position: center;
@@ -634,6 +657,10 @@ hr{
 #markupparagraph::first-letter {
   font-size: 5vh;
   color: #C00022;
+  display: block;
+  float: left;
+  margin: 0.04em 0.2em 0 0;
+  line-height: 1;
 }
 #styleparagraph{
   font-family: Arial;
@@ -646,6 +673,10 @@ hr{
 #styleparagraph::first-letter {
   font-size: 5vh;
   color: #C00022;
+  display: block;
+  float: left;
+  margin: 0.04em 0.2em 0 0;
+  line-height: 1;
 }
 
 h3{
