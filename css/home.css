@@ -307,6 +307,7 @@ li {
 }
 #MouvementDADA{
   display: inline;
+  height: 60vh;
   margin: 1vh 2vh 1vh 0;
 }
 #screenshotdesigner{
@@ -316,11 +317,12 @@ li {
 }
 #ABCD{
   float: left;
-  height: 60vh;
+  height: 50vh;
   margin: 1vh 2vh 1vh 0;
 }
 
 #mycollage{
+  margin: 2vh 0;
   display: block;
   width: -webkit-fill-available;
 }
