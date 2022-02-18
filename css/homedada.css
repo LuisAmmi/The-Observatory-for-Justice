@@ -615,9 +615,7 @@ h3:hover{
   position: relative;
   display: inline;
 }
-#panelsource{
-  margin: 10vh 1vh;
-}
+
 #hand{
   width: 15vh;
   display: inline;
@@ -684,6 +682,40 @@ h3:hover{
   padding-left: 5vh;
   border-left: 0;
   height: 67vh;
+}
+#MouvementDADA{
+  display: inline;
+  height: 60vh;
+  border: 0.5vh double black;
+  margin: 1vh 2vh 1vh 0;
+}
+#screenshotdesigner{
+  width: 60vh;
+  display: inline;
+  margin: 1vh;
+}
+#ABCD{
+  float: left;
+  height: 50vh;
+  margin: 1vh 2vh 1vh 0;
+  -moz-transform:rotate(-10deg); /* Firefox */
+  -webkit-transform:rotate(-10deg); /* Webkit */
+  -ms-transform:rotate(-10deg); /* IE */
+  -o-transform:rotate(-10deg); /* Opera */
+  transform:rotate(-10deg); /* future */
+}
+
+#mycollage{
+  margin: 2vh 0;
+  display: block;
+  width: -webkit-fill-available;
+}
+#fontainreal{
+  display: inline;
+}
+#fontain{
+  background-color: #fff;
+  display: inline;
 }
 
 .designer {
