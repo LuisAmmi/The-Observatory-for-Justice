@@ -508,12 +508,18 @@ hr{
   border-bottom: 1vh solid;
   font-family: 'DK P.I.';
 }
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    margin: 5vh 0;
+}
+
 #styleparagraph{
   font-family: "Nordica";
   text-align: justify;
   float: inherit;
   padding: 2vh;
   border-left: 2vh double;
+  margin: 5vh 0;
 }
 
 #documentation{
@@ -541,16 +547,17 @@ hr{
 #rl1,
 #rr1 {
     width: 50%;
-    height: 28vh;
+    height: 42vh;
 }
 
 #styles{
   font-family: 'Old Town Regular';
-  font-size: 40vh;
+  font-size: 35vh;
   float: right;
   display: block;
   text-decoration: double underline;
   padding-left: 2vh;
+  margin-top: -5vh;
 }
 
 h3{
