@@ -623,7 +623,7 @@ h3:hover{
   display: inline;
 }
 
-#fonts{
+#fonts, #fonts2{
   font-family:'UnifrakturMaguntia';
   font-size: 10vh;
   margin:10vh;
@@ -634,7 +634,7 @@ h3:hover{
   -o-transform:rotate(-55deg); /* Opera */
   transform:rotate(-55deg); /* future */
 }
-#panelfonts{
+#panelfonts, #panelfonts2{
   font-family:'PoiretOne-Regular';
   -moz-transform:rotate(+10deg); /* Firefox */
   -webkit-transform:rotate(+10deg); /* Webkit */
@@ -643,7 +643,7 @@ h3:hover{
   transform:rotate(+10deg); /* future */
 }
 
-#layout{
+#layout, #layout2{
   font-family: "Higher";
   font-size: 15vh;
   color: #cb3a35;
@@ -651,7 +651,7 @@ h3:hover{
   padding: 3vh;
   text-align: center;
 }
-#panellayout{
+#panellayout, #panelfonts2{
   margin: 10vh;
 }
 #cointainerlayout{
@@ -662,7 +662,7 @@ h3:hover{
   display: flex;
   justify-content: space-between;
 }
-#colors{
+#colors, #colors2{
   font-family:'Lobster-Regular';
   font-size: 8vh;
   color: #cb3a35;
@@ -671,7 +671,7 @@ h3:hover{
   border: 1vh solid black;
   height: 67vh;
 }
-#colorsandpanel{
+#colorsandpanel, #colorsandpanel2{
   margin: 5vh 0;
   flex-direction: row;
   display: flex;
@@ -679,7 +679,7 @@ h3:hover{
   height: 67vh;
 }
 
-#panelcolors{
+#panelcolors, #panelcolors2{
   border:1vh solid;
   padding-left: 5vh;
   border-left: 0;
