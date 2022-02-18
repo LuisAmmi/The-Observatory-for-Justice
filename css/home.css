@@ -305,6 +305,32 @@ li {
   max-height: 35vh;
   margin: 3vh;
 }
+#MouvementDADA{
+  display: inline;
+  margin: 1vh 2vh 1vh 0;
+}
+#screenshotdesigner{
+  width: 60vh;
+  display: inline;
+  margin: 1vh;
+}
+#ABCD{
+  float: left;
+  height: 60vh;
+  margin: 1vh 2vh 1vh 0;
+}
+
+#mycollage{
+  display: block;
+  width: -webkit-fill-available;
+}
+#fontainreal{
+  display: inline;
+}
+#fontain{
+  background-color: #fff;
+  display: inline;
+}
 
 /* COLOR PALETTE--------------------------------------------------- */
 
