@@ -622,7 +622,7 @@ h3:hover{
   display: inline;
 }
 
-#fonts, #fonts2{
+#layout, #layout2{
   font-family:'UnifrakturMaguntia';
   font-size: 10vh;
   margin:10vh;
@@ -633,7 +633,7 @@ h3:hover{
   -o-transform:rotate(-55deg); /* Opera */
   transform:rotate(-55deg); /* future */
 }
-#panelfonts, #panelfonts2{
+#panellayout, #panellayout2{
   font-family:'PoiretOne-Regular';
   -moz-transform:rotate(+10deg); /* Firefox */
   -webkit-transform:rotate(+10deg); /* Webkit */
@@ -642,7 +642,7 @@ h3:hover{
   transform:rotate(+10deg); /* future */
 }
 
-#layout, #layout2{
+#fonts, #fonts2{
   font-family: "Higher";
   font-size: 15vh;
   color: #cb3a35;
@@ -650,10 +650,10 @@ h3:hover{
   padding: 3vh;
   text-align: center;
 }
-#panellayout, #panelfonts2{
+#panelfonts, #panelfonts2{
   margin: 10vh;
 }
-#cointainerlayout{
+#containerfonts{
   border: 1vh dotted;
 }
 #fontsandlayout{
