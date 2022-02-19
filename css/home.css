@@ -305,23 +305,7 @@ li {
   max-height: 35vh;
   margin: 3vh;
 }
-#MouvementDADA{
-  display: inline;
-  width: -webkit-fill-available;
-  margin: 1vh 2vh 1vh 0;
-}
 
-#ABCD{
-  float: left;
-  height: 50vh;
-  margin: 1vh 2vh 1vh 0;
-}
-
-#mycollage{
-  margin: 2vh 0;
-  display: block;
-  width: -webkit-fill-available;
-}
 #fontainreal{
   display: inline;
 }
@@ -330,8 +314,12 @@ li {
   display: inline;
   width: 50vh;
 }
-#Romanaexample, #styledoc, #bloodydoc, #fontabstract{
-  width: -webkit-fill-available;
+#MouvementDADA, #ABCD, #mycollage, #Romanaexample, #styledoc, #bloodydoc, #fontabstract{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
   margin: 1vh 0;
 }
 
