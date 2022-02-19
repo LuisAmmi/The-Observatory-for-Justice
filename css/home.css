@@ -328,6 +328,7 @@ li {
 #fontain{
   background-color: #fff;
   display: inline;
+  width: 50vh;
 }
 #Romanaexample, #styledoc, #bloodydoc, #fontabstract{
   width: -webkit-fill-available;
