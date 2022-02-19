@@ -307,14 +307,10 @@ li {
 }
 #MouvementDADA{
   display: inline;
-  height: 60vh;
+  width: -webkit-fill-available;
   margin: 1vh 2vh 1vh 0;
 }
-#screenshotdesigner{
-  width: 60vh;
-  display: inline;
-  margin: 1vh;
-}
+
 #ABCD{
   float: left;
   height: 50vh;
@@ -333,7 +329,7 @@ li {
   background-color: #fff;
   display: inline;
 }
-#Romanaexample{
+#Romanaexample, #styledoc, #bloodydoc, #fontabstract{
   width: -webkit-fill-available;
 }
 

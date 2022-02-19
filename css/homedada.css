@@ -685,17 +685,12 @@ h3:hover{
   height: 67vh;
 }
 #MouvementDADA{
-  float:left;
-  height: 60vh;
-  border: 0.5vh double black;
-  margin: 1vh 2vh 1vh 0;
-}
-#screenshotdesigner{
-  float: right;
-  width: 60vh;
   display: inline;
-  margin: 1vh;
+  width: -webkit-fill-available;
+  margin: 1vh 2vh 1vh 0;
+  border: 0.5vh double black;
 }
+
 #ABCD{
   float: right;
   height: 50vh;
@@ -724,9 +719,10 @@ h3:hover{
 #fontain{
   background-color: #fff;
   display: inline;
+  width: 50vh;
 }
-#Romanaexample{
-  width: -webkit-fill-available;
+#Romanaexample, #styledoc, #bloodydoc, #fontabstract{
+  width: 80vh;
 }
 
 .designer {
