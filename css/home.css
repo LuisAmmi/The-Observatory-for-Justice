@@ -333,6 +333,9 @@ li {
   background-color: #fff;
   display: inline;
 }
+#Romanaexample{
+  width: -webkit-fill-available;
+}
 
 /* COLOR PALETTE--------------------------------------------------- */
 

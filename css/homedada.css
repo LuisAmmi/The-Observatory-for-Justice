@@ -725,6 +725,9 @@ h3:hover{
   background-color: #fff;
   display: inline;
 }
+#Romanaexample{
+  width: -webkit-fill-available;
+}
 
 .designer {
   background-image: repeating-linear-gradient(0deg, #333333, #333333 10px, transparent 10px, transparent 20px, #333333 20px), repeating-linear-gradient(90deg, #333333, #333333 10px, transparent 10px, transparent 20px, #333333 20px), repeating-linear-gradient(180deg, #333333, #333333 10px, transparent 10px, transparent 20px, #333333 20px), repeating-linear-gradient(270deg, #333333, #333333 10px, transparent 10px, transparent 20px, #333333 20px);
