@@ -192,7 +192,7 @@
 }
 
 body{
-  background-image: url("../imgs/dada/Home collage/sfondo dada bianco.png");
+  background-image: url("../imgs/dada/Home collage/sfondodada.png");
   overflow-x: hidden;
   font-family: 'Romana BT';
   text-align: justify;
@@ -622,7 +622,7 @@ h3:hover{
   display: inline;
 }
 
-#layout, #layout2{
+#fonts, #fonts2{
   font-family:'UnifrakturMaguntia';
   font-size: 10vh;
   margin:10vh;
@@ -633,7 +633,7 @@ h3:hover{
   -o-transform:rotate(-55deg); /* Opera */
   transform:rotate(-55deg); /* future */
 }
-#panellayout, #panellayout2{
+#panelfonts, #panelfonts2{
   font-family:'PoiretOne-Regular';
   -moz-transform:rotate(+10deg); /* Firefox */
   -webkit-transform:rotate(+10deg); /* Webkit */
@@ -642,7 +642,7 @@ h3:hover{
   transform:rotate(+10deg); /* future */
 }
 
-#fonts, #fonts2{
+#layout, #layout2{
   font-family: "Higher";
   font-size: 15vh;
   color: #cb3a35;
@@ -650,17 +650,13 @@ h3:hover{
   padding: 3vh;
   text-align: center;
 }
-#panelfonts, #panelfonts2{
+#panellayout, #panelfonts2{
   margin: 10vh;
 }
-#containerfonts{
+#cointainerlayout{
   border: 1vh dotted;
 }
-#fontsandlayout{
-  flex-direction: row;
-  display: flex;
-  justify-content: space-between;
-}
+
 #colors, #colors2{
   font-family:'Lobster-Regular';
   font-size: 8vh;
