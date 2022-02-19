@@ -723,6 +723,8 @@ h3:hover{
 }
 #Romanaexample, #styledoc, #bloodydoc, #fontabstract{
   width: 80vh;
+  margin:1vh 0;
+  border: 0.5vh double black;
 }
 
 .designer {
