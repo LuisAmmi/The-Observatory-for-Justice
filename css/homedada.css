@@ -636,11 +636,7 @@ h3:hover{
 }
 #panelfonts, #panelfonts2{
   font-family:'PoiretOne-Regular';
-  -moz-transform:rotate(+10deg); /* Firefox */
-  -webkit-transform:rotate(+10deg); /* Webkit */
-  -ms-transform:rotate(+10deg); /* IE */
-  -o-transform:rotate(+10deg); /* Opera */
-  transform:rotate(+10deg); /* future */
+  text-align: right;
 }
 
 #layout, #layout2{
