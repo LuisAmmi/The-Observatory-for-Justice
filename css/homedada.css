@@ -193,6 +193,7 @@
 
 body{
   background-image: url("../imgs/dada/Home collage/sfondodada.png");
+  background-size: contain;
   overflow-x: hidden;
   font-family: 'Romana BT';
   text-align: justify;

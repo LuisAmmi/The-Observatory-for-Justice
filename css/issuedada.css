@@ -166,9 +166,9 @@
 }
 
 body {
-  background-image: url("../imgs/dada/Home collage/sfondo dada bianco.png");
-  background-attachment: fixed;
+  background-image: url("../imgs/dada/Home collage/sfondodada.png");
   background-size: contain;
+  background-attachment: fixed;
 }
 
 .container {
