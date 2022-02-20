@@ -7,8 +7,8 @@
 @font-face {
   font-family:'Inkslinger BB';
   src: local('Inkslinger BB'), url('../font/70font/Inkslinger BB.ttf') format('ttf');
-  src: local('Inkslinger BB'), url('../font/70font/Inkslinger BB.woff') format('woff');
-  src: local('Inkslinger BB'), url('../font/70font/Inkslinger BB.woff2') format('woff2');
+  src: local('InkslingerBB'), url('../font/70font/InkslingerBB.woff') format('woff');
+  src: local('InkslingerBB'), url('../font/70font/InkslingerBB.woff2') format('woff2');
 }
 
 @font-face {
