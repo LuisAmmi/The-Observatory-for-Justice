@@ -38,6 +38,9 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $("#dadaismintro").click(function(){
+    $("#paneldada").slideToggle("slow");
+  });
   $("#referencemagazine").click(function(){
     $("#panelsource").slideToggle("slow");
   });

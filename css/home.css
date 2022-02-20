@@ -314,6 +314,7 @@ li {
 #mycollage{
   display: block;
   margin: 1vh auto;
+  width: -webkit-fill-available;
 }
 
 .imgdoc{
