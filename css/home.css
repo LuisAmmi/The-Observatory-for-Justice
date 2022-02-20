@@ -306,16 +306,15 @@ li {
   margin: 3vh;
 }
 
-
 #MouvementDADA, #mycollage, #fontainreal, #Romanaexample, #Styledoc, #layoutdoc, #bloodydoc, #fontabstract{
   display: block;
   margin: 1vh auto;
   width: 60%;
 }
-#ABCD{
-  display: block;
-  margin: 1vh auto;
-  height: 40%;
+
+.imgdoc{
+  text-align: center;
+  margin-bottom: 2vh;
 }
 /* COLOR PALETTE--------------------------------------------------- */
 
