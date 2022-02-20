@@ -166,13 +166,13 @@
 }
 
 body {
-  background-image: url("../imgs/dada/Home collage/sfondodada.png");
+  background-image: url("../imgs/dada/Home collage/sfondodadarosa.png");
   background-size: contain;
   background-attachment: fixed;
 }
 
 .container {
-  background-image: url("../imgs/dada/Home collage/sfondodadaissue.png");
+  background-image: url("../imgs/dada/Home collage/sfondodada.png");
   margin-top: 5vh;
   border: #302a2c double 3vh;
   padding: 1vh;
@@ -202,7 +202,7 @@ body {
 }
 
 .navbar{
-  background-image: url("../imgs/dada/Home collage/sfondodadaissue.png");
+  background-image: url("../imgs/dada/Home collage/sfondodada.png");
   text-align: right;
   cursor: pointer;
   background-color: black;
