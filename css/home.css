@@ -306,10 +306,14 @@ li {
   margin: 3vh;
 }
 
-#MouvementDADA, #mycollage, #fontainreal, #Romanaexample, #Styledoc, #layoutdoc, #bloodydoc, #fontabstract{
+#MouvementDADA, #fontainreal, #Romanaexample, #Styledoc, #layoutdoc, #bloodydoc, #fontabstract{
   display: block;
   margin: 1vh auto;
   width: 60%;
+}
+#mycollage{
+  display: block;
+  margin: 1vh auto;
 }
 
 .imgdoc{
