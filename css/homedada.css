@@ -367,18 +367,17 @@ button:hover{
 
 #specialedition{
   z-index: 100;
+  display: block;
   position: relative;
-  padding: 7vh;
-  margin:  10vh;
+  padding: 1vh 7vh;
+  margin: 10vh auto;
   border: 2vh dotted;
-  border-right: 2vh dotted;
-
 }
 
 #hurrahurra{
   height: 80%;
   position: absolute;
-  right: 5vh;
+  right: 1vh;
   bottom:0;
 }
 #specialtext{
