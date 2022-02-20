@@ -8,9 +8,9 @@
 
 @font-face {
   font-family:'SunlightScript';
-  src: local('SunlightScript'), url('./font/70font/SunlightScript.ttf') format('ttf');
-  src: local('SunlightScript'), url('./font/70font/SunlightScript.woff') format('woff');
-  src: local('SunlightScript'), url('./font/70font/SunlightScript.woff2') format('woff2');
+  src: local('SunlightScript'), url('../font/70font/SunlightScript.ttf') format('ttf');
+  src: local('SunlightScript'), url('../font/70font/SunlightScript.woff') format('woff');
+  src: local('SunlightScript'), url('../font/70font/SunlightScript.woff2') format('woff2');
 }
 @font-face {
   font-family:'FrightNight-Outline';
