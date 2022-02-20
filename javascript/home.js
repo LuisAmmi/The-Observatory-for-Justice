@@ -100,11 +100,3 @@ function disclaimer(){
         }
       }
 };
-// Tab 1920-1970 styles
-$('#myTab a').on('click', function (e) {
-  e.preventDefault()
-  $(this).tabs('show')
-})
-
-$('#myTab a[href="#nav-1920"]').tabs('show'); // Select tab by name
-$('#myTab a[href="#nav-1970"]').tabs('show'); // Select tab by name
