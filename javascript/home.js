@@ -59,6 +59,9 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $("#comicintro").click(function(){
+    $("#panelcomic").slideToggle("slow");
+  });
   $("#referencemagazine2").click(function(){
     $("#panelsource2").slideToggle("slow");
   });
