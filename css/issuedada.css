@@ -212,7 +212,7 @@ body {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  border-bottom: 0.5vh solid #302a2c;
+  border-bottom: 0.5vh solid;
 }
 
 /* Disclaimer */
