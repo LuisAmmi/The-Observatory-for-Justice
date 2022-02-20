@@ -306,15 +306,8 @@ li {
   margin: 3vh;
 }
 
-#fontainreal{
-  display: inline;
-}
-#fontain{
-  background-color: #fff;
-  display: inline;
-  width: 50vh;
-}
-#MouvementDADA, #mycollage, #Romanaexample, #Styledoc, #layoutdoc, #bloodydoc, #fontabstract{
+
+#MouvementDADA, #mycollage, #fontainreal, #Romanaexample, #Styledoc, #layoutdoc, #bloodydoc, #fontabstract{
   display: block;
   margin: 1vh auto;
   width: 60%;
