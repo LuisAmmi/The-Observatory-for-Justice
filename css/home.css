@@ -314,15 +314,16 @@ li {
   display: inline;
   width: 50vh;
 }
-#MouvementDADA, #ABCD, #mycollage, #Romanaexample, #styledoc, #bloodydoc, #fontabstract{
+#MouvementDADA, #mycollage, #Romanaexample, #Styledoc, #layoutdoc, #bloodydoc, #fontabstract{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  text-align: center;
-  margin: 1vh 0;
+  margin: 1vh auto;
+  width: 60%;
 }
-
+#ABCD{
+  display: block;
+  margin: 1vh auto;
+  height: 40%;
+}
 /* COLOR PALETTE--------------------------------------------------- */
 
 .colorcontainer{
