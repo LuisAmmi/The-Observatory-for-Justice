@@ -187,6 +187,7 @@ img{
   max-width: -webkit-fill-available;
   border: black solid 0.5vh;
 }
+
 .nav-link{
   font-family: 'SunlightScript';
   font-size: 2.5vh;
@@ -383,6 +384,17 @@ a {
   margin: auto;
   padding: 15px;
   border: black solid 0.5vh;
+}
+figcaption{
+  font-family: Arial;
+}
+figcaption::first-letter{
+  font-size: 2vh;
+  color: #C00022;
+  display: block;
+  float: left;
+  margin: 0.04em 0.2em 0 0;
+  line-height: 1;
 }
 .subtitle{
   font-size: 2.5vh;
