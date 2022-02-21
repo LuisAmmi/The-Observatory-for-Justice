@@ -452,7 +452,13 @@ figcaption{
   line-height: 1;
   margin: 1vh;
 }
-
+.narrativeparagraph{
+  font-family: ;
+}
+#rl1, #rr1 {
+    width: 50%;
+    height: 8vh;
+}
 #tablen1, #tablen2, #tablen3 {
   -moz-transform:rotate(-180deg); /* Firefox */
   -webkit-transform:rotate(-180deg); /* Webkit */
