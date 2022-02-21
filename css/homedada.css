@@ -657,7 +657,9 @@ h3:hover{
   text-align: right;
   margin: 1vh;
 }
-
+#divfont{
+  display: inline-block;
+}
 #layout, #layout2{
   font-family: "Higher";
   font-size: 15vh;
