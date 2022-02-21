@@ -202,6 +202,9 @@ body{
   cursor: url('../imgs/dada/dadax.png') 2 2, auto;
 }
 
+button{
+  color: #cb3a34;
+}
 #collagedada{
   width: 100%;
   margin-top: 10vh;

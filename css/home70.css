@@ -104,6 +104,10 @@ body{
   cursor: url('../imgs/70/handcursor.png') 2 2, pointer;
 }
 
+button{
+  color: #cb3a34;
+}
+
 .nav-link{
   font-family: 'SunlightScript';
   font-size: 2.5vh;
