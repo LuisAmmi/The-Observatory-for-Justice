@@ -85,10 +85,10 @@
   src: local('Soopafresh'), url('../font/dadafont/Soopafresh.woff2') format('woff2');
 }
 @font-face {
-  font-family:'';
-  src: local(''), url('../font/70font/.ttf') format('ttf');
-  src: local(''), url('../font/70font/.woff') format('woff');
-  src: local(''), url('../font/70font/.woff2') format('woff2');
+  font-family:'P22PopArtComic';
+  src: local('P22PopArtComic'), url('../font/70font/P22PopArtComic.ttf') format('ttf');
+  src: local('P22PopArtComic'), url('../font/70font/P22PopArtComic.woff') format('woff');
+  src: local('P22PopArtComic'), url('../font/70font/P22PopArtComic.woff2') format('woff2');
 }
 @font-face {
   font-family:'';
