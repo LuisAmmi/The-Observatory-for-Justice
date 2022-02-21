@@ -172,7 +172,7 @@ body {
 }
 
 .container {
-  background-image: url("../imgs/dada/Home collage/sfondodada.png");
+  background-image: url("../imgs/dada/paper book.jpeg");
   margin-top: 5vh;
   border: #302a2c double 3vh;
   padding: 1vh;
@@ -202,7 +202,7 @@ body {
 }
 
 .navbar{
-  background-image: url("../imgs/dada/Home collage/sfondodada.png");
+  background-image: url("../imgs/dada/Home collage/sfondodadaissue.png");
   text-align: right;
   cursor: pointer;
   background-color: black;

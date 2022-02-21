@@ -192,7 +192,7 @@
 }
 
 body{
-  background-image: url("../imgs/dada/Home collage/sfondodada.png");
+  background-image: url("../imgs/dada/Home collage/sfondodadaissue.png");
   background-size: contain;
   overflow-x: hidden;
   font-family: 'Romana BT';
@@ -212,7 +212,7 @@ width: 100%;
 }
 
 .navbar{
-  background-image: url("../imgs/dada/Home collage/sfondodada.png");
+  background-image: url("../imgs/dada/Home collage/sfondodadaissue.png");
   text-align: right;
   cursor: url('../imgs/dada/icondada.png') 2 2, pointer;
   background-color: black;
