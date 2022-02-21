@@ -251,15 +251,8 @@ h3:hover{
    text-transform: uppercase;
  }
 
- .fonts, .sources{
-
- }
- .layout, .colors{
-
- }
-
 .designerinfo{
-   padding: 6vh 30vh 30vh 30vh;
+   padding: 6vh 30vh 15vh 30vh;
    font-size: 2.7vh;
    position: center;
    background-color: #fff;
