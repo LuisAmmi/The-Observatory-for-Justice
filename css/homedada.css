@@ -655,6 +655,7 @@ h3:hover{
 #panelfonts, #panelfonts2{
   font-family:'PoiretOne-Regular';
   text-align: right;
+  margin: 1vh;
 }
 
 #layout, #layout2{
@@ -666,8 +667,9 @@ h3:hover{
   text-align: center;
 }
 #panellayout, #panelfonts2{
-  margin: 10vh;
+  margin: 1vh;
 }
+
 #cointainerlayout{
   border: 1vh dotted;
 }
