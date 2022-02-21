@@ -214,6 +214,7 @@ img{
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  border-bottom: 0.5vh solid;
 }
 
 .icone {
@@ -356,7 +357,7 @@ button{
 
 .container {
   background-image: url("../imgs/70/sfondo bianco.png");
-  margin-top: 5vh;
+  margin-top: 13vh;
   border: black solid 1vh;
   padding: 1vh;
 }
