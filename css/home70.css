@@ -757,8 +757,15 @@ ul.images {
   background-image: url("../imgs/70/sfondo celestino.png");
 }
 
-ul.middleimages{
-  background-image: url("../imgs/70/sfondo rosa.png");
+ul.four{
+  background-image: url("../imgs/70/sfondo viola.png");
+}
+
+ul.six{
+  background-image: url("../imgs/70/sfondo verde.png");
+}
+ul.eight{
+  background-image: url("../imgs/70/sfondo lilla.png");
 }
 
 li {
