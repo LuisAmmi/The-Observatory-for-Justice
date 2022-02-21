@@ -191,6 +191,13 @@
   src: local('Soopafresh'), url('../font/dadafont/Soopafresh.woff2') format('woff2');
 }
 
+@font-face {
+  font-family:'cRAZYsTYLE';
+  src: local('cRAZYsTYLE'), url('../font/dadafont/cRAZYsTYLE.ttf') format('ttf');
+  src: local('cRAZYsTYLE'), url('../font/dadafont/cRAZYsTYLE.woff') format('woff');
+  src: local('cRAZYsTYLE'), url('../font/dadafont/cRAZYsTYLE.woff2') format('woff2');
+}
+
 body{
   background-image: url("../imgs/dada/Home collage/sfondodadaissue.png");
   background-size: contain;
@@ -613,6 +620,11 @@ h3:hover{
   left: 3vh;
   height: 50vh;
 }
+#dadaism, #comicbook{
+  font-family:'cRAZYsTYLE';
+  color: #cb3a35;
+}
+
 #sources{
   font-family: 'VanchromeFront-Regular';
   font-size: 7vh;
