@@ -700,21 +700,14 @@ h3:hover{
  #sources{
    text-align: center;
    position: relative;
-
  }
 
  #panelsource, #panelfonts2{
    margin: 10vh 1vh;
  }
- .fonts, .sources{
-
- }
- .layout, .colors{
-
- }
 
 .designer{
-   padding: 6vh 20vh 30vh 20vh;
+   padding: 5vh 20vh 5vh 20vh;
    position: center;
    text-align: justify;
    display: inline-block;
@@ -735,6 +728,7 @@ h3:hover{
 }
 #designerparagraph{
   display: inline;
+  font-family:'P22PopArtComic';
 }
 
 
