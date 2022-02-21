@@ -274,6 +274,7 @@ button{
 #specialedition{
   max-height: -webkit-fill-available;
   background-image: url("../imgs/70/sfondo rosa.png");
+  margin-top: 10vh;
 }
 #specialtext{
   font-family:'Inkslinger BB';
