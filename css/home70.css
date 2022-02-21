@@ -756,6 +756,9 @@ ul.images {
   overflow-y: hidden;
   background-image: url("../imgs/70/sfondo celestino.png");
 }
+ul.middleimages{
+  background-image: url("../imgs/70/sfondo rosa.png");
+}
 
 ul.four{
   background-image: url("../imgs/70/sfondo viola.png");
