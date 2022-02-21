@@ -285,7 +285,7 @@ body {
 }
 .modal-body {
   text-align: justify;
-  background-image: url('../imgs/dada/paper.jpeg');
+  background-image: url("../imgs/dada/paper book.jpeg");
   padding: 0vh 3vh;
   margin: 0;
 }

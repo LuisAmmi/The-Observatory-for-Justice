@@ -329,7 +329,7 @@ a:hover{
 }
 .modal-body {
   text-align: justify;
-  background-image: url('../imgs/dada/paper.jpeg');
+  background-image: url("../imgs/dada/paper book.jpeg");
   font-family: Arial;
   padding: 1vh 3vh;
   margin: 0;
@@ -622,7 +622,9 @@ h3:hover{
 }
 #dadaism, #comicbook{
   font-family:'cRAZYsTYLE';
-  color: #cb3a35;
+  color: #7F2221;
+  text-transform: lowercase;
+  font-size: 13vh;
 }
 
 #sources{
