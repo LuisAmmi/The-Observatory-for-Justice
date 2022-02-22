@@ -281,19 +281,18 @@ button{
   display: none;
 }
 #specialedition{
-  background-image: url("../imgs/70/sfondo bianco.png");
-  left: 118vh;
-  width: 65vh;
-  position: absolute;
-  top: 5vh;
-  font-size: 45vh;
-  padding-right: 7vh;
+ background-image: url("../imgs/70/sfondo giallo.png");
 }
 
 #specialtext{
+  background-image: url("../imgs/70/sfondo bianco.png");
   font-family: 'Chantilly-Serial-Heavy-Regular';
   font-size: 9vh;
   color: #0378AB;
+  left: 118vh;
+  width: 65vh;
+  position: absolute;
+  top: 10vh;
 }
 
 #finalpart{
@@ -302,10 +301,7 @@ button{
 }
 
 #policar{
-  margin-top: 3vh;
-  height: -webkit-fill-available;
-  border: 0.5vh solid;
-  margin-bottom: 8vh;
+  width: 100vh;
 }
 
 /*bubble*/
