@@ -257,10 +257,6 @@ button{
 }
 /*fine Disclaimer */
 
-#comicshomepage{
-  width: 100%;
-  display: none;
-}
 
 .hvr-bounce-in:hover{
            animation: rotate 1s linear;
