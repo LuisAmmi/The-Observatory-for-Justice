@@ -349,7 +349,7 @@ button:hover{
     cursor: pointer;
 }
 
-#endimage{
+#endimage, #artwork{
   height: 40vh;
   position: relative;
   left: 10vh;
