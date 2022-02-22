@@ -771,7 +771,7 @@ h3:hover{
  }
 
 .fotodesigner{
-  max-width: 38%;
+  width: 38%;
   float:left;
   -moz-transform:rotate(+10deg); /* Firefox */
   -webkit-transform:rotate(+10deg); /* Webkit */
@@ -788,7 +788,8 @@ h3:hover{
 }
 #designerparagraph{
   writing-mode: vertical-rl;
-  max-height: 30%;
+  height: 30%;
+  margin: 0;
 }
 #spoon{
   position: absolute;
