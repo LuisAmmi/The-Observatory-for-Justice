@@ -278,36 +278,31 @@ button{
        }
 
 #specialedition{
-  height: -webkit-fill-available;
   background-image: url("../imgs/70/sfondo bianco.png");
-  margin-top: 10vh;
+  left: 117vh;
+  width: 50vh;
+  position: absolute;
+  top: 9vh;
+  font-size: 36vh;
 }
+
 #specialtext{
   font-family:'Chantilly-Serial-Heavy-Regular';
-  font-size: 5vh;
+  font-size: 7vh;
   color: #A22428;
-
 }
-/*
-.finalpart{
-  font-family: 'AbstractGroovy';
-  text-shadow: 0;
+
+#finalpart{
+  font-family:'Chantilly-Serial-Heavy-Regular';
+  font-size: 10vh;
   color: #DDA061;
-  letter-spacing: -1vh;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
-*/
 
-.wh{
-  font-family:'Goop';
-  text-shadow: 0;
-  color: #62A1C0;
-}
-#clarabella{
-  position: relative;
-  top: -31vh;
-  left:-1vh;
+#policar{
+  margin-top: 3vh;
+  height: -webkit-fill-available;
+  border: 0.5vh solid;
+  margin-bottom: 8vh;
 }
 
 /*bubble*/
