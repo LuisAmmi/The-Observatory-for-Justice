@@ -590,9 +590,7 @@ h3{
 #markup:hover{
     animation: rotate 0.5s linear;
 }
-#styles:hover{
-    animation: rotate 0.5s linear;
-}
+
 h3:hover{
   cursor:pointer;
 }
@@ -627,10 +625,14 @@ h3:hover{
 #ingranaggio{
   background-size: contain;
 }
-#fork, #fork2{
-  position: absolute;
-  left: 3vh;
-  height: 50vh;
+#fork{
+    position: absolute;
+    bottom: -550vh;
+    left: 3vh;
+    height: 50vh;
+}
+#spiral{
+  width: 30vh;
 }
 #dadaism, #comicbook{
   font-family:'cRAZYsTYLE';
