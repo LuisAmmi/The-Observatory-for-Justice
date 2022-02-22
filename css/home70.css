@@ -282,6 +282,7 @@ button{
 }
 #specialedition{
  background-image: url("../imgs/70/sfondo giallo.png");
+ margin-top: 9vh;
 }
 
 #specialtext{
