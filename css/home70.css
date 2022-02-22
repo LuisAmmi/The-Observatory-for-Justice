@@ -276,7 +276,9 @@ button{
                transform: rotate(0deg);
            }
        }
-
+#containermultimedia{
+  display: none;
+}
 #specialedition{
   background-image: url("../imgs/70/sfondo bianco.png");
   left: 117vh;
