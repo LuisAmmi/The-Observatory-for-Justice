@@ -408,9 +408,7 @@ figcaption::first-letter{
   border: black solid 0.5vh;
   background-image: url("../imgs/70/sfondo giallo.png");
 }
- #img1art1{
 
- }
 
 .section_heading{
   padding: 2vh;
@@ -446,12 +444,15 @@ figcaption::first-letter{
   font-family: 'SunlightScript';
   font-size: 5vh;
 }
-
+#topospeaking{
+  border: 0;
+}
 .articlesubtitle{
-  font-family:'P22PopArtComic';
+  font-family: Arial;
+  text-transform: uppercase;
   position: relative;
   padding: 15px;
-  margin: 1em 0 3em;
+  margin: -1em 0 3em;
   color: #000;
   background-image: url("../imgs/70/sfondo bianchissimo.png");
   border-radius: 10px;
