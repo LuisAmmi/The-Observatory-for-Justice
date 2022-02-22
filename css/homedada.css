@@ -578,7 +578,16 @@ h3{
   padding: 2vh 0;
 }
 
-h2:hover{
+#theproject:hover{
+    animation: rotate 0.5s linear;
+}
+#documentation:hover{
+    animation: rotate 0.5s linear;
+}
+#markup:hover{
+    animation: rotate 0.5s linear;
+}
+#styles:hover{
     animation: rotate 0.5s linear;
 }
 h3:hover{
