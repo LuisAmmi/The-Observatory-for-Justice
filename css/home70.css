@@ -287,15 +287,15 @@ button{
 #specialtext{
   background-image: url("../imgs/70/sfondo bianco.png");
   font-family: 'Chantilly-Serial-Heavy-Regular';
-  font-size: 9vh;
+  font-size: 9.5vh;
   color: #0378AB;
-  left: 118vh;
-  width: 65vh;
+  left: 110vh;
+  width: 63vh;
   position: absolute;
-  top: 10vh;
-  padding-left: 2vh;
-  border-right: darkred 1vh solid;
-  border-left: darkred 1vh solid;
+  top: 9vh;
+  margin: 1vh;
+  padding: 2vh 1vh 7vh 1vh;
+  border-left: 0.5vh solid #A22428;
 }
 
 .finalpart{
@@ -305,7 +305,9 @@ button{
 
 #policar{
   width: 100vh;
-  border-right: darkred 1vh solid;
+  position: relative;
+  left: -1vh;
+  border-right: 0.5vh solid #A22428;
 }
 
 /*bubble*/
