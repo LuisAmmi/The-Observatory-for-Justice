@@ -91,6 +91,12 @@
   src: local('P22PopArtComic'), url('../font/70font/P22PopArtComic.woff2') format('woff2');
 }
 @font-face {
+  font-family:'Chantilly-Serial-Heavy-Regular';
+  src: local('Chantilly-Serial-Heavy-Regular'), url('../font/70font/Chantilly-Serial-Heavy-Regular.ttf') format('ttf');
+  src: local('Chantilly-Serial-Heavy-Regular'), url('../font/70font/Chantilly-Serial-Heavy-Regular.woff') format('woff');
+  src: local('Chantilly-Serial-Heavy-Regular'), url('../font/70font/Chantilly-Serial-Heavy-Regular.woff2') format('woff2');
+}
+@font-face {
   font-family:'';
   src: local(''), url('../font/70font/.ttf') format('ttf');
   src: local(''), url('../font/70font/.woff') format('woff');
@@ -276,20 +282,14 @@ button{
        }
 
 #specialedition{
-  max-height: -webkit-fill-available;
-  background-image: url("../imgs/70/sfondo rosa.png");
+  height: -webkit-fill-available;
+  background-image: url("../imgs/70/sfondo bianco.png");
   margin-top: 10vh;
 }
 #specialtext{
-  font-family:'Inkslinger BB';
-  background-image: url("../imgs/70/nuvola2.png");
-  background-repeat: no-repeat;
-  display: flex;
-  position: relative;
-  left: 70vh;
-  font-size: 3vh;
-  text-align: center;
-  padding: 10% 20% 20% 20%;
+  font-family:'Chantilly-Serial-Heavy-Regular';
+  font-size: 5vh;
+  color: #A22428;
 
 }
 /*
@@ -675,8 +675,8 @@ hr{
   flex-direction: row;
   display: flex;
   position: relative;
-  top: -35vh;
-  left: 40vh;
+  top: 0;
+  left: 20vh;
 }
 
 #styleparagraph{
