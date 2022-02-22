@@ -349,11 +349,10 @@ button:hover{
     cursor: pointer;
 }
 
-#img1art1{
-
-}
-
-#img1art2 {
+#endimage{
+  height: 40vh;
+  position: relative;
+  left: 10vh;
 }
 
 .img3art2{
