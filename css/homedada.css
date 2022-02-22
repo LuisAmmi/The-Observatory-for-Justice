@@ -515,7 +515,7 @@ hr{
   text-transform: uppercase;
 }
 #markupparagraph{
-  padding: 4vh 10vh 10vh 10vh;
+  padding: 4vh 20vh 10vh 10vh;
   font-size: 2vh;
   position: center;
   text-align: justify;
@@ -635,6 +635,9 @@ h3:hover{
 }
 #spiral{
   width: 30vh;
+  position: relative;
+  left: 75vh;
+  top: -65vh;
 }
 #dadaism, #comicbook{
   font-family:'cRAZYsTYLE';
