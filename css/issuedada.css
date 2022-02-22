@@ -23,7 +23,9 @@
 
 @font-face {
     font-family: 'Romana BT';
-    src: local('Romana BT'), url('../font/dadafont/romana-bt-roman.ttf') format('ttf');
+    src: local('romana-bt-roman'), url('../font/dadafont/romana-bt-roman.ttf') format('ttf');
+    src: local('RomanaBT-Roman'), url('../font/dadafont/RomanaBT-Roman.woff') format('woff');
+    src: local('RomanaBT-Roman'), url('../font/dadafont/RomanaBT-Roman.woff2') format('woff2');
   }
 
 @font-face {

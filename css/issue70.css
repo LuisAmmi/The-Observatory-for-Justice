@@ -190,7 +190,7 @@ body{
 }
 
 img{
-  max-width: -webkit-fill-available;
+  width: -webkit-fill-available;
   border: black solid 0.5vh;
 }
 
