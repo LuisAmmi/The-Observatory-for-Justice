@@ -627,7 +627,7 @@ h3:hover{
 #ingranaggio{
   background-size: contain;
 }
-#fork{
+#fork, #fork2{
   position: absolute;
   left: 3vh;
   height: 50vh;
@@ -648,7 +648,7 @@ h3:hover{
   display: inline;
 }
 
-#hand{
+#hand, #hand2{
   width: 15vh;
   display: inline;
 }
