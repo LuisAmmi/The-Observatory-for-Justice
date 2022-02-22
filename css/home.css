@@ -171,6 +171,9 @@ button{
   max-height: inherit;
 }
 
+#possibleadd{
+  display: none;
+}
 .issue{
   z-index: 100;
   position: relative;

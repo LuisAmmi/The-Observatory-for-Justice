@@ -431,6 +431,9 @@ button:hover{
 .container{
   max-height: inherit;
 }
+#possibleadd{
+  display: none;
+}
 
 #magazineparagraph{
   z-index: 100;
@@ -638,6 +641,24 @@ h3:hover{
   position: relative;
   left: 75vh;
   top: -65vh;
+}
+#spiral:hover{
+  animation: rotate 1s linear;
+}
+
+@keyframes rotate{
+  0%{
+      transform: rotate(0deg);
+  }
+  25%{
+      transform: rotate(90deg);
+  }
+  50%{
+      transform: rotate(180deg);
+  }
+  100%{
+      transform: rotate(0deg);
+  }
 }
 #dadaism, #comicbook{
   font-family:'cRAZYsTYLE';
