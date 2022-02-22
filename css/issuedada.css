@@ -474,7 +474,7 @@ figcaption{
 
 #rl1, #rr1 {
     width: 50%;
-    height: 8vh;
+    height: 25vh;
 }
 #tablen1, #tablen2, #tablen3 {
   -moz-transform:rotate(-180deg); /* Firefox */
