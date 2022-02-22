@@ -602,13 +602,12 @@ hr{
   bottom: -8vh;
   margin: 0;
 }
-#markup{
+#markup, #styles{
   font-family:'MissAmandaJonesExp';
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
   color: #C00022;
   flex-direction: row;
   display: flex;
-  font-family: 'MissAmandaJonesExp';
   position: relative;
   top: -35vh;
   left: 40vh;
@@ -651,7 +650,8 @@ hr{
   display: inline;
   transform: rotate(+10deg);
 }
-#markupparagraph{
+
+#markupparagraph, #styleparagraph{
   font-family: Arial;
   padding: 10vh;
   margin-top: -45vh;
@@ -660,7 +660,7 @@ hr{
   column-gap: 5vh;
   column-rule: 0.5vh solid;
 }
-#markupparagraph::first-letter {
+#markupparagraph::first-letter, #styleparagraph::first-letter {
   font-size: 5vh;
   color: #C00022;
   display: block;
@@ -670,23 +670,21 @@ hr{
 }
 #styles{
   padding: 0;
-}
-#styleparagraph{
-  font-family: Arial;
-  padding: 10vh;
-  font-size: 2vh;
-  column-count: 2;
-  column-gap: 5vh;
-  column-rule: 0.5vh solid;
-}
-#styleparagraph::first-letter {
-  font-size: 5vh;
   color: #C00022;
-  display: block;
-  float: left;
-  margin: 0.04em 0.2em 0 0;
-  line-height: 1;
+  top: 0;
+  left: 0;
 }
+
+#styleparagraph{
+  margin-top: 1vh;
+}
+#s{}
+#t{}
+#y{}
+#l{}
+#e{}
+#s2{}
+
 
 h3{
   text-align: center;
