@@ -602,7 +602,7 @@ hr{
   bottom: -8vh;
   margin: 0;
 }
-#markup, #styles{
+#markup {
   font-family:'MissAmandaJonesExp';
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
   color: #C00022;
@@ -669,10 +669,14 @@ hr{
   line-height: 1;
 }
 #styles{
-  padding: 0;
-  color: #C00022;
-  top: 0;
-  left: 0;
+  font-family:'MissAmandaJonesExp';
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  color: #;
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  top: -35vh;
+  left: 40vh;
 }
 
 #styleparagraph{
