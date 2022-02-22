@@ -585,6 +585,7 @@ figcaption::first-letter{
 
 .narrativeparagraph::first-letter {
   font-size: 8vh;
+  margin: 0.04em 0.2em 0 0;
 }
 
 .narrativeparagraph::after {
