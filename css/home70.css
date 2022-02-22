@@ -293,6 +293,9 @@ button{
   width: 65vh;
   position: absolute;
   top: 10vh;
+  padding-left: 2vh;
+  border-right: darkred 1vh solid;
+  border-left: darkred 1vh solid;
 }
 
 .finalpart{
@@ -302,6 +305,7 @@ button{
 
 #policar{
   width: 100vh;
+  border-right: darkred 1vh solid;
 }
 
 /*bubble*/
