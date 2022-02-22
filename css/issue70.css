@@ -583,7 +583,7 @@ figcaption::first-letter{
 }
 
 .narrativeparagraph::first-letter {
-  font-size: 5vh;
+  font-size: 8vh;
 }
 
 .narrativeparagraph::after {
