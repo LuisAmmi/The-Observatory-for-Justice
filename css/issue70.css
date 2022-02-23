@@ -212,7 +212,7 @@ img{
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
 .navbar-brand{
-  font-family: 'Chantilly-Serial-Heavy-Regular';
+  font-family:'WickedMouse';
   text-transform: uppercase;
   color: #f8221f;
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
@@ -431,12 +431,12 @@ figcaption::first-letter{
 }
 .subsection_heading{
   font-family: 'Chantilly-Serial-Heavy-Regular';
-  color: #0378AB;
-  font-size: 3vh;
+  color: #A22428;
+  font-size: 5vh;
 }
 #tablen1, #tablen2, #tablen3{
   font-family:'WickedMouse';
-  font-size: 2vh;
+  font-size: 8vh;
 }
 #references2, #references3 {
   padding: 2vh;
