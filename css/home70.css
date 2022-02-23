@@ -780,6 +780,7 @@ ul.images {
   height: 40vh;
   overflow-x: scroll;
   overflow-y: hidden;
+  cursor: url('../imgs/base/icons8-browser-50.png') 2 2, pointer;
   background-image: url("../imgs/70/sfondo celestino.png");
 }
 ul.middleimages{
