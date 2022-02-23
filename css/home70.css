@@ -731,7 +731,10 @@ h3:hover{
  #panelsource, #panelfonts2{
    margin: 10vh 1vh;
  }
-
+#minicinex{
+  padding: 5vh;
+  width: inherit;
+}
 .designer{
    padding: 5vh 20vh 5vh 20vh;
    position: center;
@@ -745,16 +748,19 @@ h3:hover{
 }
 
 .fotodesigner{
-  display: inline;
+  float: left;
   border: 1vh;
   max-width: 30%;
   border: solid black;
   border-width: 3px 3px 5px 5px;
-  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
 }
 #designerparagraph{
-  display: inline;
-  font-family:'P22PopArtComic';
+  text-align: left;
+  float: right;
+  font-family: Arial;
+  text-transform: uppercase;
+  width: 75vh;
 }
 
 
