@@ -97,12 +97,17 @@
   src: local('Chantilly-Serial-Heavy-Regular'), url('../font/70font/Chantilly-Serial-Heavy-Regular.woff2') format('woff2');
 }
 @font-face {
+  font-family:'Aura';
+  src: local('Aura'), url('../font/70font/Aura.ttf') format('ttf');
+  src: local('Aura'), url('../font/70font/Aura.woff') format('woff');
+  src: local('Aura'), url('../font/70font/Aura.woff2') format('woff2');
+}
+@font-face {
   font-family:'';
   src: local(''), url('../font/70font/.ttf') format('ttf');
   src: local(''), url('../font/70font/.woff') format('woff');
   src: local(''), url('../font/70font/.woff2') format('woff2');
 }
-
 body{
   background-image: url("../imgs/70/sfondo bianco.png");
   font-family:'Inkslinger BB';
@@ -722,6 +727,9 @@ hr{
 
 
 h3{
+  font-family:'Aura';
+  font-size: 10vh;
+  color: #3C96B8;
   text-align: center;
   padding: 2vh 0;
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
