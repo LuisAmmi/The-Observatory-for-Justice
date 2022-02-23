@@ -348,8 +348,10 @@ button:hover{
     margin-right: 2vh;
     cursor: pointer;
 }
-
-#endimage, #artwork{
+#artwork{
+  height: 60vh
+}
+#endimage{
   height: 40vh;
   position: relative;
   left: 10vh;
