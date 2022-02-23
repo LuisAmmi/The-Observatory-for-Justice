@@ -551,7 +551,7 @@ hr{
   float: inherit;
   padding: 2vh;
   border-left: 2vh double;
-  margin: 5vh 0;
+  margin: -40vh 0 5vh;
 }
 
 #documentation{
@@ -639,7 +639,7 @@ h3:hover{
 }
 #fork{
     position: absolute;
-    bottom: -550vh;
+    bottom: -500vh;
     left: 3vh;
     height: 50vh;
 }
