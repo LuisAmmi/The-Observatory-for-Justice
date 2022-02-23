@@ -209,7 +209,7 @@ body{
   text-align: justify;
   line-height: 1;
   font-size: 14px;
-  cursor: url('../imgs/dada/dadax.png') 2 2, auto;
+  cursor: url('../imgs/dada/icons8-center-of-gravity-26.png'), auto;
 }
 
 button{
@@ -228,7 +228,6 @@ button{
 .navbar{
   background-image: url("../imgs/dada/Home collage/sfondodadaissue.png");
   text-align: right;
-  cursor: url('../imgs/dada/icondada.png') 2 2, pointer;
   background-color: black;
   margin-right: 0;
   flex-direction: row;
@@ -252,14 +251,14 @@ a {
 a:hover{
   opacity: 50%;
   color: #b94842;
-  cursor: url('../imgs/dada/fingercursor.png') 2 2, pointer);
+  cursor: url('../imgs/dada/icons8-hand-cursor-50.png'), auto;
 }
 
 .icone {
     width: 6vh;
     margin-left: 2vh;
     margin-right: 2vh;
-    cursor: pointer;
+  cursor: url('../imgs/dada/icons8-hand-cursor-50.png'), auto;
 }
 
 /* Disclaimer */
@@ -313,7 +312,7 @@ a:hover{
 .close:hover, .close:focus {
   color: #000;
   text-decoration: none;
-  cursor: pointer;
+  cursor: url('../imgs/dada/icons8-hand-cursor-50.png'), auto;
 }
 
 .modal-header {
@@ -357,7 +356,7 @@ button{
 button:hover{
   opacity: 50%;
   color: #b94842;
-  cursor: url('../imgs/dada/fingercursor.png') 2 2, pointer);
+  cursor: url('../imgs/dada/icons8-hand-cursor-50.png'), auto;
 }
 /*fine Disclaimer */
 
@@ -605,7 +604,7 @@ h3{
 }
 
 h3:hover{
-  cursor:pointer;
+  cursor: url('../imgs/dada/icons8-hand-cursor-50.png'), auto;
 }
 
 @keyframes rotate{
