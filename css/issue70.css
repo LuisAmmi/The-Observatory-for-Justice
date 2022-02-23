@@ -430,6 +430,11 @@ figcaption::first-letter{
   border: black solid 0.5vh;
   background-image: url("../imgs/70/sfondo verde.png");
 }
+.subsection_heading{
+  font-family: 'Chantilly-Serial-Heavy-Regular';
+  color: #0378AB;
+  font-size: 3vh;
+}
 #references2, #references3 {
   padding: 2vh;
   border: black solid 0.5vh;
