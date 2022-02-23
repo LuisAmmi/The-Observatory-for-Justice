@@ -416,10 +416,12 @@ figcaption::first-letter{
 }
 .subtitle{
   font-family:'Aura';
-  font-size: 2.5vh;
-  padding: 1vh;
-  border: black solid 0.5vh;
-  background-image: url("../imgs/70/sfondo giallo.png");
+  font-family: 'Mad Scientist W01 Regular';
+  font-size: 4vh;
+  text-align: left;
+  border: 0;
+  color: #218383;
+  background-image: url("../imgs/70/sfondo rosa.png");
 }
 
 .section_heading{
