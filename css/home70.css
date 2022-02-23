@@ -288,6 +288,7 @@ button{
 #specialedition{
  background-image: url("../imgs/70/sfondo giallo.png");
  margin-top: 9vh;
+ height: 85vh;
 }
 
 #specialtext{
@@ -297,9 +298,10 @@ button{
   color: #0378AB;
   left: 110vh;
   width: 63vh;
-  position: absolute;
-  top: 9vh;
-  margin: 1vh;
+  position: relative;
+  top: -84vh;
+  left: 100vh;
+  height: 84vh;
   padding: 2vh 1vh 7vh 1vh;
   border-left: 0.5vh solid #A22428;
 }
