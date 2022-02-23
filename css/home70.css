@@ -103,6 +103,12 @@
   src: local('Aura'), url('../font/70font/Aura.woff2') format('woff2');
 }
 @font-face {
+  font-family:'WickedMouse';
+  src: local('WickedMouse'), url('../font/70font/WickedMouse.ttf') format('ttf');
+  src: local('WickedMouse'), url('../font/70font/WickedMouse.woff') format('woff');
+  src: local('WickedMouse'), url('../font/70font/WickedMouse.woff2') format('woff2');
+}
+@font-face {
   font-family:'';
   src: local(''), url('../font/70font/.ttf') format('ttf');
   src: local(''), url('../font/70font/.woff') format('woff');

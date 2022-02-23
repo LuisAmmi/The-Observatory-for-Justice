@@ -173,10 +173,10 @@
   src: local('Aura'), url('../font/70font/Aura.woff2') format('woff2');
 }
 @font-face {
-  font-family:'';
-  src: local(''), url('../font/70font/.ttf') format('ttf');
-  src: local(''), url('../font/70font/.woff') format('woff');
-  src: local(''), url('../font/70font/.woff2') format('woff2');
+  font-family:'WickedMouse';
+  src: local('WickedMouse'), url('../font/70font/WickedMouse.ttf') format('ttf');
+  src: local('WickedMouse'), url('../font/70font/WickedMouse.woff') format('woff');
+  src: local('WickedMouse'), url('../font/70font/WickedMouse.woff2') format('woff2');
 }
 
 @font-face {
@@ -434,6 +434,10 @@ figcaption::first-letter{
   font-family: 'Chantilly-Serial-Heavy-Regular';
   color: #0378AB;
   font-size: 3vh;
+}
+#tablen1, #tablen2, #tablen3{
+  font-family:'WickedMouse';
+  font-size: 2vh;
 }
 #references2, #references3 {
   padding: 2vh;
