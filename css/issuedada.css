@@ -544,7 +544,9 @@ a:hover{
   display: block;
   text-align: center;
 }
-
+#badapples{
+  display: none;
+}
 .quote {
   font-family: 'Lobster-Regular';
 }
