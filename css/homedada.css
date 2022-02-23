@@ -223,6 +223,7 @@ button{
 .navbar-brand{
   font-family:'Jadefedgah80';
   letter-spacing: 0;
+  cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
 
 .navbar{
