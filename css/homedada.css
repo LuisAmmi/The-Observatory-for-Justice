@@ -604,9 +604,6 @@ h3{
 #documentation:hover{
     animation: rotate 0.5s linear;
 }
-#markup:hover{
-    animation: rotate 0.5s linear;
-}
 
 h3:hover{
   cursor:pointer;
