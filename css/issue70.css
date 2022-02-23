@@ -167,6 +167,12 @@
   src: local('Chantilly-Serial-Heavy-Regular'), url('../font/70font/Chantilly-Serial-Heavy-Regular.woff2') format('woff2');
 }
 @font-face {
+  font-family:'Aura';
+  src: local('Aura'), url('../font/70font/Aura.ttf') format('ttf');
+  src: local('Aura'), url('../font/70font/Aura.woff') format('woff');
+  src: local('Aura'), url('../font/70font/Aura.woff2') format('woff2');
+}
+@font-face {
   font-family:'';
   src: local(''), url('../font/70font/.ttf') format('ttf');
   src: local(''), url('../font/70font/.woff') format('woff');
@@ -409,12 +415,12 @@ figcaption::first-letter{
   line-height: 1;
 }
 .subtitle{
+  font-family:'Aura';
   font-size: 2.5vh;
   padding: 1vh;
   border: black solid 0.5vh;
   background-image: url("../imgs/70/sfondo giallo.png");
 }
-
 
 .section_heading{
   padding: 2vh;
