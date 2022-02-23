@@ -161,6 +161,12 @@
   src: local('P22PopArtComic'), url('../font/70font/P22PopArtComic.woff2') format('woff2');
 }
 @font-face {
+  font-family:'Chantilly-Serial-Heavy-Regular';
+  src: local('Chantilly-Serial-Heavy-Regular'), url('../font/70font/Chantilly-Serial-Heavy-Regular.ttf') format('ttf');
+  src: local('Chantilly-Serial-Heavy-Regular'), url('../font/70font/Chantilly-Serial-Heavy-Regular.woff') format('woff');
+  src: local('Chantilly-Serial-Heavy-Regular'), url('../font/70font/Chantilly-Serial-Heavy-Regular.woff2') format('woff2');
+}
+@font-face {
   font-family:'';
   src: local(''), url('../font/70font/.ttf') format('ttf');
   src: local(''), url('../font/70font/.woff') format('woff');
