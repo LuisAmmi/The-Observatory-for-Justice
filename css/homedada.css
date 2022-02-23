@@ -847,11 +847,12 @@ h3:hover{
 #lower{
   font-size: 10vh;
 }
+
 #designertitle:hover{
-  animation: change 2s linear;
+  animation: decrease 2s linear;
 }
 
-@keyframes change{
+@keyframes decrease{
   0%{
       font-size: 20vh;
   }
