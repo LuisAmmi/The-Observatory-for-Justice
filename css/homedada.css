@@ -652,10 +652,10 @@ h3:hover{
     height: 50vh;
 }
 #spiral{
-  width: 30vh;
+  width: 40vh;
   position: relative;
   left: 75vh;
-  top: -65vh;
+  top: -60vh;
 }
 #spiral:hover{
   animation: round 1s linear;
