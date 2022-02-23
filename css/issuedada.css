@@ -200,6 +200,7 @@ body {
 .navbar-brand{
   font-family:'Jadefedgah80';
   letter-spacing: 0;
+  cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 
 }
 
@@ -215,6 +216,9 @@ body {
   margin-bottom: 0;
   list-style: none;
   border-bottom: 0.5vh solid;
+}
+.nav-link{
+  cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
 
 /* Disclaimer */
@@ -299,7 +303,7 @@ body {
   color: white;
 }
 
-button{
+nav{
   border: none;
   background-color: inherit;
   font-family: Arial;
@@ -519,6 +523,7 @@ a {
 a:hover{
   opacity: 50%;
   color: #b94842;
+  cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
 
 .possiblepolygon{

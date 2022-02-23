@@ -237,7 +237,9 @@ button{
   list-style: none;
   border-bottom: 0.5vh solid;
 }
-
+.nav-link{
+  cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
+}
 a {
   overflow-wrap: break-word;
   word-break: break-all;
