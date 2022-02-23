@@ -554,7 +554,7 @@ hr{
   float: inherit;
   padding: 2vh;
   border-left: 2vh double;
-  margin: -40vh 0 5vh;
+  margin: -55vh 0 5vh;
 }
 
 #documentation{
@@ -650,7 +650,7 @@ h3:hover{
   width: 40vh;
   position: relative;
   left: 75vh;
-  top: -60vh;
+  top: -100vh;
 }
 #spiral:hover{
   animation: round 1s linear;
