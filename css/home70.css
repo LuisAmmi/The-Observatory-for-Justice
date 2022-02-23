@@ -148,7 +148,7 @@ button{
     width: 6vh;
     margin-left: 2vh;
     margin-right: 2vh;
-  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+    cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
 
 a {
@@ -717,6 +717,7 @@ hr{
 h3{
   text-align: center;
   padding: 2vh 0;
+  cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
        }
 h3:hover{
