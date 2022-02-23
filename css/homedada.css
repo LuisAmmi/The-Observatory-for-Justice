@@ -409,9 +409,7 @@ button:hover{
   margin-bottom: 0;
   padding-bottom: 0;
 }
-.wh:hover{
-  letter-spacing: 1.5vh;
-}
+
 .wh:hover{
   animation: expand 2s linear;
 }
@@ -679,6 +677,27 @@ h3:hover{
   color: #7F2221;
   text-transform: lowercase;
   font-size: 13vh;
+}
+#dadaism:hover, #comicbook:hover{
+  animation: expand 2s linear;
+}
+
+@keyframes expand{
+  0%{
+      letter-spacing: normal;
+  }
+  30%{
+      letter-spacing: 1.5vh;
+  }
+  50%{
+      letter-spacing: 2vh;
+  }
+  80%{
+    letter-spacing: 2.5vh;
+  }
+  100%{
+      letter-spacing: 0.5vh;
+  }
 }
 
 #sources{
