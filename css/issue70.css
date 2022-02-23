@@ -487,13 +487,6 @@ figcaption::first-letter{
   margin-top: 2vh;
   border: 0;
 }
-
-#articletitle1::after {
-  content: "  💣";
-  margin-right: 15px;
-  font-size: 20px;
-}
-
 #articletitle2{
   font-family:'Mad Scientist W01 Regular';
   font-size: 4vh;
