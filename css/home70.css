@@ -766,7 +766,7 @@ h3:hover{
 
  #panelsource, #panelfonts2{
  }
- 
+
  #mycollage{
    margin: 4vh 0;
    display: block;
@@ -834,6 +834,7 @@ h3:hover{
   font-family: Arial;
   text-transform: uppercase;
   width: 75vh;
+  background-image: url("../imgs/70/fumettodesigner.png");
 }
 
 
