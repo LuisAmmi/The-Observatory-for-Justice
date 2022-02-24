@@ -204,6 +204,7 @@ body{
 img{
   width: -webkit-fill-available;
   border: black solid 0.5vh;
+  margin-bottom: 1vh;
 }
 
 .nav-link{
@@ -542,7 +543,8 @@ figcaption::first-letter{
 
 #header3{
   margin:0;
-  background-image: url("../imgs/70/topolino 771.jpeg");
+  height: 100vh;
+  background-image: url("../imgs/70/header3.jpeg");
 }
 
 #bloody{
