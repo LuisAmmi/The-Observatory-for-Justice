@@ -444,6 +444,7 @@ figcaption::first-letter{
   font-family: 'Chantilly-Serial-Heavy-Regular';
   color: #A22428;
   font-size: 5vh;
+  text-align: right;
 }
 #tablen1, #tablen2, #tablen3{
   font-family:'WickedMouse';
