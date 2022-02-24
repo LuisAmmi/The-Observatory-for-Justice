@@ -830,8 +830,9 @@ h3:hover{
   float: right;
   font-family: Arial;
   text-transform: uppercase;
-  width: 75vh;
+  width: 58vh;
   background-image: url("../imgs/70/fumettodesigner.png");
+  background-repeat: no-repeat;
 }
 
 
