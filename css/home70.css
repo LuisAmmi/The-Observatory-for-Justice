@@ -320,6 +320,7 @@ button{
   height: 84vh;
   padding: 2vh 1vh 7vh 1vh;
   border-left: 0.5vh solid #A22428;
+  border-right: 0.5vh solid #A22428;
 }
 
 .finalpart{
