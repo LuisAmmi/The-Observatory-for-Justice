@@ -555,6 +555,9 @@ figcaption::first-letter{
   margin:0;
   height: 100vh;
   background-image: url("../imgs/70/header3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2vh;
 }
 
 #bloody{
