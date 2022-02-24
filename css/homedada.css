@@ -862,7 +862,10 @@ h3:hover{
   right: 0;
   height: 60vh;
 }
-
+figcaption{
+  color: darkred;
+  font-family: 'cRAZYsTYLE';
+}
 footer{
   font-size: 1.8vh;
 }
