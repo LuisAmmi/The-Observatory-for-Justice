@@ -771,8 +771,10 @@ h3:hover{
  #MouvementDADA, #Romanaexample, #Styledoc, #layoutdoc, #fontabstract{
    display: block;
    margin: 1vh auto;
-   width: 60%;
-   border: 0.5vh double black;
+   width: 70%;
+   border: solid 1vh #ffb940;
+   border-radius: 16%;
+   padding: 1vh;
  }
  #fontainreal{
    display: block;
@@ -784,7 +786,7 @@ h3:hover{
    margin-bottom: 2vh;
    display: block;
    margin: 1vh auto;
-   width: 60%;
+   width: 70%;
  }
  #mycollage{
    display: block;
