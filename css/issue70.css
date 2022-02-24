@@ -539,7 +539,7 @@ figcaption::first-letter{
   -o-transform:rotate(-10deg); /* Opera */
   transform:rotate(-10deg); /* future */
   margin-bottom: 4vh;
-  background-image: url("../imgs/70/sfondo rosa chiaro.png");
+  background-image: url("../imgs/70/cerchiogiallo.png");
 }
 
 #header1{
