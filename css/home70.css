@@ -749,6 +749,13 @@ h3:hover{
    text-align: center;
    position: relative;
  }
+ #paneldada{
+   font-family: Arial;
+   text-transform: uppercase;
+   font-size: 2vh;
+   padding: 0vh 10vh;
+   background-image: url("../imgs/70/sfondo lilla.png");
+ }
 
  #panelsource, #panelfonts2{
    margin: 10vh 1vh;
