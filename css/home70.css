@@ -784,6 +784,18 @@ h3:hover{
    margin: 1vh auto;
    height: 40%;
  }
+ .imgdoc{
+   text-align: center;
+   margin-bottom: 2vh;
+   display: block;
+   margin: 1vh auto;
+   width: 60%;
+ }
+ #mycollage{
+   display: block;
+   margin: 1vh auto;
+   width: -webkit-fill-available;
+ }
 
 #minicinex{
   padding: 5vh;
