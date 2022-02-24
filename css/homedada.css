@@ -725,7 +725,7 @@ h3:hover{
 }
 #panelfonts, #panelfonts2{
   font-family:'PoiretOne-Regular';
-  text-align: right;
+  text-align: justify;
   margin: 1vh;
 }
 #divfont{
