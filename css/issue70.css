@@ -541,7 +541,11 @@ figcaption::first-letter{
   margin-bottom: 4vh;
   background-image: url("../imgs/70/cerchiogiallo.png");
 }
+#ma{
+  font-family: Arial;
+  font-size: 2vh;
 
+}
 #header1{
   margin:0;
   background-image: url("../imgs/70/sfondo giallo.png");
