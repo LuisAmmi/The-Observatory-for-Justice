@@ -753,7 +753,8 @@ h3:hover{
    font-family: Arial;
    text-transform: uppercase;
    font-size: 2vh;
-   padding: 0vh 10vh;
+   margin: 0vh 10vh;
+   padding: 2vh;
    background-image: url("../imgs/70/sfondo lilla.png");
  }
 
