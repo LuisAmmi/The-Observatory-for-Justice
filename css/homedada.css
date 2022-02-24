@@ -777,17 +777,6 @@ h3:hover{
   border: 0.5vh double black;
 }
 
-#ABCD{
-  float: right;
-  height: 50vh;
-  margin: 2vh 0 1vh 2vh;
-  -moz-transform:rotate(-10deg); /* Firefox */
-  -webkit-transform:rotate(-10deg); /* Webkit */
-  -ms-transform:rotate(-10deg); /* IE */
-  -o-transform:rotate(-10deg); /* Opera */
-  transform:rotate(-10deg); /* future */
-}
-
 #mycollage{
   margin: 4vh 0;
   display: block;
@@ -802,11 +791,7 @@ h3:hover{
 #fontainreal{
   display: inline;
 }
-#fontain{
-  background-color: #fff;
-  display: inline;
-  width: 50vh;
-}
+
 #Romanaexample, #styledoc, #bloodydoc, #fontabstract{
   width: 80vh;
   margin:1vh 0;
