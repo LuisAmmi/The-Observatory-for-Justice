@@ -19,7 +19,7 @@ $(document).ready(function(){
     $("#possibleaddfeature").html('<blockquote class="bubble speech" id="quote">Nobody wants to listen to what this story has to say. That is about <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascism</span>. There are plenty of rumours that the police and carabinieri and prison staff belonged to <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascist</span> groups, but no evidence to support that.<span class="mention person" about="Massimo Pastore" id="?">Pastore</span> argues that that misses the bigger point: "It is not just a matter of a few drunken <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascists</span>. This is mass behaviour by the police. No one said "No." This is a culture of <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascism</span>.</blockquote> <img id="angrypaperino" src="imgs/70/paperinoquestion.jpg"><p>At its heart, this involved what <span class="mention person" about="Enrico Zucca" id="?">Zucca</span> described in his report as "a situation in which every rule of law appears to have been suspended."</p>');
     $("#end").html('<img id="quofine" src="imgs/70/quofine.png">');
     $('#badapples').html('<img id="dolceforno" alt="old advertising about the so-called Dolce Forno" src="imgs/70/dolceforno.jpg">');
-    $('#evidencebased').html('<img id="" alt="old advertising about " src="imgs/70/dolceforno.jpg">');
+    $('#evidencebased').html('<img id="barbie" alt="old advertising about Barbie&rsquo;s dolls" src="Documentation/topolino/advertising/n982.jpeg">');
   });
 });
 
