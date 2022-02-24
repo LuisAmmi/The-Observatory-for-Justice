@@ -460,7 +460,6 @@ figcaption::first-letter{
   font-family: 'BackIssuesBB-BoldItalic', sans-serif;
   font-size: 4vh;
   padding: 1vh;
-  border: black solid 0.5vh;
 }
 
 .articledate, .geoinfo, .linkandinfo {

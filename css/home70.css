@@ -768,7 +768,7 @@ h3:hover{
  }
 
 
- #MouvementDADA, #Romanaexample, #Styledoc, #layoutdoc, #fontabstract{
+ #MouvementDADA, #Romanaexample, #Styledoc, #layoutdoc, #triangle, #issuedistortion, #imgscontornate {
    display: block;
    margin: 1vh auto;
    width: 70%;
@@ -776,10 +776,16 @@ h3:hover{
    border-radius: 16%;
    padding: 1vh;
  }
+ #triangle, #issuedistortion, #imgscontornate {
+    border: solid 1vh #77A253;
+ }
  #fontainreal{
    display: block;
    margin: 1vh auto;
    height: 40%;
+   border: solid 1vh #066895;
+   border-radius: 16%;
+   padding: 1vh;
  }
  .imgdoc{
    text-align: center;
