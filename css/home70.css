@@ -767,17 +767,6 @@ h3:hover{
  #panelsource, #panelfonts2{
  }
 
- #mycollage{
-   margin: 4vh 0;
-   display: block;
-   width: -webkit-fill-available;
-   -moz-transform:rotate(+2deg); /* Firefox */
-   -webkit-transform:rotate(+2deg); /* Webkit */
-   -ms-transform:rotate(+2deg); /* IE */
-   -o-transform:rotate(+2deg); /* Opera */
-   transform:rotate(+2deg); /* future */
-   border: 1vh solid;
- }
 
  #MouvementDADA, #Romanaexample, #Styledoc, #layoutdoc, #fontabstract{
    display: block;
