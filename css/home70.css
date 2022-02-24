@@ -761,6 +761,30 @@ h3:hover{
  #panelsource, #panelfonts2{
    margin: 10vh 1vh;
  }
+ #mycollage{
+   margin: 4vh 0;
+   display: block;
+   width: -webkit-fill-available;
+   -moz-transform:rotate(+2deg); /* Firefox */
+   -webkit-transform:rotate(+2deg); /* Webkit */
+   -ms-transform:rotate(+2deg); /* IE */
+   -o-transform:rotate(+2deg); /* Opera */
+   transform:rotate(+2deg); /* future */
+   border: 1vh solid;
+ }
+
+ #MouvementDADA, #Romanaexample, #Styledoc, #layoutdoc, #fontabstract{
+   display: block;
+   margin: 1vh auto;
+   width: 60%;
+   border: 0.5vh double black;
+ }
+ #fontainreal{
+   display: block;
+   margin: 1vh auto;
+   height: 40%;
+ }
+ 
 #minicinex{
   padding: 5vh;
   width: inherit;
