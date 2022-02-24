@@ -206,6 +206,11 @@ a {
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
   font-family: 'FrightNight-Outline';
 }
+#disclaimer::before{
+  content: "★";
+  margin-right: 15px;
+  font-size: 20px;
+}
 
 /* Add Animation */
 @-webkit-keyframes animatetop {

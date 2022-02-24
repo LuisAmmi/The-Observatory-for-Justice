@@ -212,6 +212,11 @@ img{
   font-size: 2.5vh;
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
+.nav-link::before{
+  content: "★";
+  margin-right: 15px;
+  font-size: 20px;
+}
 .navbar-brand{
   font-family:'WickedMouse';
   text-transform: uppercase;
@@ -287,6 +292,11 @@ p {
 
 #disclaimer{
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
+}
+#disclaimer::before{
+  content: "★";
+  margin-right: 15px;
+  font-size: 20px;
 }
 
 /* Add Animation */
