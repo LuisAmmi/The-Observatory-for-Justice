@@ -726,6 +726,7 @@ h3:hover{
   transform:rotate(-55deg); /* future */
 }
 .panel{
+  display: none;
   text-align: justify;
   margin: 1vh;
 }
@@ -863,9 +864,7 @@ figcaption{
 footer{
   font-size: 1.8vh;
 }
-.panel{
-  display: none;
-}
+
 /* horizonal scrolling for images in Documentation*/
 
 ul.images {
