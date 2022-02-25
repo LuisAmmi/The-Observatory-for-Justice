@@ -723,11 +723,14 @@ h3:hover{
   -o-transform:rotate(-55deg); /* Opera */
   transform:rotate(-55deg); /* future */
 }
-#panelfonts, #panelfonts2{
-  font-family:'PoiretOne-Regular';
+.panel{
   text-align: justify;
   margin: 1vh;
 }
+#panelfonts, #panelfonts2{
+  font-family:'PoiretOne-Regular';
+}
+
 #divfont{
   display: inline-block;
 }
@@ -735,12 +738,8 @@ h3:hover{
   font-family: "Higher";
   font-size: 15vh;
   color: #cb3a35;
-  margin:5vh 0;
   padding: 3vh;
   text-align: center;
-}
-#panellayout, #panelfonts2{
-  margin: 1vh;
 }
 
 #cointainerlayout{
