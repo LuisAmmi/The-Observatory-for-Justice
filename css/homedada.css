@@ -706,7 +706,9 @@ h3:hover{
   position: relative;
   display: inline;
 }
-
+#quotation{
+  letter-spacing: 1vh;
+}
 #hand, #hand2{
   width: 15vh;
   display: inline;
