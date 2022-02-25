@@ -534,11 +534,11 @@ figcaption::first-letter{
 #articletitle2{
   font-family:'Mad Scientist W01 Regular';
   font-size: 4vh;
-  text-align: left;
+  text-align: center;
   border:0;
   margin: 5vh 0;
   background-image: url("../imgs/70/nuvolagialla.png");
-  background-size: 48vh;
+  background-size: 53vh;
   background-repeat: no-repeat;
 }
 
@@ -592,6 +592,7 @@ figcaption::first-letter{
   font-size: 6vh;
   color: #BD3426;
   color: #145D8F;
+  padding: 0 7vh;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
   -moz-transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
