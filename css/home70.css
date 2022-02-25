@@ -109,10 +109,10 @@
   src: local('WickedMouse'), url('../font/70font/WickedMouse.woff2') format('woff2');
 }
 @font-face {
-  font-family:'';
-  src: local(''), url('../font/70font/.ttf') format('ttf');
-  src: local(''), url('../font/70font/.woff') format('woff');
-  src: local(''), url('../font/70font/.woff2') format('woff2');
+  font-family:'CooperBlack';
+  src: local('CooperBlack'), url('../font/70font/CooperBlack.ttf') format('ttf');
+  src: local('CooperBlack'), url('../font/70font/CooperBlack.woff') format('woff');
+  src: local('CooperBlack'), url('../font/70font/CooperBlack.woff2') format('woff2');
 }
 body{
   background-image: url("../imgs/70/sfondo bianco.png");
@@ -806,6 +806,9 @@ h3:hover{
    display: block;
    margin: 1vh auto;
    width: 70%;
+ }
+ figcaption{
+  font-family:'CooperBlack';
  }
  #mycollage{
    display: block;
