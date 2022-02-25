@@ -530,6 +530,12 @@ figcaption::first-letter{
   margin-bottom: 4vh;
   margin-top: 2vh;
   border: 0;
+  background-image: url(../imgs/70/cerchiogiallo.png);
+  background-size: 48vh;
+  background-repeat: no-repeat;
+}
+
+
 }
 #articletitle2{
   font-family:'Mad Scientist W01 Regular';
@@ -589,7 +595,7 @@ figcaption::first-letter{
 #police-brutality{
   font-family:'Landslide';
   font-size: 5vh;
-  color: #BD3426;
+  color: #145D8F;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
   -moz-transform:rotate(-10deg); /* Firefox */
   -webkit-transform:rotate(-10deg); /* Webkit */
@@ -602,7 +608,7 @@ figcaption::first-letter{
 #racial-bias{
   font-family:'TalesofScareBlack';
   font-size: 6vh;
-  color: #145D8F;
+  color: #BD3426;
   text-transform: uppercase;
   text-align: right;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
