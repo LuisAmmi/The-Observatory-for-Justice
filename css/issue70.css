@@ -540,6 +540,8 @@ figcaption::first-letter{
   transform:rotate(-10deg); /* future */
   margin-bottom: 4vh;
   background-image: url("../imgs/70/cerchiogiallo.png");
+  background-size: 48vh;
+  background-repeat: no-repeat;
 }
 #ma{
   font-family: Arial;
