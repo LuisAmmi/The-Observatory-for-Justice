@@ -778,7 +778,6 @@ h3:hover{
   width: -webkit-fill-available;
 }
 
-}
 .imgdoc{
   text-align: center;
   display: block;
@@ -821,6 +820,7 @@ h3:hover{
   -o-transform:rotate(+10deg); /* Opera */
   transform:rotate(+10deg); /* future */
 }
+
 #designertitle{
   font-family:'Caledo Bold';
   font-size: 20vh;
