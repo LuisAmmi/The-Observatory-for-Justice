@@ -180,17 +180,23 @@
 }
 
 @font-face {
-  font-family:'';
-  src: local(''), url('../font/70font/.ttf') format('ttf');
-  src: local(''), url('../font/70font/.woff') format('woff');
-  src: local(''), url('../font/70font/.woff2') format('woff2');
+  font-family:'CocolaRegular';
+  src: local('CocolaRegular'), url('../font/70font/CocolaRegular.ttf') format('ttf');
+  src: local('CocolaRegular'), url('../font/70font/CocolaRegular.woff') format('woff');
+  src: local('CocolaRegular'), url('../font/70font/CocolaRegular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family:'';
-  src: local(''), url('../font/70font/.ttf') format('ttf');
-  src: local(''), url('../font/70font/.woff') format('woff');
-  src: local(''), url('../font/70font/.woff2') format('woff2');
+  font-family:'TalesofScareBlack';
+  src: local('TalesofScareBlack'), url('../font/70font/TalesofScareBlack.ttf') format('ttf');
+  src: local('TalesofScareBlack'), url('../font/70font/TalesofScareBlack.woff') format('woff');
+  src: local('TalesofScareBlack'), url('../font/70font/TalesofScareBlack.woff2') format('woff2');
+}
+@font-face {
+  font-family:'Landslide';
+  src: local('Landslide'), url('../font/70font/Landslide.ttf') format('ttf');
+  src: local('Landslide'), url('../font/70font/Landslide.woff') format('woff');
+  src: local('Landslide'), url('../font/70font/Landslide.woff2') format('woff2');
 }
 
 body{
@@ -581,9 +587,9 @@ figcaption::first-letter{
 
 
 #police-brutality{
-  font-family: 'RivenShieldBold';
+  font-family:'Landslide';
   font-size: 5vh;
-  color: #649ec3;
+  color: #BD3426;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
   -moz-transform:rotate(-10deg); /* Firefox */
   -webkit-transform:rotate(-10deg); /* Webkit */
@@ -594,9 +600,9 @@ figcaption::first-letter{
 }
 
 #racial-bias{
-  font-family: 'RivenShieldBold';
+  font-family:'TalesofScareBlack';
   font-size: 6vh;
-  color: #d88d4c;
+  color: #145D8F;
   text-transform: uppercase;
   text-align: right;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;

@@ -33,12 +33,7 @@
   src: local('MissAmandaJonesExp'), url('../font/70font/MissAmandaJonesExp.woff') format('woff');
   src: local('MissAmandaJonesExp'), url('../font/70font/MissAmandaJonesExp.woff2') format('woff2');
 }
-@font-face {
-  font-family:'BrillanteSt';
-  src: local('BrillanteSt'), url('../font/70font/BrillanteSt.ttf') format('ttf');
-  src: local('BrillanteSt'), url('../font/70font/BrillanteSt.woff') format('woff');
-  src: local('BrillanteSt'), url('../font/70font/BrillanteSt.woff2') format('woff2');
-}
+
 @font-face {
   font-family:'SansSerifShaded';
   src: local('SansSerifShaded'), url('../font/70font/SansSerifShaded.ttf') format('ttf');
