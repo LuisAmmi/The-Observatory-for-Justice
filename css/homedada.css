@@ -202,7 +202,7 @@
 }
 
 body{
-  background-image: url("../imgs/dada/Home collage/sfondodadaissue.png");
+  background-image: url("../imgs/dada/sfondodadaissue.png");
   background-size: contain;
   overflow-x: hidden;
   font-family: 'Romana BT';
@@ -227,7 +227,7 @@ button{
 }
 
 .navbar{
-  background-image: url("../imgs/dada/Home collage/sfondodadaissue.png");
+  background-image: url("../imgs/dada/sfondodadaissue.png");
   text-align: right;
   background-color: black;
   margin-right: 0;
