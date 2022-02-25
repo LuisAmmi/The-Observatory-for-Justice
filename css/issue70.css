@@ -529,9 +529,6 @@ figcaption::first-letter{
   margin-bottom: 4vh;
   margin-top: 2vh;
   border: 0;
-  background-image: url(../imgs/70/cerchiogiallo.png);
-  background-size: 48vh;
-  background-repeat: no-repeat;
 }
 
 
@@ -542,6 +539,9 @@ figcaption::first-letter{
   text-align: left;
   border:0;
   margin: 5vh 0;
+  background-image: url("../imgs/70/cerchiogiallo.png");
+  background-size: 48vh;
+  background-repeat: no-repeat;
 }
 
 #articletitle3{
@@ -553,9 +553,6 @@ figcaption::first-letter{
   -o-transform:rotate(-10deg); /* Opera */
   transform:rotate(-10deg); /* future */
   margin-bottom: 4vh;
-  background-image: url("../imgs/70/cerchiogiallo.png");
-  background-size: 48vh;
-  background-repeat: no-repeat;
 }
 #ma{
   font-family: Arial;
