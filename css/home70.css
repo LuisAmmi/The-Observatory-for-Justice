@@ -7,12 +7,6 @@
 @import url(https://fonts.googleapis.com/css?family=Bangers);
 
 @font-face {
-  font-family:'SunlightScript';
-  src: local('SunlightScript'), url('../font/70font/SunlightScript.ttf') format('ttf');
-  src: local('SunlightScript'), url('../font/70font/SunlightScript.woff') format('woff');
-  src: local('SunlightScript'), url('../font/70font/SunlightScript.woff2') format('woff2');
-}
-@font-face {
   font-family:'FrightNight-Outline';
   src: local('FrightNight-Outline'), url('../font/70font/FrightNight-Outline.ttf') format('ttf');
   src: local('FrightNight-Outline'), url('../font/70font/FrightNight-Outline.woff') format('woff');
