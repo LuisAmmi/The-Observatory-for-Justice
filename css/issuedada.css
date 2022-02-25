@@ -309,6 +309,11 @@ nav{
   letter-spacing: 10px;
   word-spacing: 5px;
 }
+button{
+  font-family: Arial;
+  letter-spacing: 10px;
+  word-spacing: 5px;
+}
 
 button:hover{
   opacity: 50%;
