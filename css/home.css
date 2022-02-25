@@ -320,6 +320,10 @@ li {
   text-align: center;
   display: block;
 }
+figcaption{
+  font-size: 2vh;
+  margin: auto 7vh;
+}
 #Styledoc{
   width: 60%;
 }
