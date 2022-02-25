@@ -792,6 +792,7 @@ h3:hover{
 }
 #fontainreal{
   height: 40%;
+  border: 0.5vh double black;
 }
 
 #mycollage{

@@ -303,11 +303,7 @@ li {
   margin: 3vh;
 }
 
-#MouvementDADA, #Romanaexample, #Styledoc, #layoutdoc, #bloodydoc, #fontabstract{
-  display: block;
-  margin: 1vh auto;
-  width: 60%;
-}
+
 #fontainreal{
   display: block;
   margin: 1vh auto;
@@ -315,10 +311,20 @@ li {
 }
 .imgdoc{
   text-align: center;
-  margin-bottom: 2vh;
   display: block;
-  margin: 1vh auto;
+  margin: 2vh auto;
+  width: 80%;
+}
+
+.figdoc{
+  text-align: center;
+  display: block;
+}
+#Styledoc{
   width: 60%;
+}
+#imgscontornate{
+  height: 40%;
 }
 #mycollage{
   display: block;
