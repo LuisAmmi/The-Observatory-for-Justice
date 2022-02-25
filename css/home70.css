@@ -828,9 +828,12 @@ h3:hover{
 #designerparagraph{
   text-align: left;
   float: right;
-  font-family: Arial;
+  font-family: 'Inkslinger';
+  font-size: 2vh;
   text-transform: uppercase;
-  width: 58vh;
+  padding: 1vh 7vh 0 14vh;
+  width: 77vh;
+  height: 37vh;
   background-image: url("../imgs/70/fumettodesigner.png");
   background-repeat: no-repeat;
 }
