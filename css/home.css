@@ -329,6 +329,7 @@ figcaption{
 }
 #imgscontornate{
   height: 40%;
+  width: auto;
 }
 #mycollage{
   display: block;
