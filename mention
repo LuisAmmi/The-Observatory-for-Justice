@@ -381,10 +381,12 @@ Table
             <img id="issuedistortion" alt="comparison between two paragraphs: one visible in Der Dada magazine and the other in the Homepage" src="Documentation/dada/framestorto.png">
           </div>
         </div>
+
         <div id="colorsandpanel">
           <div><h3 id="colors">Colors</h3></div>
           <div class="panel" id="panelcolors">A mixture of black and red inks.
           <div class="colorcontainer">
+
               <div class="color-palettes">
                 <div class="color-palettes__item">
                   <div class="color-box AntiqueWhite"></div>
@@ -393,6 +395,7 @@ Table
                     <span class="code">#FAEBD7</span>
                   </div>
                 </div>
+
                 <div class="color-palettes__item">
                   <div class="color-box BurlyWood"></div>
                   <div class="color-intro">
@@ -400,6 +403,7 @@ Table
                     <span class="code">#DEB887</span>
                   </div>
                 </div>
+
                 <div class="color-palettes__item">
                   <div class="color-box Tan"></div>
                   <div class="color-intro">
@@ -407,6 +411,7 @@ Table
                     <span class="code">#D2B48C</span>
                   </div>
                 </div>
+
                 <div class="color-palettes__item">
                   <div class="color-box BrownSugar"></div>
                   <div class="color-intro">
@@ -414,6 +419,7 @@ Table
                     <span class="code">#B97D63</span>
                   </div>
                 </div>
+
                 <div class="color-palettes__item">
                   <div class="color-box PersianRed"></div>
                   <div class="color-intro">
@@ -421,6 +427,7 @@ Table
                     <span class="code">#CB3A34</span>
                   </div>
                 </div>
+
                 <div class="color-palettes__item">
                   <div class="color-box Aubergine"></div>
                   <div class="color-intro">
@@ -428,6 +435,7 @@ Table
                     <span class="code">#302A2C</span>
                   </div>
                 </div>
+
               </div>
             </div>
       </div>
