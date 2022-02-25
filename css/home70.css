@@ -752,23 +752,35 @@ h3:hover{
   cursor: url('../imgs/70/dito indice cursore 32.png') 2 2, pointer;
 }
 
+.panel{
+  display: none;
+  font-family: Arial;
+  text-transform: uppercase;
+  font-size: 2vh;
+  margin: 0vh 10vh;
+  padding: 2vh;
+}
  #sources{
    text-align: center;
    position: relative;
  }
+
  #paneldada{
    font-family: Arial;
    text-transform: uppercase;
    font-size: 2vh;
-   margin: 0vh 10vh;
-   padding: 2vh;
    background-image: url("../imgs/70/sfondo lilla.png");
  }
 
- #panelsource, #panelfonts2{
+ #panelsource, #panelsource2{
+   text-transform: inherit;
  }
 
-
+#quotation{
+  text-transform: uppercase;
+  color: crimson;
+  -webkit-text-stroke-width: thin;
+}
  #MouvementDADA, #Romanaexample, #Styledoc, #layoutdoc, #triangle, #issuedistortion, #imgscontornate {
    display: block;
    margin: 1vh auto;
@@ -843,14 +855,7 @@ h3:hover{
 footer{
   font-size: 1.8vh;
 }
-.panel{
-  display: none;
-  font-family: Arial;
-  text-transform: uppercase;
-  font-size: 2vh;
-  margin: 0vh 10vh;
-  padding: 2vh;
-}
+
 /* horizonal scrolling for images*/
 
 ul.images {
