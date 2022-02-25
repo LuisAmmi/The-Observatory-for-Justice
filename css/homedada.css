@@ -786,7 +786,10 @@ h3:hover{
   width: 80%;
   border: 0.5vh double black;
 }
-
+.figdoc{
+  text-align: center;
+  display: block;
+}
 #fontainreal{
   height: 40%;
 }
