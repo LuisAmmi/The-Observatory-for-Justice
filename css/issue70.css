@@ -542,6 +542,7 @@ figcaption::first-letter{
   font-size: 4vh;
   text-align: left;
   border:0;
+  margin: 5vh 0;
 }
 
 #articletitle3{
