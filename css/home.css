@@ -302,8 +302,9 @@ li {
   max-height: 35vh;
   margin: 3vh;
 }
-
-
+#quotation{
+  font-style: italic;
+}
 #fontainreal{
   display: block;
   margin: 1vh auto;
