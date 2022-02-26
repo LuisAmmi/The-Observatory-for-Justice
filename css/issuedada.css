@@ -12,12 +12,6 @@
   }
 
 @font-face {
-    font-family: "Hallo Euroboy Regular";
-    src: local('Hallo Euroboy Regular'), url('../font/dadafont/HalloEuroboy_Regular.ttf') format('ttf');
-    src: local('Hallo Euroboy Regular'), url('../font/dadafont/HalloEuroboy-Regular.woff') format('woff');
-}
-
-@font-face {
   font-family:'Righteous-Regular';
   src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.ttf') format('ttf');
   src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.woff') format('woff');
