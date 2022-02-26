@@ -5,13 +5,6 @@
 }
 
 @font-face {
-  font-family:'BeVietnamPro-Regular';
-  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.ttf') format('ttf');
-  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff') format('woff');
-  src: local('BeVietnamPro-Regular'), url('../The Observatory for Justice/font/dadafont/BeVietnamPro-Regular.woff2') format('woff2');
-}
-
-@font-face {
   font-family:'Phorssa';
   src: local('Phorssa'), url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/font/dadafont/Phorssa.ttf') format('ttf');
   src: local('Phorssa'), url('/Users/luisaammirati/Desktop/DHDK/VITALI/WEB TECH/The Observatory for Justice/font/dadafont/Phorssa.woff') format('woff');
@@ -72,25 +65,12 @@
   src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.woff') format('woff');
   src: local('Old Town Regular'), url('../font/dadafont/Old Town Regular.woff2') format('woff2');
 }
-@font-face {
-  font-family:'GravitasOne';
-  src: local('GravitasOne'), url('../font/dadafont/GravitasOne.ttf') format('ttf');
-  src: local('GravitasOne'), url('../font/dadafont/GravitasOne.woff') format('woff');
-  src: local('GravitasOne'), url('../font/dadafont/GravitasOne.woff2') format('woff2');
-}
 
 @font-face {
   font-family:'PoiretOne-Regular';
   src: local('PoiretOne-Regular'), url('../font/dadafont/PoiretOne-Regular.ttf') format('ttf');
   src: local('PoiretOne-Regular'), url('../font/dadafont/PoiretOne-Regular.woff') format('woff');
   src: local('PoiretOne-Regular'), url('../font/dadafont/PoiretOne-Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'Rallisaguen-Bold';
-  src: local('Rallisaguen-Bold'), url('../font/dadafont/Rallisaguen-Bold.ttf') format('ttf');
-  src: local('Rallisaguen-Bold'), url('../font/dadafont/Rallisaguen-Bold.woff') format('woff');
-  src: local('Rallisaguen-Bold'), url('../font/dadafont/Rallisaguen-Bold.woff2') format('woff2');
 }
 
 @font-face {
@@ -108,13 +88,6 @@
 }
 
 @font-face {
-  font-family:'Sancreek-Regular';
-  src: local('Sancreek-Regular'), url('../font/dadafont/Sancreek-Regular.ttf') format('ttf');
-  src: local('Sancreek-Regular'), url('../font/dadafont/Sancreek-Regular.woff') format('woff');
-  src: local('Sancreek-Regular'), url('../font/dadafont/Sancreek-Regular.woff2') format('woff2');
-}
-
-@font-face {
   font-family:'UnifrakturMaguntia';
   src: local('UnifrakturMaguntia'), url('../font/dadafont/UnifrakturMaguntia-Regular.ttf') format('ttf');
   src: local('UnifrakturMaguntia'), url('../font/dadafont/UnifrakturMaguntia.woff') format('woff');
@@ -128,12 +101,6 @@
   src: local('Lobster-Regular'), url('../font/dadafont/Lobster-Regular.woff2') format('woff2');
 }
 
-@font-face {
-  font-family:'Righteous-Regular';
-  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.ttf') format('ttf');
-  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.woff') format('woff');
-  src: local('Righteous-Regular'), url('../font/dadafont/Righteous-Regular.woff2') format('woff2');
-}
 @font-face {
     font-family: 'VanchromeFront-Regular';
     src:url('VanchromeFront-Regular.ttf.woff') format('woff'),
@@ -152,46 +119,17 @@
 }
 
 @font-face {
-  font-family:'Caledo Bold';
-  src: local('Caledo Bold'), url('../font/dadafont/caledo_bold-webfont.ttf') format('ttf');
-  src: local('Caledo Bold'), url('../font/dadafont/caledo_bold-webfont.woff') format('woff');
-}
-
-@font-face {
   font-family:'ABoxFor';
   src: local('ABoxFor'), url('../font/dadafont/ABoxFor.ttf') format('ttf');
   src: local('ABoxFor'), url('../font/dadafont/ABoxFor.woff') format('woff');
   src: local('ABoxFor'), url('../font/dadafont/ABoxFor.woff2') format('woff2');
 }
-@font-face {
-  font-family:'DdaftT-lowercase';
-  src: local('DdaftT-lowercase'), url('../font/dadafont/DdaftT-lowercase.ttf') format('ttf');
-  src: local('DdaftT-lowercase'), url('../font/dadafont/DdaftT-lowercase.woff') format('woff');
-  src: local('DdaftT-lowercase'), url('../font/dadafont/DdaftT-lowercase.woff2') format('woff2');
-}
-@font-face {
-  font-family:'dDAFTt-UPPERcase';
-  src: local('dDAFTt-UPPERcase'), url('../font/dadafont/dDAFTt-UPPERcase.ttf') format('ttf');
-  src: local('dDAFTt-UPPERcase'), url('../font/dadafont/dDAFTt-UPPERcase.woff') format('woff');
-  src: local('dDAFTt-UPPERcase'), url('../font/dadafont/dDAFTt-UPPERcase.woff2') format('woff2');
-}
-@font-face {
-  font-family:'Jadefedga08';
-  src: local('Jadefedga08'), url('../font/dadafont/Jadefedga08.ttf') format('ttf');
-  src: local('Jadefedga08'), url('../font/dadafont/Jadefedga08.woff') format('woff');
-  src: local('Jadefedga08'), url('../font/dadafont/Jadefedga08.woff2') format('woff2');
-}
+
 @font-face {
   font-family:'Jadefedgah80';
   src: local('Jadefedgah80'), url('../font/dadafont/Jadefedgah80.ttf') format('ttf');
   src: local('Jadefedgah80'), url('../font/dadafont/Jadefedgah80.woff') format('woff');
   src: local('Jadefedgah80'), url('../font/dadafont/Jadefedgah80.woff2') format('woff2');
-}
-@font-face {
-  font-family:'Soopafresh';
-  src: local('Soopafresh'), url('../font/dadafont/Soopafresh.ttf') format('ttf');
-  src: local('Soopafresh'), url('../font/dadafont/Soopafresh.woff') format('woff');
-  src: local('Soopafresh'), url('../font/dadafont/Soopafresh.woff2') format('woff2');
 }
 
 @font-face {
