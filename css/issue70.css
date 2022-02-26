@@ -551,7 +551,7 @@ figcaption::first-letter{
   -o-transform:rotate(-10deg); /* Opera */
   transform:rotate(-10deg); /* future */
   margin-bottom: 4vh;
-  background-image: url("../imgs/70/bang.png");
+  background-image: url("../imgs/70/bang2.png");
 }
 #ma{
   font-family: Arial;
