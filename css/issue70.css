@@ -641,7 +641,7 @@ figcaption::first-letter{
   font-size: 8vh;
   font-style: italic;
   color: #297ebf;
-  background-color: navajowhite;
+  background-color: #fff;
   border-radius: 82%;
   display: block;
   margin: 0px 10vh;
