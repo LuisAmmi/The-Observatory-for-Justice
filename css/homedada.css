@@ -767,9 +767,11 @@ h3:hover{
 }
 
 #panelcolors, #panelcolors2{
-  border:1vh solid;
+  border: 1vh solid;
   padding-left: 5vh;
   border-left: 0;
+  margin-top: 0vh;
+  margin-left: -1vh;
   height: 67vh;
 }
 
