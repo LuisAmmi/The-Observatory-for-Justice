@@ -204,6 +204,12 @@
   src: local('GhostClouds'), url('../font/70font/GhostClouds.woff') format('woff');
   src: local('GhostClouds'), url('../font/70font/GhostClouds.woff2') format('woff2');
 }
+@font-face {
+  font-family:'BingBamBoum';
+  src: local('BingBamBoum'), url('../font/70font/BingBamBoum.ttf') format('ttf');
+  src: local('BingBamBoum'), url('../font/70font/BingBamBoum.woff') format('woff');
+  src: local('BingBamBoum'), url('../font/70font/BingBamBoum.woff2') format('woff2');
+}
 
 body{
   background-image: url("../imgs/70/sfondo celestino.png");
@@ -635,7 +641,7 @@ figcaption::first-letter{
 }
 
 #mental-disorder{
-  font-family:'GhostClouds';
+  font-family: "BingBamBoum";
   color: #db303e;
   font-size: 4vh;
 }
