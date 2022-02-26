@@ -550,12 +550,13 @@ figcaption::first-letter{
   -ms-transform: rotate(-10deg);
   -o-transform: rotate(-10deg);
   transform: rotate(-10deg);
-  margin-bottom: 4vh;
-  padding-bottom: 11vh;
+  margin-top: 5vh;
+  padding-bottom: 10vh;
   background-size: 50vh;
   background-repeat: no-repeat;
   background-image: url("../imgs/70/bang2.png");
 }
+
 #ma{
   font-family: Arial;
   font-size: 2vh;
@@ -624,6 +625,7 @@ figcaption::first-letter{
   font-size: 8vh;
   font-style: italic;
   color: #297ebf;
+  padding: 0px 10vh;
 }
 
 #mental-disorder{
