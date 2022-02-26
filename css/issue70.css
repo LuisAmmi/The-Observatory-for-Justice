@@ -555,7 +555,7 @@ figcaption::first-letter{
 }
 
 #articletitle3{
-  font-family: 'Mahavishnu-Regular';
+  font-family:'CocolaRegular';
   text-align: center;
   -moz-transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
@@ -633,17 +633,21 @@ figcaption::first-letter{
 }
 
 #police{
+  border: 0.5vh solid;
   font-family: 'ComicStrip';
   font-size: 8vh;
   font-style: italic;
   color: #297ebf;
-  padding: 0px 10vh;
+  background-color: ghostwhite;
+  border-radius: 82%
 }
 
 #mental-disorder{
   font-family: "BingBamBoum";
   color: #db303e;
+  padding: 0 6vh;
   font-size: 4vh;
+  display: block;
 }
 
 .narrativeparagraph{
