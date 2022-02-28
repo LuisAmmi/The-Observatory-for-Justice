@@ -1233,251 +1233,103 @@
       </div>
     </div>
         <!-- METADATA VIEWER START -->
-         <div id="metadata" class="col-md-3 p-0 m-0 d-none d-lg-block overflow-auto">
-          <div class="card" id="metadata-style">
-            <h5 class="card-title p-3">About the articles</h5>
-            <div class="card-body overflow-auto p-0">
-
-              <!-- accordion start -->
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      The climate is changing, so must architecture
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <!-- nested nav tab start -->
-                        <ul class="nav nav-tabs justify-content-center" id="article-1-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link active" id="article-1-people-tab" data-bs-toggle="tab" data-bs-target="#article-1-people" type="button" role="tab" aria-controls="home" aria-selected="true">People</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="article-1-places-tab" data-bs-toggle="tab" data-bs-target="#article-1-places" type="button" role="tab" aria-controls="profile" aria-selected="false">Places</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="article-1-buildings-tab" data-bs-toggle="tab" data-bs-target="#article-1-buildings" type="button" role="tab" aria-controls="contact" aria-selected="false">Buildings</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="article-1-organizations-tab" data-bs-toggle="tab" data-bs-target="#article-1-organizations" type="button" role="tab" aria-controls="contact" aria-selected="false">Organizations</button>
-                              </li>
-                          </ul>
-                          <div class="tab-content  text-center" id="myTabContent">
-                            <div class="tab-pane fade show active" id="article-1-people" role="tabpanel" aria-labelledby="home-tab">
-                              <ul>
-                                <li><span onclick="highlightData(1, this)" class="people-nav">Barack Obama: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="people-nav">Charles Koch: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="people-nav">David Koch: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="people-nav">Donald Trump: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="people-nav">Greg Abbot: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="people-nav">Jennifer González-Colón: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="people-nav">Rex Tillerson: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Eric Schneiderman: 1 <span ></span></span></li>
-                              </ul>
-                            </div>
-                            <div class="tab-pane fade" id="article-1-places" role="tabpanel" aria-labelledby="profile-tab">
-                              <ul>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Arizona: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">BP: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Basalt: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Buffalo Bayou Park: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">California: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Chicago: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Citibank: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Colorado: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Connecticut: 1 <span ></span></span></li>
-
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Florida: 2 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Greenland: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Houston: 3 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Kansas: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Lake Mead: 2 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Las Vegas: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Livorno: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Los Angeles: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Louisiana: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Miami: 2 <span ></span></span></li>
-
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Missouri: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Nevada: 2 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">New Jersey: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">New York: 3 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">North America: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Oklahoma: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Paris: 4 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Puerto Rico: 3 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">San Francisco: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Seattle: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Shangai: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Swiss Long Island: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Syria: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(1, this)" class="places-nav">Taiwan: 1 <span ></span></span></li>
-                              </ul>
-                            </div>
-                            <div class="tab-pane fade" id="article-1-buildings" role="tabpanel" aria-labelledby="contact-tab">
-                              <ul>
-                                <li><span onclick="highlightData(1, this)" class="buildings-nav">Hoover Dam: 1 <span ></span></span></li>
-                              </ul>
-                            </div>
-                            <div class="tab-pane fade" id="article-1-organizations" role="tabpanel" aria-labelledby="contact-tab">
-                              <ul>
-                                <li><span onclick="highlightData(1, this)" class="organizations-nav">AIA: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Associated Press: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Bullit Center: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Citibank: 2 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Defense Department: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">ExxonMobil: 2 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Goldman Sachs: 1 <span ></span></span></li>
-
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Miller Hull Partnership: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Rocky Mountain Institute: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Science Advances: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Southern Nevada Water Authority: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">Swiss Re: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">United Nations: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(1, this)" class="organizations-nav">ZGF: 1 <span ></span></span></li>
-
-                              </ul>
-                            </div>
-                          </div>
-                      <!-- nested nav tab start -->
+        <nav id="sidebar" class="mCustomScrollbar _mCS_1 mCS-autoHide active" style="overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal mCSB_vertical mCSB_outside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
+                    <div id="dismiss">
+                        <i class="fas fa-arrow-left"></i>
                     </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      Concrete: the most destructive material on earth
-                    </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <!-- nested nav tab start -->
-                        <ul class="nav nav-tabs justify-content-center" id="article-2-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link active" id="article-2-people-tab" data-bs-toggle="tab" data-bs-target="#article-2-people" type="button" role="tab" aria-controls="home" aria-selected="true">People</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="article-2-places-tab" data-bs-toggle="tab" data-bs-target="#article-2-places" type="button" role="tab" aria-controls="profile" aria-selected="false">Places</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="article-2-buildings-tab" data-bs-toggle="tab" data-bs-target="#article-2-buildings" type="button" role="tab" aria-controls="contact" aria-selected="false">Buildings</button>
-                              </li>
-                              <li class="nav-item" role="presentation">
-                                  <button class="nav-link" id="article-2-organizations-tab" data-bs-toggle="tab" data-bs-target="#article-2-organizations" type="button" role="tab" aria-controls="contact" aria-selected="false">Organizations</button>
-                                </li>
-                            </ul>
-                            <div class="tab-content  text-center" id="myTabContent">
-                              <div class="tab-pane fade show active" id="article-2-people" role="tabpanel" aria-labelledby="home-tab">
-                                <ul>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Alex Kerr: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Atsushi Fujita: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Dilma Rousseff: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Franklin Delano Roosevelt: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Joseph Aspdin: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Kakuei Tanaka: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Le Corbusier: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Norobu Takeshita: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Oscar Niemeyer: 2 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Owen Luder: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Paulo Maluf: 2 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Prince Charles: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Tadao Ando: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Tadashi Ono: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Xi Jinping: 3 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Yakushiro Nakasone: 1 <span ></span></span></li>
-                                  <li><span onclick="highlightData(2, this)" class="people-nav">Yu Kongjian: 3 <span ></span></span></li>
-                                </ul>
-                              </div>
-                              <div class="tab-pane fade" id="article-2-places" role="tabpanel" aria-labelledby="profile-tab">
-                                <ul>
-                                  <li><span onclick="highlightData(2, this)" class="places-nav">Africa: 2 <span ></span></span></li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane fade" id="article-2-buildings" role="tabpanel" aria-labelledby="contact-tab">
-                              <ul>
-                                <li><span onclick="highlightData(2, this)" class="buildings-nav">Burj Khalifa: 1 <span ></span></span></li>
-                              </ul>
-                            </div>
-                            <div class="tab-pane fade" id="article-2-organizations" role="tabpanel" aria-labelledby="contact-tab">
-                             <ul>
-                              <li><span onclick="highlightData(2, this)" class="organizations-nav">China National Building Material: 1 <span ></span></span></li>
-                              <li><span onclick="highlightData(2, this)" class="organizations-nav">Chinese government: 1 <span ></span></span></li>
-                            </ul>
-                            </div>
-                          </div>
+                    <div class="sidebar-header">
+                        <h3>Lens</h3>
                     </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button"  data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      Building in the shadow of our own destruction
-                    </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><!-- nested nav tab start -->
-                        <ul class="nav nav-tabs justify-content-center" id="article-3-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link active" id="article-3-people-tab" data-bs-toggle="tab" data-bs-target="#article-3-people" type="button" role="tab" aria-controls="home" aria-selected="true">People</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="article-3-places-tab" data-bs-toggle="tab" data-bs-target="#article-3-places" type="button" role="tab" aria-controls="profile" aria-selected="false">Places</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="article-3-buildings-tab" data-bs-toggle="tab" data-bs-target="#article-3-buildings" type="button" role="tab" aria-controls="contact" aria-selected="false">Buildings</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="article-3-organizations-tab" data-bs-toggle="tab" data-bs-target="#article-3-organizations" type="button" role="tab" aria-controls="contact" aria-selected="false">Organizations</button>
-                              </li>
-                          </ul>
-                          <div class="tab-content  text-center" id="myTabContent">
-                            <div class="tab-pane fade show active" id="article-3-people" role="tabpanel" aria-labelledby="home-tab">
-                              <ul>
-                                <li><span onclick="highlightData(3, this)" class="people-nav">Akira Aimi: 4 <span ></span></span></li>
-                                  <li><span onclick="highlightData(3, this)" class="people-nav">Franz Kafka: 5 <span ></span></span></li>
-                                  <li><span onclick="highlightData(3, this)" class="people-nav">Henry Petroski: 2 <span ></span></span></li>
-                                </ul>
+        			<div id="issuedetails">
+        			<div class="card">
+        				<div class="card-header">
+        					    <div class="row align-items-center">
+                                	<div class="col-md-12">
+                                   	 	<h5 class="card-title">Neuroscience and Technology issue details</h5>
+                                	</div>
+                                </div>
                             </div>
-                            <div class="tab-pane fade" id="article-3-places" role="tabpanel" aria-labelledby="profile-tab">
-                              <ul>
-                                <li><span onclick="highlightData(3, this)" class="places-nav">432 Park Avenue: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(3, this)" class="places-nav">Beijing: 1 <span ></span></span></li>
-                                <li><span onclick="highlightData(3, this)" class="places-nav">Brooklyn: 6 <span ></span></span></li>
-                              </ul>
-                           </div>
-                           <div class="tab-pane fade" id="article-3-buildings" role="tabpanel" aria-labelledby="contact-tab">
-                             <ul>
-                               <li><span onclick="highlightData(3, this)" class="buildings-nav">432 Park Avenue: 2 <span ></span></span></li>
-                             </ul>
-                           </div>
-                           <div class="tab-pane fade" id="article-3-organizations" role="tabpanel" aria-labelledby="contact-tab">
-                             <ul>
-                               <li><span onclick="highlightData(3, this)" class="organizations-nav">Citibank: 2 <span ></span></span></li>
-                             </ul>
-                           </div>
-                         </div>
-                     <!-- nested nav tab start -->
-                   </div>
-                 </div>
-               </div>
+        				  <div class="card-body">
+        					    <div class="card-text">
+        				    	<p>Articles in this issue:</p>
+        				    	<ul class="list-group list-group-flush" id="articlescheckbox">
+        			  			<div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkarticle1" onclick="load(&quot;article1.html&quot;)" checked=""><label class="form-check-label" for="">Can Privacy coexist with technology that reads and changes brain activity?</label></div><div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkarticle2" onclick="load(&quot;article2.html&quot;)" checked=""><label class="form-check-label" for="">What happens if our mind lives for ever on the internet?</label></div><div class="form-check"><input class="form-check-input" type="checkbox" value="" id="checkarticle3" onclick="load(&quot;article3.html&quot;)" checked=""><label class="form-check-label" for="">Deep Neural Networks are helping decipher how brains work</label></div></ul>
+        				    	<p id="issue-theme">Theme: Is neuroscience on the verge of a break-through thanks to new technologies ?</p>
+        				    	<p id="issue-keywords">Topics: Neurosciences, Brain, Artificial Intelligence, Future, Conciousness uploading, Mind, Privacy, Behaviour, Ethics, Big Tech</p>
+        				    	<p id="issue-editor">Editor: Susanna Pinotti</p>
 
-             </div>
+        				    </div>
+        				</div>
+        			</div>
+        		</div>
+        					<div class="card">
+        				<div class="card-header">
+        			    <strong>Articles sections</strong>
+        			  	</div>
+        					  <div class="card" active="1" id="result1">
 
-           <!-- accordion end -->
-           <a  onclick="changeModeFuture(this.id)" href="#" id="enable-futurelight" data-bs-toggle="tooltip" data-placement="top" title="Support our mission and the environment choosing dark mode. Switch to light mode only if really necessary.">
-             <button type="button" class="btn btn-dmode"> </button>
-           </a>
-           <a  onclick="changeModeFuture(this.id)" href="#" id="enable-futuredark">
-               <button type="button" class="btn btn-lmode"></button>
-           </a>
-         </div>
-         <div id="img-md"></div>
+        						Article 1 sections
+        					</div>
+        					<div class="card-text" id="doot1"></div>
 
-     </div>
-     </div>
+        					<div class="card" active="1" id="result2">
 
+        						Article 2 sections
+        					</div>
+        					<div class="card-text" id="doot2"></div>
+
+        					<div class="card" active="1" id="result3">
+
+        						Article 3 sections
+        					</div>
+        					<div class="card-text" id="doot3"></div>
+        				</div>
+                    		<div class="card">
+        		  	<div class="card-header">
+        			  <strong>Metadata</strong>
+        			  </div>
+        			  <ul class="list-group list-group-flush" id="articlescheckbox">
+        				<li><div class="form-check">
+        					  <input class="form-check-input callmetadata" active="0" type="checkbox" value="" id="company">
+        					  <label class="form-check-label" for="company">
+        					    Companies &amp; institutions
+        					  </label>
+        					</div></li>
+        			  	        <li><div class="form-check">
+        						  <input class="form-check-input callmetadata" active="0" type="checkbox" value="" id="pers">
+        						  <label class="form-check-label" for="pers">
+        						    	People
+        						  </label>
+        						</div>
+        					</li>
+        						<li><div class="form-check">
+        							  <input class="form-check-input callmetadata" type="checkbox" active="0" value="" id="key">
+        							  <label class="form-check-label" for="key">
+        							    Keywords
+        							  </label>
+        							</div></li>
+        							<li><div class="form-check">
+        							  <input class="form-check-input callmetadata" type="checkbox" active="0" value="" id="date">
+        							  <label class="form-check-label" for="date">
+        							    Dates
+        							  </label>
+        							</div></li>
+        								<li><div class="form-check">
+        							  <input class="form-check-input callmetadata" type="checkbox" active="0" value="" id="pl">
+        							  <label class="form-check-label" for="pl">
+        							    Places
+        							  </label>
+        							</div></li>
+        							<li><div class="form-check">
+        							  <input class="form-check-input callmetadata" type="checkbox" active="0" value="" id="py">
+        							  <label class="form-check-label" for="py">
+        							    Experimental analysis
+        							  </label>
+        							</div></li>
+        					  </ul>
+        					</div>
+
+                </div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal mCSB_scrollTools_vertical" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; display: block; height: 394px; max-height: 676.094px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div><div class="mCSB_draggerRail"></div></div></div></div></nav>
 
 <!-- METADATA VIEWER END -->
         </div>
