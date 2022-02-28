@@ -30,6 +30,7 @@ $(document).ready(function(){
       "margin-left": "5vh"
     });
   });
+
   $('#searchicon').dblclick(function(){
     $('.container').css({
       "max-width": "100%",
@@ -38,6 +39,7 @@ $(document).ready(function(){
   });
 
 });
+
 // Disclaimer
 function disclaimer(){
       var modal = document.getElementById("myModal");
