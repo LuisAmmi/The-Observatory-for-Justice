@@ -563,6 +563,7 @@ figcaption::first-letter{
   -o-transform: rotate(-10deg);
   transform: rotate(-10deg);
   padding-bottom: 10vh;
+  margin-left: -1vh;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
   color: orange;
   font-size: 4vh;
