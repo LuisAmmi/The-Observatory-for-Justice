@@ -30,7 +30,7 @@ $(document).ready(function(){
       "margin-left": "5vh"
     });
   });
-  $('#searchicon').click(function(){
+  $('#searchicon').dblclick(function(){
     $('.container').css({
       "max-width": "960px",
     });
