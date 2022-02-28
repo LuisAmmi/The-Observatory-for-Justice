@@ -30,6 +30,12 @@ $(document).ready(function(){
       "margin-left": "5vh"
     });
   });
+  $('#searchicon').click(function(){
+    $('.container').css({
+      "max-width": "960px",
+    });
+  });
+
 });
 // Disclaimer
 function disclaimer(){
