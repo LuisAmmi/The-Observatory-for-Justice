@@ -727,3 +727,10 @@ blockquote.speech {
   transform: rotate(-15deg);
   margin-bottom: -8vh;
 }
+
+/* Metadata Viewer*/
+#metadata{
+  top: -7vh;
+  right: -10vh;
+  position: relative;
+}

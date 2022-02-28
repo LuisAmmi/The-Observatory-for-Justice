@@ -511,3 +511,9 @@ a:hover{
   -o-transform: rotate(-180deg);
   transform: rotate(-180deg);
 }
+/* Metadata Viewer*/
+#metadata{
+  top: -7vh;
+  right: -10vh;
+  position: relative;
+}

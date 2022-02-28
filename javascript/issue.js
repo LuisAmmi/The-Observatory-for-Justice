@@ -48,3 +48,28 @@ function disclaimer(){
         }
       }
 };
+
+// Popup METADATA
+function addClass(element) {
+    if (element.innerHTML == "Read Better") {
+        document.getElementById("metadata").classList.remove("col-md-3","d-md-block");
+        document.getElementById("article1").classList.replace("col-lg-3", "col-lg-4");
+        document.getElementById("article2").classList.replace("col-lg-3", "col-lg-4");
+        document.getElementById("article3").classList.replace("col-lg-3", "col-lg-4");
+        document.getElementById("article1").classList.add("larger");
+        document.getElementById("article2").classList.add("larger");
+        document.getElementById("article3").classList.add("larger");
+        document.getElementById("expand-animation").classList.add("all-articles");
+        element.innerHTML = "Read More";
+    } else {
+        document.getElementById("metadata").classList.add("col-md-3", "d-md-block");
+        document.getElementById("article1").classList.replace("col-lg-4", "col-lg-3");
+        document.getElementById("article2").classList.replace("col-lg-4", "col-lg-3");
+        document.getElementById("article3").classList.replace("col-lg-4", "col-lg-3");
+        document.getElementById("article1").classList.remove("larger-before");
+        document.getElementById("article2").classList.remove("larger-before");
+        document.getElementById("article3").classList.remove("larger-before");
+        document.getElementById("expand-animation").classList.remove("all-articles");
+        element.innerHTML = "Read Better";
+    }
+}

@@ -180,3 +180,9 @@ a {
 #img1art1, #img1art2, #img2art2, #img3art2, #img4art2{
   min-width: -webkit-fill-available;
 }
+/* Metadata Viewer*/
+#metadata{
+  top: -7vh;
+  right: -10vh;
+  position: relative;
+}
