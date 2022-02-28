@@ -22,9 +22,14 @@ $(document).ready(function(){
     $("#end").html('<img id="quofine" src="imgs/70/quofine.png">');
     $('#badapples').html('<img id="dolceforno" alt="old advertising about the so-called Dolce Forno" src="imgs/70/dolceforno.jpg">');
     $('#evidencebased').html('<img id="barbie" alt="old advertising about Barbie&rsquo;s dolls" src="Documentation/topolino/advertising/n982.jpeg">');
-
   });
-});
+
+  $('#searchicon').click(function(){
+    $('.container').css({
+      "max-width": "130vh",
+      "margin-left": "5vh"
+      });
+    });
 
 // Disclaimer
 function disclaimer(){
@@ -48,28 +53,3 @@ function disclaimer(){
         }
       }
 };
-
-// Popup METADATA
-function addClass(element) {
-    if (element.innerHTML == "Read Better") {
-        document.getElementById("metadata").classList.remove("col-md-3","d-md-block");
-        document.getElementById("article1").classList.replace("col-lg-3", "col-lg-4");
-        document.getElementById("article2").classList.replace("col-lg-3", "col-lg-4");
-        document.getElementById("article3").classList.replace("col-lg-3", "col-lg-4");
-        document.getElementById("article1").classList.add("larger");
-        document.getElementById("article2").classList.add("larger");
-        document.getElementById("article3").classList.add("larger");
-        document.getElementById("expand-animation").classList.add("all-articles");
-        element.innerHTML = "Read More";
-    } else {
-        document.getElementById("metadata").classList.add("col-md-3", "d-md-block");
-        document.getElementById("article1").classList.replace("col-lg-4", "col-lg-3");
-        document.getElementById("article2").classList.replace("col-lg-4", "col-lg-3");
-        document.getElementById("article3").classList.replace("col-lg-4", "col-lg-3");
-        document.getElementById("article1").classList.remove("larger-before");
-        document.getElementById("article2").classList.remove("larger-before");
-        document.getElementById("article3").classList.remove("larger-before");
-        document.getElementById("expand-animation").classList.remove("all-articles");
-        element.innerHTML = "Read Better";
-    }
-}
