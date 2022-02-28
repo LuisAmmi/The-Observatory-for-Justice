@@ -34,7 +34,7 @@ $(document).ready(function(){
   $('#searchicon').dblclick(function(){
     $('.container').css({
       "max-width": "100%",
-      "margin": "auto";
+      "margin": "auto"
     });
   });
 
