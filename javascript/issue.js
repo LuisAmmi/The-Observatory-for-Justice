@@ -32,7 +32,8 @@ $(document).ready(function(){
   });
   $('#searchicon').dblclick(function(){
     $('.container').css({
-      "max-width": "960px",
+      "max-width": "100%",
+      "margin": "auto";
     });
   });
 
