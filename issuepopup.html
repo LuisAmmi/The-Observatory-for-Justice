@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
@@ -16,14 +15,10 @@
     <link rel="stylesheet" href="css/issuebasic.css" id='stylepage'>
     <link href="">
 
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-
     <!-- jQuery -->
     <script src="javascript/jquery-3.6.0.min.js"></script>
     <script src=""></script>
     <script src=""></script>
-
 
     <!--Our Javascript file -->
     <script src=""></script>
@@ -31,7 +26,6 @@
 
   </head>
   <body>
-    <div class="overlay"></div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <div class="dropdown" id="dropdownMenuButton1">
@@ -88,60 +82,10 @@
         <ul class="navbar-nav ms-auto" id="styleicons">
           <li class="nav-item styles hvr-bounce-in" id="dadaicon"><img class="icone" src="imgs/dada/fontainduchamp.svg"></li>
           <li class="nav-item styles hvr-bounce-in" id="topolinoicon"><img class="icone" src="imgs/70/topolino.svg"></li>
-          <li class="nav-item styles hvr-bounce-in" id="sidebarCollapse"><img class="icone" src="imgs/searchicon.png"></li>
+          <li class="nav-item styles hvr-bounce-in" id="searchicon"><img class="icone" src="imgs/searchicon.png"></li>
         </ul>
       </div>
     </nav>
-    <!-- Sidebar -->
-        <nav id="sidebar">
-
-            <div id="dismiss">
-                <i class="fas fa-arrow-left"></i>
-            </div>
-
-            <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
-            </div>
-
-            <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
 
     <div class="container">
       <div class="row">
@@ -1298,26 +1242,6 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-   <script type="text/javascript">
-       $(document).ready(function () {
-           $("#sidebar").mCustomScrollbar({
-               theme: "minimal"
-           });
-
-           $('#dismiss, .overlay').on('click', function () {
-               $('#sidebar').removeClass('active');
-               $('.overlay').removeClass('active');
-           });
-
-           $('#sidebarCollapse').on('click', function () {
-               $('#sidebar').addClass('active');
-               $('.overlay').addClass('active');
-               $('.collapse.in').toggleClass('in');
-               $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-           });
-       });
-   </script>
   </body>
 </html>
