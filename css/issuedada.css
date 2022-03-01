@@ -355,6 +355,9 @@ button:hover{
  .side-bar .menu .item .sub-menu a{
    padding-left: 11vh;
  }
+ .rotate{
+   transform: rotate(90deg);
+ }
 
 /* SIDEBAR - FINE */
 #artwork{
