@@ -313,7 +313,7 @@ button:hover{
 }
 
 #sidebar.active {
-    margin-right: -250px;
+    margin-left: -250px;
 }
 a[data-toggle="collapse"] {
     position: relative;
