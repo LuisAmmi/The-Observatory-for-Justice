@@ -86,6 +86,10 @@
         </ul>
       </div>
     </nav>
+
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
     <div class="side-bar">
       <div class="menu">
         <div class="item"><a href="#"><i class="fas fa-desktop"></i>Dashboard</a></div>
@@ -115,6 +119,17 @@
       $('.sub-btn').click(function(){
         $(this).next('.sub-menu').slideToggle();
         $(this).find('.dropdown').toggleClass('rotate');
+      });
+
+      //jquery for expand and collapse the SIDEBAR
+      $('.menu-btn').click(function(){
+        $('.side-bar').addClass('active');
+        $('.menu-btn').css("visibility", "hidden");
+
+      });
+      $('.close-btn').click(function(){
+        $('.side-bar').removeClass('active');
+        $('.menu-btn').css("visibility", "visible");
       });
     });
     </script>
