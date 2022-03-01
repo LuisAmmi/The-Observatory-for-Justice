@@ -35,7 +35,7 @@ $(document).ready(function(){
     $('.container').css({
       "max-width": "168vh",
       "margin": "auto",
-      "margin-top": "14vh"
+      "margin-top": "13vh"
     });
   });
 

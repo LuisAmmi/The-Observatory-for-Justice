@@ -122,8 +122,10 @@ body {
 
 .container {
   background-image: url("../imgs/dada/paper book.jpeg");
-  margin-top: 14vh;
+  max-width: 168vh;
+  margin-top: 13vh;
   border: #302a2c double 3vh;
+  padding: 1vh;
 }
 
 .text {
@@ -138,9 +140,9 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   text-align: justify;
-  height: 76vh;
+  height: 80vh;
   margin: auto;
-  padding: 15px;
+  padding: 1.5vh;
 }
 
 .navbar-brand{
