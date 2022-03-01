@@ -312,6 +312,7 @@ button:hover{
   backdrop-filter: blur(15px);
   width: 40vh;
   height: 80vh;
+  margin-top: 10vh;
   position: fixed;
   top:0;
   left: -100%;
