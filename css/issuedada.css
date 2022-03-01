@@ -314,13 +314,13 @@ button:hover{
   height: 80vh;
   position: fixed;
   top:10vh;
-  left: -100%;
+  right: -100%;
   overflow-y: auto;
   transition: 0.6s ease;
   transition-property: left;
 }
 .side-bar.active{
-  left:0;
+  right: 0;
 }
 .side-bar .menu{
   width: 100%;
@@ -348,7 +348,7 @@ button:hover{
 
  .side-bar .menu .item a .dropdown{
     position: absolute;
-    right:0;
+    left: 0;
     margin: 2vh;
     transition: 0.3s ease;
   }
@@ -358,7 +358,7 @@ button:hover{
    display: none;
  }
  .side-bar .menu .item .sub-menu a{
-   padding-left: 11vh;
+   padding-right: 11vh;
  }
  .rotate{
    transform: rotate(90deg);
@@ -367,7 +367,7 @@ button:hover{
    position: absolute;
    color: #fff;
    font-size: 1.5vh;
-   right: 0;
+   left: 0;
    margin: 2vh;
    cursor: pointer;
  }
