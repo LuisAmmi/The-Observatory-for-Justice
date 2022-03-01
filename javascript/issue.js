@@ -33,8 +33,9 @@ $(document).ready(function(){
 
   $('#searchicon').dblclick(function(){
     $('.container').css({
-      "max-width": "100%",
-      "margin": "auto"
+      "max-width": "168vh",
+      "margin": "auto",
+      "margin-top": "14vh"
     });
   });
 
