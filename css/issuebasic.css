@@ -45,6 +45,16 @@ body{
     margin-right: 2vh;
     cursor: pointer;
 }
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-right: -250px;
+}
+
 /* Disclaimer */
 .modal {
   display: none; /* Hidden by default */

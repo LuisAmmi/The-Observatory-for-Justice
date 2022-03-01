@@ -305,6 +305,16 @@ button:hover{
   margin-right: 2vh;
   cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-right: -250px;
+}
+
 #artwork{
   height: 60vh
 }

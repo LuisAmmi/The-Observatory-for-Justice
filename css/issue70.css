@@ -269,6 +269,15 @@ img{
   border:0;
 }
 
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-right: -250px;
+}
+
 a {
   overflow-wrap: break-word;
   word-break: break-all;
