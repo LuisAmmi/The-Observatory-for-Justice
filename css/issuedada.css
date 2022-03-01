@@ -305,7 +305,58 @@ button:hover{
   margin-right: 2vh;
   cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
+/* SIDEBAR */
 
+.side-bar{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  width: 40vh;
+  height: 80vh;
+  position: fixed;
+  top:0;
+  left:0;
+  overflow-y: auto;
+}
+.side-bar .menu{
+  width: 100%;
+  margin-top: 12vh;
+}
+.side-bar .menu .item{
+  position: relative;
+  cursor: pointer;
+}
+.side-bar .menu .item a{
+ color: #fff;
+ font-size: 1.5vh;
+ text-decoration: none;
+ display: block;
+ padding: 0.5vh 4vh;
+ line-height: 6vh;
+}
+.side-bar .menu .item a:hover{
+   background-color: #8621F8;
+   transition: 0.3s ease;
+ }
+ .side-bar .menu .item i{
+   margin-right: 2vh;
+ }
+
+ .side-bar .menu .item a .dropdown{
+    position: absolute;
+    right:0;
+    margin: 2vh;
+    transition: 0.3s ease;
+  }
+
+ .side-bar .menu .item .sub-menu{
+   background: rgba(255, 255, 255, 0.1);
+   display: none;
+ }
+ .side-bar .menu .item .sub-menu a{
+   padding-left: 11vh;
+ }
+
+/* SIDEBAR - FINE */
 #artwork{
   height: 60vh
 }

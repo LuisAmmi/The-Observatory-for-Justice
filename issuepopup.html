@@ -86,6 +86,37 @@
         </ul>
       </div>
     </nav>
+    <div class="side-bar">
+      <div class="menu">
+        <div class="item"><a href="#"><i class="fas fa-desktop"></i>Dashboard</a></div>
+        <div class="item">
+          <a class="sub-btn"><i class="fas fa-table"></i>Table<<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="#" class="sub-item">Sub Item 01</a>
+            <a href="#" class="sub-item">Sub Item 02</a>
+            <a href="#" class="sub-item">Sub Item 03</a>
+          </div>
+        </div>
+        <div class="item"><a href="#"><i class="fas fa-desktop"></i>Forms</a></div>
+        <div class="item">
+          <a class="sub-btn"><i class="fas fa-desktop"></i>Settings<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="#" class="sub-item">Sub Item 01</a>
+            <a href="#" class="sub-item">Sub Item 02</a>
+          </div>
+        </div>
+        <div class="item"><a href="#"><i class="fas fa-desktop"></i>About</a></div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      //jquery for togle sub menus
+      $('.sub-btn').click(function(){
+        $(this).next('.sub-menu').slideToggle();
+      });
+    });
+    </script>
 
     <div class="container">
       <div class="row">
