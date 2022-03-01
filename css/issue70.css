@@ -272,10 +272,22 @@ img{
 #sidebar {
     min-width: 250px;
     max-width: 250px;
+    min-height: 100vh;
 }
 
 #sidebar.active {
     margin-right: -250px;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
 }
 
 a {

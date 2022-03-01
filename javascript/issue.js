@@ -41,6 +41,14 @@ $(document).ready(function(){
 
 });
 
+// sidebar
+$(document).ready(function () {
+
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+    });
+
+});
 // Disclaimer
 function disclaimer(){
       var modal = document.getElementById("myModal");
