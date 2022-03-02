@@ -307,11 +307,13 @@ button:hover{
 }
 /*zoom hover article*/
 #article3{
-  transition: transform .2s; /* Animation */
+   transition: all 250ms ease-in-out; /* Animation */
 }
 
 #article3:hover{
-  transform: scale(1.5);
+  width: 70%;
+  transition: all 250ms ease-in-out;
+
 }
 /* SIDEBAR */
 
