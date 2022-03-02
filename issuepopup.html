@@ -129,13 +129,8 @@
         $(this).find('.dropdown').toggleClass('rotate');
       });
       //jquery for togle sub section
-      $('.sub-menu').click(function(){
-        $(this).next('.sub-item').slideToggle();
-        $(this).find('.dropdown').toggleClass('rotate');
-      });
-      //jquery for togle sub section
-      $('.sub-inner-menu').click(function(){
-        $(this).next('.sub-inner-item').slideToggle();
+      $('.sub-item').click(function(){
+        $(this).next('.sub-inner-menu').slideToggle();
         $(this).find('.dropdown').toggleClass('rotate');
       });
 
