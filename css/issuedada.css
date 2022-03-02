@@ -308,17 +308,8 @@ button:hover{
 /*zoom hover article*/
 
 
-.article:hover, #article2, #article1{
-    width: 15%;
-}
-
-.article, #article3{
-    transition: all 250ms ease-in-out;
-}
-
-.article, #article3:hover{
-    width: 150%;
-    transition: all 250ms ease-in-out;
+.col-4:hover{
+  width: 100%;
 }
 
 
