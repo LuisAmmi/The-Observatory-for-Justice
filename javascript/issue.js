@@ -26,8 +26,8 @@ $(document).ready(function(){
 
   $('#searchicon').click(function(){
     $('.container').css({
-      "max-width": "130vh",
-      "margin-left": "5vh"
+      "max-width": "135vh",
+      "margin": "12vh 3vh 5vh;"
     });
   });
 
