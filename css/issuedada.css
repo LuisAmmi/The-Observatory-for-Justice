@@ -306,19 +306,9 @@ button:hover{
   cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
 /*zoom hover article*/
-#article3{
-   transition: all 250ms ease-in-out; /* Animation */
-}
 
-#article3:hover{
-  width: 70%;
-  transition: all 250ms ease-in-out;
-}
-.article, #article3{
-    width: 33.33%;
-}
 
-.article:hover, #article3{
+.article:hover, #article2, #article1{
     width: 15%;
 }
 
