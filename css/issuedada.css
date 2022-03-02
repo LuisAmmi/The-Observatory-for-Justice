@@ -380,6 +380,10 @@ button:hover{
  .side-bar .menu .item .sub-menu .sub-section a{
    padding-right: 11vh;
  }
+ .sub-section li{
+   list-style: none;
+ }
+ 
  .rotate{
    transform: rotate(90deg);
  }
