@@ -306,11 +306,27 @@ button:hover{
   cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
 /*zoom hover article*/
-
-.col-4:hover{
-  width: 80%;
-
+.row .article{
+    width: 33.33%;
 }
+
+.row:hover .article{
+    width: 15%;
+}
+
+.row:hover .article .card-title{
+    font-size: 3vh;
+}
+
+.row .article{
+    transition: all 250ms ease-in-out;
+}
+
+.row .article:hover{
+    width: 70%;
+    transition: all 250ms ease-in-out;
+}
+
 
 /* SIDEBAR */
 
