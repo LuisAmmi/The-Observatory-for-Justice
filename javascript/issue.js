@@ -27,15 +27,14 @@ $(document).ready(function(){
   $('#searchicon').click(function(){
     $('.container').css({
       "max-width": "135vh",
-      "margin": "12vh 3vh 5vh;"
+      "margin-left": "3.5vh";
     });
   });
 
   $('#searchicon').dblclick(function(){
     $('.container').css({
       "max-width": "168vh",
-      "margin": "auto",
-      "margin-top": "13vh"
+      "margin-left": "auto";
     });
   });
 
