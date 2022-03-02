@@ -317,7 +317,7 @@ button:hover{
 }
 
 .article, #article3:hover{
-    width: 70%;
+    width: 150%;
     transition: all 250ms ease-in-out;
 }
 
