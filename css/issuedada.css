@@ -379,6 +379,7 @@ button:hover{
  }
 
 .sub-inner-menu{
+    background: rgba(255, 255, 255, 0.1);
      display: none;
 }
 
