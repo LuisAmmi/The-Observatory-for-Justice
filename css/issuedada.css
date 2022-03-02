@@ -346,11 +346,11 @@ button:hover{
   width: 100%;
   margin-top: 12vh;
 }
-.side-bar .menu .item .form-check{
+.side-bar .menu .item {
   position: relative;
   cursor: pointer;
 }
-.side-bar .menu .item .form-check a{
+.side-bar .menu .item a{
  color: #fff;
  font-size: 1.5vh;
  text-decoration: none;
