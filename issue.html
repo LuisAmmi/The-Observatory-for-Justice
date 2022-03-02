@@ -87,6 +87,53 @@
       </div>
     </nav>
 
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="side-bar">
+          <div class="close-btn">
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="menu">
+            <div class="item">
+              <a class="sub-btn"><i class="fas fa-table"></i>Article3<i class="fas fa-angle-right dropdown"></i></a>
+              <div class="sub-menu">
+                <a href="#" class="sub-item"></i>Section<i class="fas fa-angle-right dropdown"></i></a>
+                <a href="#" class="sub-item"></i>Metadata<i class="fas fa-angle-right dropdown"></i></a>
+              </div>
+            </div>
+
+            <div class="item"><a href="#"><i class="fas fa-desktop"></i>Forms</a></div>
+            <div class="item"><a href="#"><i class="fas fa-desktop"></i>About</a></div>
+          </div>
+        </div>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+          //jquery for togle sub menus
+          $('.sub-btn').click(function(){
+            $(this).next('.sub-menu').slideToggle();
+            $(this).find('.dropdown').toggleClass('rotate');
+          });
+          //jquery for togle sub section
+          $('.sub-item').click(function(){
+            $(this).next('.sub-section').slideToggle();
+            $(this).find('.dropdown').toggleClass('rotate');
+          });
+
+          //jquery for expand and collapse the SIDEBAR
+          $('.menu-btn').click(function(){
+            $('.side-bar').addClass('active');
+            $('.menu-btn').css("visibility", "hidden");
+
+          });
+          $('.close-btn').click(function(){
+            $('.side-bar').removeClass('active');
+            $('.menu-btn').css("visibility", "visible");
+          });
+        });
+        </script>
+        
     <div class="container">
       <div class="row">
         <div class="col-4">
