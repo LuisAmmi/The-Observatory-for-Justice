@@ -346,11 +346,11 @@ button:hover{
   width: 100%;
   margin-top: 12vh;
 }
-.side-bar .menu .item{
+.side-bar .menu .item .form-check{
   position: relative;
   cursor: pointer;
 }
-.side-bar .menu .item a{
+.side-bar .menu .item .form-check a{
  color: #fff;
  font-size: 1.5vh;
  text-decoration: none;
@@ -383,7 +383,7 @@ button:hover{
  .sub-section li{
    list-style: none;
  }
- 
+
  .rotate{
    transform: rotate(90deg);
  }
