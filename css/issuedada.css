@@ -344,6 +344,7 @@ button:hover{
  padding: 0.5vh 4vh;
  line-height: 6vh;
 }
+
 .side-bar .menu .item a:hover{
    background-color: #8621F8;
    transition: 0.3s ease;
@@ -364,7 +365,10 @@ button:hover{
    background: rgba(255, 255, 255, 0.1);
    display: none;
  }
-
+ 
+.sub-inner-item{
+     display: none;
+}
  .side-bar .menu .item .sub-menu a{
    padding-right: 11vh;
  }
