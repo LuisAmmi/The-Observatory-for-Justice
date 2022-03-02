@@ -320,7 +320,7 @@ button:hover{
 }
 
 .row .article:hover{
-    width: 90%;
+    width: 150%;
     transition: all 250ms ease-in-out;
 }
 
@@ -339,7 +339,7 @@ button:hover{
   transition: 0.6s ease;
   transition-property: left;
 }
-.side-bar.active{
+.side-bar .active{
   right: 0;
 }
 .side-bar .menu{
