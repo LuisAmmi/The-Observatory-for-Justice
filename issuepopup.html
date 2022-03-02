@@ -109,37 +109,37 @@
             <a href="#" class="sub-item"></i>Section<i class="fas fa-angle-right dropdown"></i></a>
             <div class="sub-section">
               <li><div class="form-check">
-						  <input type="checkbox" class="form-check-input" active="0" id="pers">
-						  <label class="form-check-label" for="pers">
-						    	Section 1: Mark Covel's case
+						  <input type="checkbox" class="form-check-input" active="0" id="covel">
+						  <label class="form-check-label" for="covel">
+						    	<strong>Section 1:</strong> Mark Covel's case
 						  </label>
 						</div>
 					</li>
           <li><div class="form-check">
-						  <input type="checkbox" class="form-check-input" active="0" id="pers">
-						  <label class="form-check-label" for="pers">
-						    	Section 2: Report on Diaz Pertini school
+						  <input type="checkbox" class="form-check-input" active="0" id="diaz">
+						  <label class="form-check-label" for="diaz">
+						    	<strong>Section 2:</strong> Report on Diaz Pertini school
 						  </label>
 						</div>
 					</li>
           <li><div class="form-check">
-						  <input type="checkbox" class="form-check-input" active="0" id="pers">
-						  <label class="form-check-label" for="pers">
-						    	Section 3: The Bolzaneto District
+						  <input type="checkbox" class="form-check-input" active="0" id="bolzaneto">
+						  <label class="form-check-label" for="bolzaneto">
+						      <strong>Section 3:</strong> The Bolzaneto District
 						  </label>
 						</div>
 					</li>
           <li><div class="form-check">
-						  <input type="checkbox" class="form-check-input" active="0" id="pers">
-						  <label class="form-check-label" for="pers">
-						    	Section 4: The outside world
+						  <input type="checkbox" class="form-check-input" active="0" id="outside">
+						  <label class="form-check-label" for="outside">
+						    	<strong>Section 4:</strong> The outside world
 						  </label>
 						</div>
 					</li>
           <li><div class="form-check">
-						  <input type="checkbox" class="form-check-input" active="0" id="pers">
-						  <label class="form-check-label" for="pers">
-						    	Section 5: What happened next?
+						  <input type="checkbox" class="form-check-input" active="0" id="next">
+						  <label class="form-check-label" for="next">
+						    	<strong>Section 5:</strong> What happened next?
 						  </label>
 						</div>
 					</li>
@@ -164,6 +164,11 @@
       //jquery for togle sub menus
       $('.sub-btn').click(function(){
         $(this).next('.sub-menu').slideToggle();
+        $(this).find('.dropdown').toggleClass('rotate');
+      });
+      //jquery for togle sub section
+      $('.sub-item').click(function(){
+        $(this).next('.sub-section').slideToggle();
         $(this).find('.dropdown').toggleClass('rotate');
       });
 
