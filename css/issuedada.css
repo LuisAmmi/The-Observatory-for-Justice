@@ -313,8 +313,25 @@ button:hover{
 #article3:hover{
   width: 70%;
   transition: all 250ms ease-in-out;
-
 }
+.article, #article3{
+    width: 33.33%;
+}
+
+.article:hover, #article3{
+    width: 15%;
+}
+
+.article, #article3{
+    transition: all 250ms ease-in-out;
+}
+
+.article, #article3:hover{
+    width: 70%;
+    transition: all 250ms ease-in-out;
+}
+
+
 /* SIDEBAR */
 
 .side-bar{
