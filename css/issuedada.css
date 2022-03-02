@@ -365,10 +365,11 @@ button:hover{
    background: rgba(255, 255, 255, 0.1);
    display: none;
  }
- 
-.sub-inner-item{
+
+.sub-inner-menu{
      display: none;
 }
+
  .side-bar .menu .item .sub-menu a{
    padding-right: 11vh;
  }
