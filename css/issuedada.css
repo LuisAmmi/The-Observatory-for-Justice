@@ -372,7 +372,6 @@ button:hover{
     transition: 0.3s ease;
   }
 
-
 .sub-menu {
    background: rgba(255, 255, 255, 0.1);
    display: none;
@@ -390,7 +389,9 @@ button:hover{
  .sub-inner-menu li{
    list-style: none;
  }
-
+.sub-inner-item{
+  border: 0.1vh solid black;
+}
  .rotate{
    transform: rotate(90deg);
  }
