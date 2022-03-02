@@ -373,11 +373,11 @@ button:hover{
     transition: 0.3s ease;
   }
 
- .side-bar .menu .item .sub-menu .sub-section{
+ .side-bar .menu .item .sub-menu {
    background: rgba(255, 255, 255, 0.1);
    display: none;
  }
- .side-bar .menu .item .sub-menu .sub-section a{
+ .side-bar .menu .item .sub-menu a{
    padding-right: 11vh;
  }
  .sub-section li{
