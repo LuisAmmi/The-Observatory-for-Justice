@@ -308,7 +308,7 @@ button:hover{
 /*zoom hover article*/
 
 .row:hover .article{
-    width: 15%;
+    width: 30%;
 }
 
 .row:hover .article .card-title{
@@ -320,7 +320,7 @@ button:hover{
 }
 
 .row .article:hover{
-    width: 70%;
+    width: 90%;
     transition: all 250ms ease-in-out;
 }
 
