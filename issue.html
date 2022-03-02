@@ -99,7 +99,19 @@
               <a class="sub-btn"><i class="fas fa-table"></i>Article3<i class="fas fa-angle-right dropdown"></i></a>
               <div class="sub-menu">
                 <a href="#" class="sub-item"></i>Section<i class="fas fa-angle-right dropdown"></i></a>
+                <div class="sub-inner-menu">
+                  <a href="#" class="sub-inner-item">Mark Covel</a>
+                </div>
                 <a href="#" class="sub-item"></i>Metadata<i class="fas fa-angle-right dropdown"></i></a>
+                <div class="sub-inner-menu">
+                  <a href="#" class="sub-inner-item"></i>People<i class="fas fa-angle-right dropdown"></i></a>
+                  <a href="#" class="sub-inner-item"></i>Place<i class="fas fa-angle-right dropdown"></i></a>
+                  <a href="#" class="sub-inner-item"></i>Event<i class="fas fa-angle-right dropdown"></i></a>
+                  <a href="#" class="sub-inner-item"></i>Time<i class="fas fa-angle-right dropdown"></i></a>
+                  <a href="#" class="sub-inner-item"></i>Company<i class="fas fa-angle-right dropdown"></i></a>
+                  <a href="#" class="sub-inner-item"></i>Concept<i class="fas fa-angle-right dropdown"></i></a>
+                  <a href="#" class="sub-inner-item"></i>Institution<i class="fas fa-angle-right dropdown"></i></a>
+                </div>
               </div>
             </div>
 
@@ -116,8 +128,8 @@
             $(this).find('.dropdown').toggleClass('rotate');
           });
           //jquery for togle sub section
-          $('.sub-item').click(function(){
-            $(this).next('.sub-section').slideToggle();
+          $('.sub-inner-item').click(function(){
+            $(this).next('.sub-inner-menu').slideToggle();
             $(this).find('.dropdown').toggleClass('rotate');
           });
 
@@ -133,7 +145,7 @@
           });
         });
         </script>
-        
+
     <div class="container">
       <div class="row">
         <div class="col-4">

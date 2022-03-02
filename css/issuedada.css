@@ -358,6 +358,21 @@ button:hover{
     margin: 2vh;
     transition: 0.3s ease;
   }
+ .side-bar .menu .item .sub-item a{
+  color: #fff;
+  font-size: 1.5vh;
+  text-decoration: none;
+  display: block;
+  padding: 0.5vh 4vh;
+  line-height: 6vh;
+ }
+ .side-bar .menu .item .sub-item a:hover{
+    background-color: #8621F8;
+    transition: 0.3s ease;
+  }
+  .side-bar .menu .item .sub-item i{
+    margin-right: 2vh;
+  }
 
  .side-bar .menu .item .sub-menu {
    background: rgba(255, 255, 255, 0.1);
@@ -367,8 +382,17 @@ button:hover{
  .side-bar .menu .item .sub-menu a{
    padding-right: 11vh;
  }
+ 
+ .side-bar .menu .item .sub-menu .sub-inner-menu {
+   background: rgba(255, 255, 255, 0.1);
+   display: none;
+ }
 
- .sub-section li{
+ .side-bar .menu .item .sub-menu .sub-inner-menu a{
+   padding-right: 11vh;
+ }
+
+ .sub-inner-menu li{
    list-style: none;
  }
 
