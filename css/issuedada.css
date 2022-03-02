@@ -309,6 +309,11 @@ button:hover{
 
 .col-4:hover{
   width: 100%;
+  overflow-y: scroll;
+  height: 80vh;
+  background-image: url("../imgs/dada/paper book.jpeg");
+  position: fixed;
+
 }
 
 /* SIDEBAR */
