@@ -308,7 +308,7 @@ button:hover{
 /*zoom hover article*/
 
 .col-4:hover{
-  max-width: 168vh;
+  width: 200vh;
   overflow-y: scroll;
   height: 80vh;
   background-image: url("../imgs/dada/paper book.jpeg");
