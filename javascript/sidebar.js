@@ -1,7 +1,8 @@
-// filter mention elements
-function SectionHighligh(section1){
-  let section1 = document.getElementsById('MarkCovelscase');
-  section1.css({
-      "background-color": "#fff"
+
+$(document).ready(function(){
+  $('#covel').click(function(){
+    $('#MarkCovelscase').css({
+        "background-color": "#fff"
+      });
     });
-}
+  });
