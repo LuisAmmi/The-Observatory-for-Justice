@@ -1,6 +1,6 @@
 
   function highlightSection(firstsection){
-    let firstsection = document.getElementById("covel");
+    var firstsection = document.getElementById("covel");
     if (this.checked = true)
     {
       $('#MarkCovelscase').css({"background-color": "#fff"});
