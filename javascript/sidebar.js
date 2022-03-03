@@ -1,12 +1,12 @@
 
-  function highlightSection("covel"){
-    var firstsection = document.getElementById("covel");
-    if (firstsection.checked = true)
-    {
-      $('#MarkCovelscase').css({"background-color": "#fff"});
-      $('article1').scrollTo('#MarkCovelscase');
-    }
-    else {
-      $('#MarkCovelscase').css({"background-color": "none"});
-    }
-  }
+  $('#covel').click(function(){
+        if ($(this).prop("checked") == true)
+          {
+            $('#MarkCovelscase').css({"background-color": "#fff"});
+            $('article1').scrollTo('#MarkCovelscase');
+          }
+        else if($(this).prop("checked") == false)
+         {
+          $('#MarkCovelscase').css({"background-color": "none"});
+         }
+    });
