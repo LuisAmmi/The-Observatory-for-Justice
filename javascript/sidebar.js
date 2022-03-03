@@ -1,7 +1,7 @@
 
-  function highlightSection(firstsection){
+  function highlightSection("covel"){
     var firstsection = document.getElementById("covel");
-    if (this.checked = true)
+    if (firstsection.checked = true)
     {
       $('#MarkCovelscase').css({"background-color": "#fff"});
       $('article1').scrollTo('#MarkCovelscase');
