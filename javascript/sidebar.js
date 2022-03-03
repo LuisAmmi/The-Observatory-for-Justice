@@ -1,12 +1,11 @@
 
-
   $('#covel').click(function(){
-        if ($(this).checked = true)
+        if ($(this).prop("checked") == true)
           {
             $('#MarkCovelscase').css({"background-color": "#fff"});
-            $('#article1').scrollTop('#MarkCovelscase');
+            $('#article1').scrollTop();
           }
-        else if ($(this).checked = false)
+        else if ($(this).prop("checked") == false)
          {
           $('#MarkCovelscase').css({"background-color": "transparent"});
          }
