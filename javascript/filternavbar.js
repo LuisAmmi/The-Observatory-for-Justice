@@ -1,5 +1,7 @@
+
+//Funzione Highlight section
 // "this" nasce dallo <span onlick="higlight()"></span> messo sul ex. <input type="checkbox" class="form-check-input" active="0" id="covel">
-function highlight(x){
+function highlightSection(x){
 var dict = {
 "covel": "MarkCovelscase",
 "diaz": "reportonDiazPertini",
@@ -15,6 +17,7 @@ for (var key in dict) {  // "covel", "diaz", "bolzaneto", "outside", "next"
     var value = dict[x]; //secondo il principio var value = dict[key] "MarkCovelscase", "reportonDiazPertini"...
   //  const selectedParagraph = document.querySelectorAll(value); //associa l'id del paragrafo ("value") al paragrafo, selezionato = tutto salvato in una variabile
       if (x.checked == true){
+        alert("i found");
          document.getElementById(value).style.backgroundColor = "white";
        }
       else if (x.checked == false) {
@@ -25,3 +28,4 @@ for (var key in dict) {  // "covel", "diaz", "bolzaneto", "outside", "next"
    }
  }
 }
+// fine funzione Highlight section
