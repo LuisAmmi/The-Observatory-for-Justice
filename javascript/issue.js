@@ -24,6 +24,7 @@ $(document).ready(function(){
     $('#evidencebased').html('<img id="barbie" alt="old advertising about Barbie&rsquo;s dolls" src="Documentation/topolino/advertising/n982.jpeg">');
   });
 
+//  Funzione per vedere gli articoli singolarmente
   $('#searchicon').click(function(){
     $('.container').css({
       "max-width": "135vh",
