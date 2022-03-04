@@ -25,17 +25,32 @@ $(document).ready(function(){
   });
 
 //  Funzione per vedere gli articoli singolarmente
-  $('#searchicon').click(function(){
-    $('.container').css({
-      "max-width": "135vh",
-      "margin-left": "3.5vh"
+  $('#zoomin').click(function(){
+    if $("#article1").click(function(){
+      (".col-4").switchClass( ".col-4", ".col-12");
+      $('#article2', '#article3').css({
+        "display": "none"
+      });
+    });
+    if $("#article2").click(function(){
+      (".col-4").switchClass( ".col-4", ".col-12");
+      $('#article1', '#article3').css({
+        "display": "none"
+      });
+    });
+    if $("#article3").click(function(){
+      (".col-4").switchClass( ".col-4", ".col-12");
+      $('#article2', '#article1').css({
+        "display": "none"
+      });
     });
   });
 
-  $('#searchicon').dblclick(function(){
-    $('.container').css({
-      "max-width": "168vh",
-      "margin-left": "auto"
+  $('#zoomout').click(function(){
+    (".col-12").switchClass( ".col-12", ".col-4");
+      $('#article2', '#article3').css({
+        "display": "inherit"
+      });
     });
   });
 
