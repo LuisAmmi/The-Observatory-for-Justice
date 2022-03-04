@@ -13,11 +13,11 @@ var dict = {
 for (var key in dict) {  // "covel", "diaz", "bolzaneto", "outside", "next"
   if (key == x) //ex. "covel"
     var value = dict[x]; //secondo il principio var value = dict[key] "MarkCovelscase", "reportonDiazPertini"...
-    const selectedParagraph = document.querySelectorAll(value); //associa l'id del paragrafo ("value") al paragrafo, selezionato = tutto salvato in una variabile
+  //  const selectedParagraph = document.querySelectorAll(value); //associa l'id del paragrafo ("value") al paragrafo, selezionato = tutto salvato in una variabile
       if (x.checked == true)
-         selectedParagraph.style.backgroundColor = "white";
-      else if (x.checked == false)
-        selectedParagraph.style.backgroundColor = "transparent";
+         document.getElementById(value).style.backgroundColor = "white";
+  //    else if (x.checked == false)
+  //      selectedParagraph.style.backgroundColor = "transparent";
   // do something with "key" and "value" variables
  }
 }
