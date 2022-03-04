@@ -26,19 +26,19 @@ $(document).ready(function(){
 
 //  Funzione per vedere gli articoli singolarmente
   $('#zoomin').click(function(){
-    if $("#article1").click(function(){
+    if $("#article1").hover(){
       (".col-4").switchClass( ".col-4", ".col-12");
       $('#article2', '#article3').css({
         "display": "none"
       });
     });
-    if $("#article2").click(function(){
+    if $("#article2").hover(){
       (".col-4").switchClass( ".col-4", ".col-12");
       $('#article1', '#article3').css({
         "display": "none"
       });
     });
-    if $("#article3").click(function(){
+    if $("#article3").hover(){
       (".col-4").switchClass( ".col-4", ".col-12");
       $('#article2', '#article1').css({
         "display": "none"
