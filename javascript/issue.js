@@ -26,21 +26,22 @@ $(document).ready(function(){
 });
 
 //  Funzione per vedere gli articoli singolarmente
+$(document).ready(function(){
   $('#zoomin').click(function(){
     if $("#article1").hover(){
-      (".col-4").switchClass( ".col-4", ".col-12");
+      $(".col-4").switchClass( ".col-4", ".col-12");
       $('#article2', '#article3').css({
         "display": "none"
       });
     });
     if $("#article2").hover(){
-      (".col-4").switchClass( ".col-4", ".col-12");
+      $(".col-4").switchClass( ".col-4", ".col-12");
       $('#article1', '#article3').css({
         "display": "none"
       });
     });
     if $("#article3").hover(){
-      (".col-4").switchClass( ".col-4", ".col-12");
+      $(".col-4").switchClass( ".col-4", ".col-12");
       $('#article2', '#article1').css({
         "display": "none"
       });
@@ -48,11 +49,13 @@ $(document).ready(function(){
   });
 
   $('#zoomout').click(function(){
-    (".col-12").switchClass( ".col-12", ".col-4");
-      $('#article2', '#article3').css({
+    $(".col-12").switchClass( ".col-12", ".col-4");
+      $('#article2', '#article3', '#article1').css({
         "display": "inherit"
       });
     });
+});
+
 
 
 
