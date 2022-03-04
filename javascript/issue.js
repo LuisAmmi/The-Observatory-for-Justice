@@ -23,6 +23,7 @@ $(document).ready(function(){
     $('#badapples').html('<img id="dolceforno" alt="old advertising about the so-called Dolce Forno" src="imgs/70/dolceforno.jpg">');
     $('#evidencebased').html('<img id="barbie" alt="old advertising about Barbie&rsquo;s dolls" src="Documentation/topolino/advertising/n982.jpeg">');
   });
+});
 
 //  Funzione per vedere gli articoli singolarmente
   $('#zoomin').click(function(){
@@ -52,9 +53,8 @@ $(document).ready(function(){
         "display": "inherit"
       });
     });
-  });
 
-});
+
 
 
 // Disclaimer
