@@ -103,35 +103,35 @@
             <div class="sub-inner-menu">
               <a href="#" class="sub-inner-item">Mark Covel</a>
               <li><div class="form-check">
-                  <input onclick="highlight(this)" type="checkbox" class="form-check-input" active="0" id="covel">
+                  <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="covel">
                   <label class="form-check-label" for="covel">
                       <strong>Section 1:</strong> Mark Covel's case
                   </label>
                   </div>
               </li>
               <li><div class="sub-inner-item form-check">
-                  <input onclick="highlight(this)" type="checkbox" class="form-check-input" active="0" id="diaz">
+                  <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="diaz">
                   <label class="form-check-label" for="diaz">
                       <strong>Section 2:</strong> Report on Diaz Pertini school
                   </label>
                   </div>
               </li>
               <li><div class="sub-inner-item form-check">
-                   <input type="checkbox" class="form-check-input" active="0" id="bolzaneto">
+                   <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="bolzaneto">
                    <label class="form-check-label" for="bolzaneto">
                        <strong>Section 3:</strong> The Bolzaneto District
                    </label>
                    </div>
               </li>
               <li><div class="sub-inner-item form-check">
-                   <input type="checkbox" class="form-check-input" active="0" id="outside">
+                   <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="outside">
                    <label class="form-check-label" for="outside">
                        <strong>Section 4:</strong> The outside world
                    </label>
                    </div>
               </li>
               <li><div class="sub-inner-item form-check">
-                   <input type="checkbox" class="form-check-input" active="0" id="next">
+                   <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="next">
                    <label class="form-check-label" for="next">
                        <strong>Section 5:</strong> What happened next?
                    </label>
@@ -171,11 +171,19 @@
 
       //jquery for expand and collapse the SIDEBAR
       $('.menu-btn').click(function(){
+        $('.container').css({
+          "max-width": "135vh",
+          "margin-left": "3.5vh"
+        });
         $('.side-bar').addClass('active');
         $('.menu-btn').css("visibility", "hidden");
 
       });
       $('.close-btn').click(function(){
+        $('.container').css({
+          "max-width": "168vh",
+          "margin-left": "auto"
+        });
         $('.side-bar').removeClass('active');
         $('.menu-btn').css("visibility", "visible");
       });
