@@ -15,7 +15,7 @@ for (var key in dict) {  // "covel", "diaz", "bolzaneto", "outside", "next"
     var value = dict[x]; //secondo il principio var value = dict[key] "MarkCovelscase", "reportonDiazPertini"...
   //  const selectedParagraph = document.querySelectorAll(value); //associa l'id del paragrafo ("value") al paragrafo, selezionato = tutto salvato in una variabile
       if (x.checked == true)
-         document.getElementById(value).style.backgroundColor = "white";
+         document.getElementById(value).style.backgroundColor = white;
   //    else if (x.checked == false)
   //      selectedParagraph.style.backgroundColor = "transparent";
   // do something with "key" and "value" variables
