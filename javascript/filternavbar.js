@@ -1,5 +1,5 @@
 // "this" nasce dallo <span onlick="higlight()"></span> messo sul ex. <input type="checkbox" class="form-check-input" active="0" id="covel">
-function highlight(x){
+function highlight($x){
 var dict = {
 "covel": "MarkCovelscase",
 "diaz": "reportonDiazPertini",
@@ -11,8 +11,8 @@ var dict = {
 //cos'è this? l'elemento nel complesso? oppure l'id? per prendere solo l'id forse bisogna fare idthis = $this.getId...
 
 for (var key in dict) {  // "covel", "diaz", "bolzaneto", "outside", "next"
-  if (key == x) //ex. "covel"
-    var value = dict[x]; //secondo il principio var value = dict[key] "MarkCovelscase", "reportonDiazPertini"...
+  if (key == $x) //ex. "covel"
+    var value = dict[$x]; //secondo il principio var value = dict[key] "MarkCovelscase", "reportonDiazPertini"...
     const selectedParagraph = document.querySelectorAll(value); //associa l'id del paragrafo ("value") al paragrafo, selezionato = tutto salvato in una variabile
       if (($x).prop("checked") == true)
          selectedParagraph.style.backgroundColor = "#fff";
