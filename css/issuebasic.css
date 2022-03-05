@@ -291,7 +291,7 @@ a {
 .articlesubtitle, .subtitle{
   font-size: 2vh;
 }
-#img1art1, #img1art2, #img2art2, #img3art2, #img4art2{
+.imgarticle{
   min-width: -webkit-fill-available;
 }
 /* Metadata Viewer*/

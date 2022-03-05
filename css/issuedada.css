@@ -290,7 +290,7 @@ button:hover{
            }
        }
 
-.graphicimg {
+#img2art2, #img4art2 {
   border: 10px solid;
   max-width: 100%;
   height: auto;
