@@ -272,15 +272,23 @@ img{
 #zoomin, #zoomout{
   background: #302a2c;
   padding-right: 0;
+  background-image: url("../imgs/70/sfondo verde.png");
+  border-right: 0.5vh solid black;
 }
-
+#zoomin{
+  border-top: 0.5vh solid black;
+}
+#zoomout{
+  border-bottom: 0.5vh solid black;
+}
 /*zoom article fine */
 
 
 /* SIDEBAR */
 
 .side-bar{
-  background: rgba(0, 0, 0, 0.2);
+  background-image: url("../imgs/70/sfondo rosa.png");
+  opacity:0.8;
   backdrop-filter: blur(15px);
   width: 40vh;
   height: 90vh;
