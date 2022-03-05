@@ -28,6 +28,7 @@ $(document).ready(function(){
 //  Funzione per vedere gli articoli singolarmente
 $(document).ready(function(){
   $('#zoomin').click(function(){
+    alert('Click on an article to read it individually. Then, click on the zoom out lens to come back to the display of articles in column.');
       $("#article1").click(function(){    //  Clicca sul primo articolo per vederlo singolarmente
         $("#firstcol").css({"display": "contents"});
         $('#secondcol').css({"display": "none"});
