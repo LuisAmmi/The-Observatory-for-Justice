@@ -305,8 +305,11 @@ button:hover{
   margin-right: 2vh;
   cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
-/*zoom hover article*/
-/*zoom hover article fine */
+/*zoom  article*/
+#zoomin, #zoomout{
+  background: #302a2c;
+}
+/*zoom article fine */
 
 
 /* SIDEBAR */
