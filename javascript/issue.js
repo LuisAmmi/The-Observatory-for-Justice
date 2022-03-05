@@ -28,35 +28,28 @@ $(document).ready(function(){
 //  Funzione per vedere gli articoli singolarmente
 $(document).ready(function(){
   $('#zoomin').click(function(){
-      $("#article1").hover(function(){
-      alert( "article1" );
-        $(".col-4").switchClass("col-4", "col-12", '500');
-        $('#article2', '#article3').css({
-          "display": "none"
-        });
-    });
-      $("#article2").hover(function(){
-      alert( "article2" );
-        $(".col-4").switchClass("col-4", "col-12", '500');
-        $('#article1', '#article3').css({
-          "display": "none"
-        });
-    });
-      $("#article3").hover(function(){
-      alert( "article3" );
-        $(".col-4").switchClass("col-4", "col-12", '500');
-        $('#article2', '#article1').css({
-          "display": "none"
-        });
-    });
-  });
-
-  $('#zoomout').click(function(){
-    $(".col-12").switchClass("col-12", "col-4", '500');
-    $('#article2', '#article3', '#article1').css({
-        "display": "inherit"
+      $("#article1").click(function(){    //  Clicca sul primo articolo per vederlo singolarmente
+        $("#firstcol").css({"display": "contents"});
+        $('#secondcol').css({"display": "none"});
+        $('#thirdcol').css({"display": "none"});
+      });
+      $("#article2").click(function(){ //  Clicca sul primo articolo per vederlo singolarmente
+        $("#secondcol").css({"display": "contents"});
+        $('#firstcol').css({"display": "none"});
+        $('#thirdcol').css({"display": "none"});
+      });
+      $("#article3").click(function(){  //  Clicca sul primo articolo per vederlo singolarmente
+        $("#thirdcol").css({"display": "contents"});
+        $('#firstcol').css({"display": "none"});
+        $('#secondcol').css({"display": "none"});
       });
     });
+
+  $('#zoomout').click(function(){   //  Per reimpostare la visualizzazione dei tre articoli in colonne
+    $("#firstcol").css({"display": "inherit"});
+    $('#secondcol').css({"display": "inherit"});
+    $('#thirdcol').css({"display": "inherit"});
+  });
 });
 
 

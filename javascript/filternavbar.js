@@ -1,6 +1,6 @@
 
 //Funzione Highlight section
-// "this" nasce dallo <span onlick="higlight()"></span> messo sul ex. <input type="checkbox" class="form-check-input" active="0" id="covel">
+// "this" nasce dallo <span onlick="higlight(this)"></span> messo sul ex. <input type="checkbox" class="form-check-input" active="0" id="covel">
 function highlightSection(x){
 var dict = {
 "covel": "MarkCovelscase",
