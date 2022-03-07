@@ -28,6 +28,7 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
       else if (hrefValue == "css/issue70.css"){
             if (x.checked == true){
              document.getElementById(value).style.border = 'red solid 0.5vh';
+             document.getElementById(value).style.backgroundColor = "transparent";
              }
             else if (x.checked == false) {
               document.getElementById(value).style.border = '0';
