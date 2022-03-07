@@ -88,6 +88,7 @@ body{
  display: block;
  padding: 0.5vh 4vh;
  line-height: 6vh;
+  word-break: break-word;
 }
 
 .side-bar .menu .item a:hover{

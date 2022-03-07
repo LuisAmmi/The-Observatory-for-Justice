@@ -318,6 +318,7 @@ img{
  display: block;
  padding: 0.5vh 4vh 0.5vh 1vh;
  line-height: 6vh;
+  word-break: break-word;
 }
 
 .side-bar .menu .item a:hover{
