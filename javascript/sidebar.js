@@ -59,36 +59,3 @@
                       nodeList[i].style.backgroundColor = "transparent";
                     }
 //
-//  Funzione per vedere gli articoli singolarmente
-$(document).ready(function(){
-  $('#zoomin').click(function(){
-      $("#article1").hover(function(){
-      alert( "article1" );
-        $(".col-4").switchClass("col-4", "col-12", '500');
-        $('#article2', '#article3').css({
-          "display": "none"
-        });
-    });
-      $("#article2").hover(function(){
-      alert( "article2" );
-        $(".col-4").switchClass("col-4", "col-12", '500');
-        $('#article1', '#article3').css({
-          "display": "none"
-        });
-    });
-      $("#article3").hover(function(){
-      alert( "article3" );
-        $(".col-4").switchClass("col-4", "col-12", '500');
-        $('#article2', '#article1').css({
-          "display": "none"
-        });
-    });
-  });
-
-  $('#zoomout').click(function(){
-    $(".col-12").switchClass("col-12", "col-4", '500');
-    $('#article2', '#article3', '#article1').css({
-        "display": "inherit"
-      });
-    });
-});

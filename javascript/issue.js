@@ -24,7 +24,45 @@ $(document).ready(function(){
     $('#evidencebased').html('<img class="imgarticle" id="barbie" alt="old advertising about Barbie&rsquo;s dolls" src="Documentation/topolino/advertising/n982.jpeg">');
   });
 });
+// Funzione per aprire e chiudere SIDEBAR
+$(document).ready(function(){
+  //jquery for togle sub menus
+  $('.sub-btn').click(function(){
+    $(this).next('.sub-menu').slideToggle();
+    $(this).find('.dropdown').toggleClass('rotate');
+  });
+  //jquery for togle sub section
+  $('.sub-item').click(function(){
+    $(this).next('.sub-inner-menu').slideToggle();
+    $(this).find('.dropdown').toggleClass('rotate');
+  });
+  //jquery for togle sub section
+  $('.sub-inner-item').click(function(){
+    $(this).next('.sub-inner-inner-menu').slideToggle();
+    $(this).find('.dropdown').toggleClass('rotate');
+  });
 
+  //jquery for expand and collapse the SIDEBAR
+  $('.menu-btn').click(function(){
+    $('.container').css({
+      "max-width": "135vh",
+      "margin-left": "3.5vh"
+    });
+
+    $('.side-bar').addClass('active');
+    $('.menu-btn').css("visibility", "hidden");
+
+  });
+  $('.close-btn').click(function(){
+    $('.container').css({
+      "max-width": "168vh",
+      "margin-left": "auto"
+    });
+    $('.side-bar').removeClass('active');
+    $('.menu-btn').css("visibility", "visible");
+  });
+});
+// fine Funzione
 //  Funzione per vedere gli articoli singolarmente
 $(document).ready(function(){
   $('#zoomin').click(function(){
@@ -41,7 +79,9 @@ $(document).ready(function(){
         $('#firstcol').css({"display": "none"});
         $('#thirdcol').css({"display": "none"});
         $('.imgarticle').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "auto"});
-        $('#articletitle2').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "auto"});
+        $('#topolinoicon').click(function(){
+          $('#articletitle2').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "auto"});
+        });
       });
       $("#article3").click(function(){  //  Clicca sul primo articolo per vederlo singolarmente
         $("#thirdcol").css({"display": "contents"});
