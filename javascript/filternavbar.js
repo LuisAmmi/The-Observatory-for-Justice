@@ -20,38 +20,28 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
       if ((hrefValue == "css/issuedada.css") || (hrefValue == "css/issuebasic.css")){
             if (x.checked == true){
               document.getElementById(value).style.backgroundColor = "red";
-            //$('#' + value).css('background', '#fff url("imgs/70/sfondo verde.png"');
-             //document.getElementById(value).css('background', '#fff url("../imgs/70/sfondo bianco.png"');
              }
             else if (x.checked == false) {
               document.getElementById(value).style.backgroundColor = "transparent";
-            //  $('#' + value).css('background', 'transparent url("imgs/70/sfondo bianco.png"');
-          //  document.getElementById(value).css('background', 'transparent url("../imgs/70/sfondo bianco.png"');
             }
       }
       else if (hrefValue == "css/issue70.css"){
             if (x.checked == true){
              document.getElementById(value).style.border = 'red solid 0.5vh';
-
-            //  var selectedSection = document.getElementById(value);
-            //  for ($("p") in selectedSection) {
-           //      $("p").css('background-image', 'url("../imgs/70/sfondo rosa.png")');
-            //  }
-
-              //selectedSection.querySelectorAll('p').css('background-image', 'url("../imgs/70/sfondo rosa.png")'); //style.backgroundColor = "red"; //css('background-image', 'url("../imgs/70/sfondo rosa.png")');
-            //$('#' + value).css('background', '#fff url("imgs/70/sfondo verde.png"');
-             //document.getElementById(value).css('background', '#fff url("../imgs/70/sfondo bianco.png"');
              }
             else if (x.checked == false) {
               document.getElementById(value).style.border = '0';
-            //  $('#' + value).css('background', 'transparent url("imgs/70/sfondo bianco.png"');
-          //  document.getElementById(value).css('background', 'transparent url("../imgs/70/sfondo bianco.png"');
             }
       }
    }
  }
 };
 
-// fine funzione Highlight section
-//$('#stylepage').attr('href', 'css/issuedada.css');
-//<link rel="stylesheet" href="css/issuebasic.css" id='stylepage'>
+//  var selectedSection = document.getElementById(value);
+//  for ($("p") in selectedSection) {
+//      $("p").css('background-image', 'url("../imgs/70/sfondo rosa.png")');
+//  }
+
+  //selectedSection.querySelectorAll('p').css('background-image', 'url("../imgs/70/sfondo rosa.png")'); //style.backgroundColor = "red"; //css('background-image', 'url("../imgs/70/sfondo rosa.png")');
+//$('#' + value).css('background', '#fff url("imgs/70/sfondo verde.png"');
+ //document.getElementById(value).css('background', '#fff url("../imgs/70/sfondo bianco.png"');
