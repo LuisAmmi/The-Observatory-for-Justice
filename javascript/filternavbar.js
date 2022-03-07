@@ -46,6 +46,15 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
 };
 
 
+function myFunction(y) {
+  var paragraph = document.getElementById(y);
+  alert(paragraph);
+  var top = paragraph.offsetTop;
+  alert(top);
+   $("#article1").animate(scrollTop(top), 1000);
+//  $('article1').scrollTop(top);
+}
+
 //  var selectedSection = document.getElementById(value);
 //  for ($("p") in selectedSection) {
 //      $("p").css('background-image', 'url("../imgs/70/sfondo rosa.png")');
