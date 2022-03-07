@@ -18,6 +18,7 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
   if (key == name) {//ex. "covel"
     var value = dict[name]; //secondo il principio var value = dict[key] "MarkCovelscase", "reportonDiazPertini"...
       if ((hrefValue == "css/issuedada.css") || (hrefValue == "css/issuebasic.css")){
+
             if (x.checked == true){
               document.getElementById(value).style.backgroundColor = "red";
              }
@@ -26,17 +27,24 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
             }
       }
       else if (hrefValue == "css/issue70.css"){
+
             if (x.checked == true){
              document.getElementById(value).style.border = 'red solid 0.5vh';
-             document.getElementById(value).style.backgroundColor = "transparent";
              }
             else if (x.checked == false) {
               document.getElementById(value).style.border = '0';
             }
       }
+      $('#dadaicon').click(function(){
+        alert('Before changing style, please deselect the checkbox in the sidebar.')
+        document.getElementById(value).style.border = '0'; });
+      $('#topolinoicon').click(function(){
+        alert('Before changing style, please deselect the checkbox in the sidebar.')
+        document.getElementById(value).style.backgroundColor = "transparent"; });
    }
  }
 };
+
 
 //  var selectedSection = document.getElementById(value);
 //  for ($("p") in selectedSection) {
