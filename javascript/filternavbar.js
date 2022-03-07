@@ -36,10 +36,10 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
             }
       }
       $('#dadaicon').click(function(){
-        alert('Before changing style, please deselect the checkbox in the sidebar.')
+        alert('Before changing style, please deselect the checkboxs in the sidebar.')
         document.getElementById(value).style.border = '0'; });
       $('#topolinoicon').click(function(){
-        alert('Before changing style, please deselect the checkbox in the sidebar.')
+        alert('Before changing style, please deselect the checkboxs in the sidebar.')
         document.getElementById(value).style.backgroundColor = "transparent"; });
    }
  }
