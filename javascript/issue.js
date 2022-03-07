@@ -63,6 +63,7 @@ $(document).ready(function(){
   });
 });
 // fine Funzione
+
 //  Funzione per vedere gli articoli singolarmente
 $(document).ready(function(){
   $('#zoomin').click(function(){
@@ -98,8 +99,6 @@ $(document).ready(function(){
     $('.imgarticle').css({"width": "-webkit-fill-available", "min-width": "-webkit-fill-available"});
   });
 });
-
-
 
 
 
