@@ -395,8 +395,15 @@ button:hover{
  .sub-inner-menu li{
    list-style: none;
  }
+ 
 .sub-inner-item{
   border: 0.1vh solid black;
+}
+
+.sub-inner-inner-item{
+  border: 0.1vh solid black;
+  padding: 0 3vh;
+  line-height: 4vh;
 }
  .rotate{
    transform: rotate(90deg);

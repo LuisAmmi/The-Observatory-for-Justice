@@ -374,6 +374,8 @@ img{
 }
 .sub-inner-inner-item{
   border: 0.1vh solid black;
+  padding: 0 3vh;
+  line-height: 4vh;
 }
 .side-bar .menu .item .sub-menu .sub-inner-menu a .dropdown{
    position: absolute;
