@@ -343,12 +343,12 @@ button:hover{
 }
 .side-bar .menu .item a{
  color: #fff;
- font-size: 2vh;
  text-decoration: none;
  display: block;
  padding: 0.5vh 4vh;
- line-height: 6vh;
+ line-height: 4vh;
   word-break: break-word;
+  letter-spacing: inherit;
 }
 
 .side-bar .menu .item a:hover{
@@ -387,6 +387,11 @@ button:hover{
   background: rgba(0, 0, 0, 0.2);
   display: none;
 }
+.sub-inner-inner-menu{
+  background: rgba(0, 0, 0, 0.2);
+  display: none;
+  font-size: 1.7vh;
+}
 
  .side-bar .menu .item .sub-menu a{
    padding-right: 11vh;
@@ -395,12 +400,13 @@ button:hover{
  .sub-inner-menu li{
    list-style: none;
  }
- 
+
 .sub-inner-item{
   border: 0.1vh solid black;
 }
 
 .sub-inner-inner-item{
+  display: none;
   border: 0.1vh solid black;
   padding: 0 3vh;
   line-height: 4vh;

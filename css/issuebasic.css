@@ -82,13 +82,13 @@ body{
   cursor: pointer;
 }
 .side-bar .menu .item a{
- color: #fff;
- font-size: 2vh;
- text-decoration: none;
- display: block;
- padding: 0.5vh 4vh;
- line-height: 6vh;
-  word-break: break-word;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0.5vh 4vh;
+  line-height: 4vh;
+   word-break: break-word;
+   letter-spacing: inherit;
 }
 
 .side-bar .menu .item a:hover{
@@ -127,6 +127,10 @@ body{
   background: rgba(0, 0, 0, 0.2);
   display: none;
 }
+.sub-inner-inner-menu{
+  background: rgba(0, 0, 0, 0.2);
+  display: none;
+}
 
  .side-bar .menu .item .sub-menu a{
    padding-right: 11vh;
@@ -142,6 +146,7 @@ body{
   border: 0.1vh solid black;
   padding: 0 3vh;
   line-height: 4vh;
+  font-size: 1.7vh;
 }
  .rotate{
    transform: rotate(90deg);
