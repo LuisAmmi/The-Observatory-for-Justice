@@ -59,13 +59,13 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
 };
 
 
-//function myFunction(y) {
-//  var paragraph = document.getElementById(y);
-//  var top = paragraph.offsetTop;
-//  alert(top);
-//  $('#article1').animate({scrollTop: $(top).offset().top}, 800);
-//  $('article1').scrollTop(top);
-//}
+function myFunction(y) {
+ var paragraph = document.getElementById(y);
+  var top = paragraph.offsetTop;
+  alert(top);
+  $('#article1').animate({scrollTop: $(top).offset().top}, 800);
+  $('#article1').scrollTop(top);
+}
 
 
 //  var selectedSection = document.getElementById(value);
@@ -80,17 +80,17 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
 
 // FUNZIONE UNDERLINE MENTIONS
 function underline(item){
-  if (location.hash.length > 1){          // if there's something alredy underline ex. "The-Observatory-for-Justice/issuepopup.html#NickDavies"
-    document.style.textDecoration = "none"; //delete the underline decoration
-  }
-  else {
-  alert(hashValue);
+  //if (location.hash.length > 1){          // if there's something alredy underline ex. "The-Observatory-for-Justice/issuepopup.html#NickDavies"
+  //  document.style.textDecoration = "none"; //delete the underline decoration
+//  }
+//  else {
+//  alert(hashValue);
   var hrefValueName = $(item).attr('href'); // es. #NickDavies
   alert(hrefValueName);
   var newValueName = hrefValueName.replace('#', '');  // #NickDavies --> NickDavies
   alert(newValueName);
-  var idValue = '"'+ newValueName +'"'; //NickDavies --> 'NickDavies'
-  alert(idValue);
-  document.getElementById(idValue + '*').style.textDecoration = "solid underline red";
-  }
+  $('[id^='+ newValueName +']').css("text-decoration", "solid underline red");
+  alert($('[id^='+ newValueName +']'));
+//  document.getElementById(newValueName).style.textDecoration = "solid underline red";
+//  $('div[id^="list_"]')
 };
