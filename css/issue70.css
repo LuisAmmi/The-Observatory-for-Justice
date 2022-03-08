@@ -315,7 +315,7 @@ img{
  color: #fff;
  font-size: 2vh;
  text-decoration: none;
- display: block;
+  display: inherit;
  padding: 0.5vh 4vh 0.5vh 1vh;
  line-height: 6vh;
   word-break: break-word;
@@ -331,7 +331,9 @@ img{
    text-decoration: none;
    display: block;
    padding: 0.5vh 7vh;
+   margin-bottom: 0;
  }
+
 
  .form-check:hover{
    background-color: #8621F8;
@@ -363,7 +365,7 @@ img{
 }
 
 .sub-inner-inner-item{
-  padding: 0 3vh;
+  padding: 0px 0vh 0 4vh;
   line-height: 4vh;
   font-size: 1.7vh;
 }
@@ -376,6 +378,8 @@ img{
  }
 .sub-inner-item{
   border: 0.1vh solid black;
+  padding: 1vh;
+  padding-left: 4vh;
 }
 .sub-inner-inner-item{
   border: 0.1vh solid black;
@@ -387,6 +391,14 @@ img{
    right: 0;
    margin: 2vh;
    transition: 0.3s ease;
+ }
+ .form-check-input input{
+   display: flex;
+   position: relative;
+   top: 1vh;
+ }
+ .fa .fa-map-pin a{
+   display: inline;
  }
  .rotate{
    transform: rotate(90deg);

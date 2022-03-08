@@ -344,7 +344,7 @@ button:hover{
 .side-bar .menu .item a{
  color: #fff;
  text-decoration: none;
- display: block;
+  display: inherit;
  padding: 0.5vh 4vh;
  line-height: 4vh;
   word-break: break-word;
@@ -361,6 +361,7 @@ button:hover{
    text-decoration: none;
    display: block;
    padding: 0.5vh 7vh;
+   margin-bottom: 0;
  }
 
  .form-check:hover{
@@ -403,13 +404,18 @@ button:hover{
 
 .sub-inner-item{
   border: 0.1vh solid black;
+  padding: 1vh;
+  padding-left: 4vh;
 }
 
 .sub-inner-inner-item{
   display: none;
   border: 0.1vh solid black;
-  padding: 0 3vh;
+  padding: 0px 0vh 0 4vh;
   line-height: 4vh;
+}
+.fa .fa-map-pin a{
+  display: inline;
 }
  .rotate{
    transform: rotate(90deg);

@@ -84,7 +84,7 @@ body{
 .side-bar .menu .item a{
   color: #fff;
   text-decoration: none;
-  display: block;
+  display: inherit;
   padding: 0.5vh 4vh;
   line-height: 4vh;
    word-break: break-word;
@@ -101,8 +101,13 @@ body{
    text-decoration: none;
    display: block;
    padding: 0.5vh 7vh;
+   margin-bottom: 0;
  }
-
+input{
+   display: flex;
+   position: relative;
+   top: 1vh;
+ }
  .form-check:hover{
    background-color: #8621F8;
    transition: 0.3s ease;
@@ -132,21 +137,22 @@ body{
   display: none;
 }
 
- .side-bar .menu .item .sub-menu a{
-   padding-right: 11vh;
- }
-
  .sub-inner-menu li{
    list-style: none;
  }
 .sub-inner-item{
   border: 0.1vh solid black;
+  padding: 1vh;
+  padding-left: 4vh;
 }
 .sub-inner-inner-item{
   border: 0.1vh solid black;
-  padding: 0 3vh;
+  padding: 0px 0vh 0 4vh;
   line-height: 4vh;
   font-size: 1.7vh;
+}
+.fa .fa-map-pin a{
+  display: inline;
 }
  .rotate{
    transform: rotate(90deg);

@@ -58,39 +58,10 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
  }
 };
 
-
-function myFunction(y) {
- var paragraph = document.getElementById(y);
-  var top = paragraph.offsetTop;
-  alert(top);
-  $('#article1').animate({scrollTop: $(top).offset().top}, 800);
-  $('#article1').scrollTop(top);
-}
-
-
-//  var selectedSection = document.getElementById(value);
-//  for ($("p") in selectedSection) {
-//      $("p").css('background-image', 'url("../imgs/70/sfondo rosa.png")');
-//  }
-
-  //selectedSection.querySelectorAll('p').css('background-image', 'url("../imgs/70/sfondo rosa.png")'); //style.backgroundColor = "red"; //css('background-image', 'url("../imgs/70/sfondo rosa.png")');
-//$('#' + value).css('background', '#fff url("imgs/70/sfondo verde.png"');
- //document.getElementById(value).css('background', '#fff url("../imgs/70/sfondo bianco.png"');
-
-
 // FUNZIONE UNDERLINE MENTIONS
 function underline(item){
-  //if (location.hash.length > 1){          // if there's something alredy underline ex. "The-Observatory-for-Justice/issuepopup.html#NickDavies"
-  //  document.style.textDecoration = "none"; //delete the underline decoration
-//  }
-//  else {
-//  alert(hashValue);
   var hrefValueName = $(item).attr('href'); // es. #NickDavies
-  alert(hrefValueName);
   var newValueName = hrefValueName.replace('#', '');  // #NickDavies --> NickDavies
-  alert(newValueName);
-  $('[id^='+ newValueName +']').css("text-decoration", "solid underline red");
+  $('[id^='+ newValueName +']').css("text-decoration", "underline solid 0.5vh red"); // also take id of items that appears more than once
   alert($('[id^='+ newValueName +']'));
-//  document.getElementById(newValueName).style.textDecoration = "solid underline red";
-//  $('div[id^="list_"]')
 };
