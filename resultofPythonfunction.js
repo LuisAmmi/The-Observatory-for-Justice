@@ -63,11 +63,11 @@ person [
 {'George Floyd': 7},
 {'Michael Brown': 1},
 {'Eric Garner': 1},
-{'Justin Nix': 2},
+{'Justin Nix': 2}, //DA FARE
 {'Tracey Meares': 1},
 {'Mark Hoekstra': 2},
 {'Seth Stoughton': 4},
-{'SteveSanchez': 1},
+{'Steve Sanchez': 1},
 {'Lawrence Sherman': 5},
 {'Tamir Rice': 1},
 {'Donald Trump': 1},
@@ -76,6 +76,7 @@ person [
 {'Megan Morgan': 1},
 {'Thomas O’Brien': 1},
 {'Ahmaud Arbery': 1},
+
 {'James D. Livingston': 3},
 {'Zachary MacMillan': 1},
 {'Karen Chu': 1},

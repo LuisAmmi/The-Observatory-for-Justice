@@ -7,11 +7,24 @@ var dict = {
 "diaz": "reportonDiazPertini",
 "bolzaneto": "BolzanetoDistrict",
 "outside": "theoutsideworld",
-"next": "whathappenednext"
+"next": "whathappenednext",
+"intro": "2-intro",
+"bad-apples": "2-badapples",
+ "evidence-based": "2-evidencebased",
+ "update-corrections": "updatesandcorrections2",
+  "ref": "references2",
+  "abstract": "abstract3",
+  "introduction": "3-intro",
+  "methods": "3-methods",
+  "results": "3-results",
+  "discussion": "3-discussion",
+  "conclusion": "3-conclusions",
+  "contact": "authorandarticleinfo3",
+  "references": "references3"
 };
+
 var linkValue = document.getElementById('stylepage');
 var hrefValue = $(linkValue).attr('href');
-//  : "2-intro", : "2-badapples", : "2-evidencebased", : "updatesandcorrections2", : "references2", : "abstract3",  : "3-intro",  : "3-methods",  : "3-results", : "3-discussion", : "3-conclusions", : "authorandarticleinfo3", : "references3"
 //cos'è this? l'elemento nel complesso? oppure l'id? per prendere solo l'id forse bisogna fare idthis = $this.getId...
 
 for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
@@ -46,14 +59,14 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
 };
 
 
-function myFunction(y) {
-  var paragraph = document.getElementById(y);
-  alert(paragraph);
-  var top = paragraph.offsetTop;
-  alert(top);
-   $("#article1").animate(scrollTop(top), 1000);
+//function myFunction(y) {
+//  var paragraph = document.getElementById(y);
+//  var top = paragraph.offsetTop;
+//  alert(top);
+//  $('#article1').animate({scrollTop: $(top).offset().top}, 800);
 //  $('article1').scrollTop(top);
-}
+//}
+
 
 //  var selectedSection = document.getElementById(value);
 //  for ($("p") in selectedSection) {
@@ -63,3 +76,21 @@ function myFunction(y) {
   //selectedSection.querySelectorAll('p').css('background-image', 'url("../imgs/70/sfondo rosa.png")'); //style.backgroundColor = "red"; //css('background-image', 'url("../imgs/70/sfondo rosa.png")');
 //$('#' + value).css('background', '#fff url("imgs/70/sfondo verde.png"');
  //document.getElementById(value).css('background', '#fff url("../imgs/70/sfondo bianco.png"');
+
+
+// FUNZIONE UNDERLINE MENTIONS
+function underline(item){
+  if (location.hash.length > 1){          // if there's something alredy underline ex. "The-Observatory-for-Justice/issuepopup.html#NickDavies"
+    document.style.textDecoration = "none"; //delete the underline decoration
+  }
+  else {
+  alert(hashValue);
+  var hrefValueName = $(item).attr('href'); // es. #NickDavies
+  alert(hrefValueName);
+  var newValueName = hrefValueName.replace('#', '');  // #NickDavies --> NickDavies
+  alert(newValueName);
+  var idValue = '"'+ newValueName +'"'; //NickDavies --> 'NickDavies'
+  alert(idValue);
+  document.getElementById(idValue + '*').style.textDecoration = "solid underline red";
+  }
+};
