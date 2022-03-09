@@ -469,10 +469,12 @@ blockquote.speech {
 #issuetopolino{
   border: 0.5vh solid black;
   margin: 0 1vh 2vh;
+  width: 60vh;
 }
 #paperinosalto{
   border: 0.5vh solid black;
   margin: 0 1vh 2vh;
+  width: 60vh;
 }
 #first{
   background-image: url("../imgs/70/fumettoleft.png");

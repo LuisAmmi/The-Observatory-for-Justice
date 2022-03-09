@@ -420,7 +420,7 @@ input{
 }
 .fa-eraser{
  display: none;
-  color: white;
+ color: white;
 }
  .rotate{
    transform: rotate(90deg);
@@ -436,6 +436,7 @@ input{
  .menu-btn{
    position: absolute;
    right: 0;
+  top: 13vh;
    font-size: 3vh;
    margin: 2vh;
    cursor: pointer;

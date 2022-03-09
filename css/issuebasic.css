@@ -175,6 +175,7 @@ input{
  .menu-btn{
    position: absolute;
    right: 0;
+   top: 13vh;
    font-size: 3vh;
    margin: 2vh;
    cursor: pointer;

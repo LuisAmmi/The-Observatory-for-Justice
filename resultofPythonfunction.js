@@ -81,3 +81,38 @@ person [
 {'Zachary MacMillan': 1},
 {'Karen Chu': 1},
 {'Michelle Pritchard': 1}]
+
+place [
+{'Genoa': 3},
+{'Berlin': 2},
+{'Stansted': 1},
+{'New Zealand': 1},
+{'London': 1},
+{'Poland': 1},
+{'San Martino hospital': 2},
+{'European Union': 1},
+
+{'Minneapolis': 2},
+{'United States': 13},
+{'Ferguson': 1},
+{'Missouri': 1},
+{'New York City': 4},
+{'California': 1},
+{'New Haven': 1},
+{'Connecticut': 1},
+{'College Station': 1},
+{'Chicago': 1},
+{'Illinois': 1},
+{'Columbia': 1},
+{'Cambridge': 1},
+{'Cleveland': 1},
+{'Ohio': 2},
+{'Washington DC': 1},
+{'Cincinnati': 1},
+{'Fairfax': 1},
+{'Virginia': 1},
+{'Nevada': 1},
+{'Georgia': 1},
+
+{'United Kingdom': 3},
+{'Canada': 3}]
