@@ -116,3 +116,10 @@ place [
 
 {'United Kingdom': 3},
 {'Canada': 3}]
+
+event [
+{'27th G8 summit': 2},
+{'raid on Armando Diaz': 5},
+
+{'killing of Eric Garner': 1},
+{'killing of George Floyd': 2}]
