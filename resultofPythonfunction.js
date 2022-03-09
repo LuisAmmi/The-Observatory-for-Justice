@@ -123,3 +123,13 @@ event [
 
 {'killing of Eric Garner': 1},
 {'killing of George Floyd': 2}]
+
+type-of-aggression [
+{'beating': 15},
+{'kicking': 7},
+{'dragging': 5},
+{'sexual misconduct': 1},
+{'verbal violence': 7},
+
+{'shooting': 9},
+{'chokehold': 2}]
