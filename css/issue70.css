@@ -312,13 +312,13 @@ img{
   cursor: pointer;
 }
 .side-bar .menu .item a{
- color: #fff;
- font-size: 2vh;
- text-decoration: none;
+  color: #fff;
+  text-decoration: none;
   display: inherit;
- padding: 0.5vh 4vh 0.5vh 1vh;
- line-height: 6vh;
-  word-break: break-word;
+  padding: 0.5vh 4vh;
+  line-height: 4vh;
+   word-break: break-word;
+   letter-spacing: inherit;
 }
 
 .side-bar .menu .item a:hover{
@@ -333,8 +333,11 @@ img{
    padding: 0.5vh 7vh;
    margin-bottom: 0;
  }
-
-
+input{
+   display: flex;
+   position: relative;
+   top: 1vh;
+ }
  .form-check:hover{
    background-color: #8621F8;
    transition: 0.3s ease;
@@ -351,55 +354,42 @@ img{
   }
 
 .sub-menu {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
   display: none;
  }
 
 .sub-inner-menu{
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
   display: none;
 }
 .sub-inner-inner-menu{
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
   display: none;
 }
 
-.sub-inner-inner-item{
-  padding: 0px 0vh 0 4vh;
-  line-height: 4vh;
-  font-size: 1.7vh;
+.sub-inner-menu li{
+  list-style: none;
 }
- .side-bar .menu .item .sub-menu a{
-   padding-left: 3vh;
- }
-
- .sub-inner-menu li{
-   list-style: none;
- }
 .sub-inner-item{
-  border: 0.1vh solid black;
-  padding: 1vh;
-  padding-left: 4vh;
+ border: 0.1vh solid black;
+ padding: 1vh;
+ padding-left: 4vh;
 }
 .sub-inner-inner-item{
-  border: 0.1vh solid black;
-  padding: 0 3vh;
-  line-height: 4vh;
+ padding: 0px 0vh 0 4vh;
+ line-height: 4vh;
+ font-size: 1.7vh;
 }
-.side-bar .menu .item .sub-menu .sub-inner-menu a .dropdown{
-   position: absolute;
-   right: 0;
-   margin: 2vh;
-   transition: 0.3s ease;
- }
- .form-check-input input{
-   display: flex;
-   position: relative;
-   top: 1vh;
- }
- .fa .fa-map-pin a{
-   display: inline;
- }
+.sub-inner-inner-menu li{
+ list-style: none;
+ display: inline-block;
+}
+.fa .fa-map-pin a{
+ display: inline;
+}
+.fa-eraser{
+ display: none;
+}
  .rotate{
    transform: rotate(90deg);
  }
@@ -420,6 +410,7 @@ img{
  }
 
 /* SIDEBAR - FINE */
+
 a {
   overflow-wrap: break-word;
   word-break: break-all;

@@ -30,7 +30,16 @@ var hrefValue = $(linkValue).attr('href');
 for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
   if (key == name) {//ex. "covel"
     var value = dict[name]; //secondo il principio var value = dict[key] "MarkCovelscase", "reportonDiazPertini"...
-      if ((hrefValue == "css/issuedada.css") || (hrefValue == "css/issuebasic.css")){
+      if (hrefValue == "css/issuebasic.css"){
+
+            if (x.checked == true){
+              document.getElementById(value).style.backgroundColor = "yellow";
+             }
+            else if (x.checked == false) {
+              document.getElementById(value).style.backgroundColor = "transparent";
+            }
+      }
+      else if (hrefValue == "css/issuedada.css"){
 
             if (x.checked == true){
               document.getElementById(value).style.backgroundColor = "red";
@@ -39,8 +48,8 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
               document.getElementById(value).style.backgroundColor = "transparent";
             }
       }
-      else if (hrefValue == "css/issue70.css"){
-
+      //(hrefValue == "css/issue70.css")
+      else {
             if (x.checked == true){
              document.getElementById(value).style.border = 'red solid 0.5vh';
              }
@@ -59,9 +68,17 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
 };
 
 // FUNZIONE UNDERLINE MENTIONS
-function underline(item){
+function underline(item, id){
   var hrefValueName = $(item).attr('href'); // es. #NickDavies
   var newValueName = hrefValueName.replace('#', '');  // #NickDavies --> NickDavies
-  $('[id^='+ newValueName +']').css("text-decoration", "underline solid 0.5vh red"); // also take id of items that appears more than once
-  alert($('[id^='+ newValueName +']'));
+  $('[id^='+newValueName+']').css("text-decoration", "underline solid 0.5vh red"); // also take id of items that appears more than once
+  $('#'+id).css("display", "inline");   //show the eraser symbol for each underlined element
+  //$('.fa-eraser').css("display", 'inline');
 };
+//FUNZIONE ERASE MENTIONS
+function erase(item, id){
+  var hrefValue = $(item).attr('href'); // es. #NickDavies
+  var newValue = hrefValue.replace('#', '');  // #NickDavies --> NickDavies
+  $('[id^='+newValue+']').css("text-decoration", "none"); // also take id of items that appears more than once
+  $('#'+id).css("display", "none");   //show the eraser symbol for each underlined element
+}

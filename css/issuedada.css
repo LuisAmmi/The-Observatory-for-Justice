@@ -315,6 +315,7 @@ button:hover{
 
 
 /* SIDEBAR */
+/* SIDEBAR */
 
 .side-bar{
   background: rgba(0, 0, 0, 0.2);
@@ -342,13 +343,13 @@ button:hover{
   cursor: pointer;
 }
 .side-bar .menu .item a{
- color: #fff;
- text-decoration: none;
+  color: #fff;
+  text-decoration: none;
   display: inherit;
- padding: 0.5vh 4vh;
- line-height: 4vh;
-  word-break: break-word;
-  letter-spacing: inherit;
+  padding: 0.5vh 4vh;
+  line-height: 4vh;
+   word-break: break-word;
+   letter-spacing: inherit;
 }
 
 .side-bar .menu .item a:hover{
@@ -363,7 +364,11 @@ button:hover{
    padding: 0.5vh 7vh;
    margin-bottom: 0;
  }
-
+input{
+   display: flex;
+   position: relative;
+   top: 1vh;
+ }
  .form-check:hover{
    background-color: #8621F8;
    transition: 0.3s ease;
@@ -391,31 +396,31 @@ button:hover{
 .sub-inner-inner-menu{
   background: rgba(0, 0, 0, 0.2);
   display: none;
-  font-size: 1.7vh;
 }
 
- .side-bar .menu .item .sub-menu a{
-   padding-right: 11vh;
- }
-
- .sub-inner-menu li{
-   list-style: none;
- }
-
+.sub-inner-menu li{
+  list-style: none;
+}
 .sub-inner-item{
-  border: 0.1vh solid black;
-  padding: 1vh;
-  padding-left: 4vh;
+ border: 0.1vh solid black;
+ padding: 1vh;
+ padding-left: 4vh;
 }
-
 .sub-inner-inner-item{
-  display: none;
-  border: 0.1vh solid black;
-  padding: 0px 0vh 0 4vh;
-  line-height: 4vh;
+ padding: 0px 0vh 0 4vh;
+ line-height: 4vh;
+ font-size: 1.7vh;
+}
+.sub-inner-inner-menu li{
+ list-style: none;
+ display: inline-block;
 }
 .fa .fa-map-pin a{
-  display: inline;
+ display: inline;
+}
+.fa-eraser{
+ display: none;
+  color: white;
 }
  .rotate{
    transform: rotate(90deg);
@@ -437,6 +442,7 @@ button:hover{
  }
 
 /* SIDEBAR - FINE */
+
 #artwork{
   height: 60vh
 }

@@ -146,13 +146,20 @@ input{
   padding-left: 4vh;
 }
 .sub-inner-inner-item{
-  border: 0.1vh solid black;
   padding: 0px 0vh 0 4vh;
   line-height: 4vh;
   font-size: 1.7vh;
 }
+.sub-inner-inner-menu li{
+  list-style: none;
+  display: inline-block;
+}
 .fa .fa-map-pin a{
   display: inline;
+}
+.fa-eraser{
+  display: none;
+  color: white;
 }
  .rotate{
    transform: rotate(90deg);
