@@ -195,3 +195,18 @@ company newspaper [
 
   {'Nature': 2},
   {'The New York Times': 1}]
+
+  institution Police-Department [
+  {'Bolzaneto Department': 5},
+  {'New York City Police Department': 1},
+  {'Oklahoma City Police Department': 2},
+  {'Metropolitan Police Department of the District of Columbia': 1},
+  {'Chicago Police Department': 1}]
+
+  institution University [
+    {'University of Nebraska Omaha': 1},
+    {'Texas A&M University': 1},
+    {'University of South Carolina': 1},
+    {'George Mason University': 1},
+    {'University of Illinois at Urbana–Champaign': 1},
+    {'Saint Mary’s University': 1}]
