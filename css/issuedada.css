@@ -414,6 +414,8 @@ input{
 .sub-inner-inner-menu li{
  list-style: none;
  display: inline-block;
+ column-count: 1;
+ column-width: 25vh;
 }
 .fa .fa-map-pin a{
  display: inline;
