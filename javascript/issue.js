@@ -41,7 +41,10 @@ $(document).ready(function(){
     $(this).next('.sub-inner-inner-menu').slideToggle();
     $(this).find('.dropdown').toggleClass('rotate');
   });
-
+  $('.sub-inner-inner-item').click(function(){
+    $(this).next('.sub-inner-inner-inner-menu').slideToggle();
+    $(this).find('.dropdown').toggleClass('rotate');
+  });
   //jquery for expand and collapse the SIDEBAR
   $('.menu-btn').click(function(){
     $('.container').css({

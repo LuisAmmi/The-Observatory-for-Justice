@@ -366,6 +366,10 @@ input{
   background: rgba(0, 0, 0, 0.2);
   display: none;
 }
+.sub-inner-inner-inner-menu{
+  background: rgba(0, 0, 0, 0.2);
+  display: none;
+}
 
 .sub-inner-menu li{
   list-style: none;
@@ -380,7 +384,18 @@ input{
  line-height: 4vh;
  font-size: 1.7vh;
 }
+.sub-inner-inner-inner-item{
+ padding: 0px 0vh 0 4vh;
+ line-height: 4vh;
+ font-size: 1.7vh;
+}
 .sub-inner-inner-menu li{
+ list-style: none;
+ display: inline-block;
+ column-count: 1;
+ column-width: 25vh;
+}
+.sub-inner-inner-inner-menu li{
  list-style: none;
  display: inline-block;
  column-count: 1;

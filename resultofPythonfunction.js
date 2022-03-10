@@ -172,5 +172,26 @@ concept [
 {'misconduct': 7},
 {'abuse of power': 1}]
 
-company organization [{'Independent Media Center': 2}, {'Getty': 1}, {'PacificPress': 1}, {'PubMed': 4}, {'Article': 12}, {'GoogleScholar': 118}, {'Web of Science': 3}, {'PsycINFO': 1}, {'JSTOR': 1}, {'Criminal Justice Abstracts': 1}, {'Sociological Abstracts': 1}, {'National Criminal Justice Reference Service': 1}, {'Crossref': 57}, {'Medline': 50}]
-company newspaper [{'La Repubblica': 1}, {'Daily Mail': 1}, {'Nature': 2}, {'The New York Times': 1}]
+company organization [
+  {'Independent Media Center': 2},
+  {'Reuters': 1},
+
+  {'Getty': 1},
+  {'PacificPress': 1},
+  {'PubMed': 4},
+  {'Article': 12},
+  {'GoogleScholar': 118},
+  {'Web of Science': 3},
+  {'PsycINFO': 1},
+  {'JSTOR': 1},
+  {'Criminal Justice Abstracts': 1},
+  {'Sociological Abstracts': 1},
+  {'National Criminal Justice Reference Service': 1},
+  {'Crossref': 57},
+  {'Medline': 50}]
+company newspaper [
+  {'La Repubblica': 1},
+  {'Daily Mail': 1},
+
+  {'Nature': 2},
+  {'The New York Times': 1}]
