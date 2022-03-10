@@ -754,7 +754,7 @@ figcaption::first-letter{
 }
 
 
-#police-brutality{
+#policebrutality{
   font-family:'Landslide';
   font-size: 6vh;
   color: #BD3426;
@@ -769,7 +769,7 @@ figcaption::first-letter{
   margin-bottom: 4vh;
 }
 
-#racial-bias{
+#racialbias{
   font-family:'TalesofScareBlack';
   font-size: 6vh;
   inset-inline-end: auto;

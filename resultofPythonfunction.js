@@ -152,3 +152,22 @@ disorder [
 {'intellectual disability': 1},
 {'bipolar disorder': 3},
 {'schizophrenia': 1}]
+
+ethnic_group [
+{'Black people': 12},
+{'White people': 5},
+{'Latino people': 1},
+
+concept [
+{'fascism': 8},
+{'torture': 3},
+{'neo-fascism': 1},
+
+{'police brutality': 2},
+{'racial bias': 5},
+{'racism': 4},
+{'police accountability': 4},
+{'use of force': 6},
+{'police violence': 1},
+{'misconduct': 7},
+{'abuse of power': 1}]
