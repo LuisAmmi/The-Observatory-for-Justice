@@ -106,7 +106,7 @@ $(document).ready(function(){
 //To access About and Documentation area
 function homearea(idValue){
   if (idValue == "aboutbotton"){
-  window.location.assign("https://luisammi.github.io/The-Observatory-for-Justice/main.html")
+  window.location.assign("https://luisammi.github.io/The-Observatory-for-Justice/main.html#about")
   }
 
   else if (idValue == "docbotton"){
