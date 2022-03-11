@@ -398,7 +398,7 @@ blockquote.speech {
   left: 18vh;
   font-size: 2vh;
   text-align: center;
-  padding: 10% 20% 20% 20%;
+  padding: 10% 21% 20% 21%;
 }
 #magazineparagraph2{
   background-image: url("../imgs/70/nuvoletta.png");
@@ -409,7 +409,7 @@ blockquote.speech {
   left: -50vh;
   font-size: 2vh;
   text-align: center;
-  padding: 3% 6% 22% 3%;
+  padding: 3% 6% 22% 2%;
   margin: 0;
 }
 
@@ -452,7 +452,7 @@ blockquote.speech {
   background-image: url("../imgs/70/sfondo arancione.png");
   text-align: left;
   padding: 2vh;
-  padding-right: 10vh;
+  padding-right: 18vh;
   margin-right: 1vh;
   font-style: italic;
 }
@@ -1019,5 +1019,8 @@ h5.key{
 /* COLOR PALETTE fine--------------------------------------------------- */
 
 footer{
-  background-image: url("../imgs/70/sfondo bianco.png");
+  background-image: url("../imgs/70/sfondo arancione.png");
+}
+#footerpgraph{
+ background-color: rgba(0, 0, 0, 0.2);
 }
