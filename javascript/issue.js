@@ -103,7 +103,18 @@ $(document).ready(function(){
   });
 });
 
+//To access About and Documentation area
+function homearea(idValue){
+  if (idValue == "aboutbotton"){
+  alert(window.location.pathname);
+  window.location.pathname = "The-Observatory-for-Justice/main.html#about";
+  }
 
+  else if (idValue == "docbotton"){
+    alert(window.location.pathname);
+    window.location.pathname = "The-Observatory-for-Justice/main.html#documentation";
+    }
+};
 
 // Disclaimer
 function disclaimer(){

@@ -41,6 +41,8 @@ $(document).ready(function(){
   });
 });
 
+
+// to slide top and down the paragraphs of the documentation
 $(document).ready(function(){
   $("#dadaismintro").click(function(){
     $("#paneldada").slideToggle("slow");
