@@ -300,7 +300,7 @@ button{
 #specialtext{
   background-image: url("../imgs/70/sfondo bianco.png");
   font-family: 'Chantilly-Serial-Heavy-Regular';
-  font-size: 9.5vh;
+  font-size: 9vh;
   color: #0378AB;
   left: 110vh;
   width: 62vh;
@@ -314,7 +314,7 @@ button{
 }
 
 .finalpart{
-  font-size: 7vh;
+  font-size: 6.8vh;
   color: #A22428;
 }
 
