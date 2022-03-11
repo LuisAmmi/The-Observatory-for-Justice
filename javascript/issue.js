@@ -106,13 +106,11 @@ $(document).ready(function(){
 //To access About and Documentation area
 function homearea(idValue){
   if (idValue == "aboutbotton"){
-  alert(window.location.pathname);
-  window.location.pathname = "https://luisammi.github.io/The-Observatory-for-Justice/main.html#about";
+  window.location.assign("https://luisammi.github.io/The-Observatory-for-Justice/main.html")
   }
 
   else if (idValue == "docbotton"){
-    alert(window.location.pathname);
-    window.location.pathname = "https://luisammi.github.io/The-Observatory-for-Justice/main.html#documentation";
+    window.location.assign("https://luisammi.github.io/The-Observatory-for-Justice/main.html#documentation")
     }
 };
 
