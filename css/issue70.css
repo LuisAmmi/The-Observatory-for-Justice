@@ -704,7 +704,12 @@ figcaption::first-letter{
   margin-top: 2vh;
   border: 0;
 }
-
+#NickDavies{
+  color: turquoise;
+}
+#JamesDLivingston{
+  color:gold;
+}
 #articletitle2{
   font-family:'Mad Scientist W01 Regular';
   font-size: 4vh;
