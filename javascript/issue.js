@@ -107,12 +107,12 @@ $(document).ready(function(){
 function homearea(idValue){
   if (idValue == "aboutbotton"){
   alert(window.location.pathname);
-  window.location.pathname = "/The-Observatory-for-Justice/main.html#about";
+  window.location.pathname = "https://luisammi.github.io/The-Observatory-for-Justice/main.html#about";
   }
 
   else if (idValue == "docbotton"){
     alert(window.location.pathname);
-    window.location.pathname = "/The-Observatory-for-Justice/main.html#documentation";
+    window.location.pathname = "https://luisammi.github.io/The-Observatory-for-Justice/main.html#documentation";
     }
 };
 
