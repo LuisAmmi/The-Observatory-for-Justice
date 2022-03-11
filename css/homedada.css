@@ -302,7 +302,8 @@ button:hover{
 /*fine Disclaimer */
 
 .hvr-bounce-in:hover, #hand:hover{
-           animation: rotate 1s linear;
+cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
+animation: rotate 1s linear;
        }
 
 @keyframes rotate{

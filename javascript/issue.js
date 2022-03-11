@@ -108,7 +108,6 @@ function homearea(idValue){
   if (idValue == "aboutbotton"){
   window.location.assign("https://luisammi.github.io/The-Observatory-for-Justice/main.html#about")
   }
-
   else if (idValue == "docbotton"){
     window.location.assign("https://luisammi.github.io/The-Observatory-for-Justice/main.html#documentation")
     }
