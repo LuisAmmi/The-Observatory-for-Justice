@@ -42,7 +42,7 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
       else if (hrefValue == "css/issuedada.css"){
 
             if (x.checked == true){
-              document.getElementById(value).style.backgroundColor = "#C0533E"; //C0555F
+              document.getElementById(value).style.backgroundColor = "#C0555F";
              }
             else if (x.checked == false) {
               document.getElementById(value).style.backgroundColor = "transparent";
@@ -61,6 +61,7 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
         document.getElementById(value).style.border = '0'; });
       $('#topolinoicon').click(function(){
         document.getElementById(value).style.backgroundColor = "transparent"; });
+
    }
  }
 };

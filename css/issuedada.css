@@ -340,7 +340,7 @@ button:hover{
 }
 .item {
   position: relative;
-  cursor: pointer;
+    cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
 .side-bar .menu .item a{
   color: #fff;
@@ -451,7 +451,7 @@ input{
    font-size: 3vh;
    left: 0;
    margin: 2vh;
-   cursor: pointer;
+     cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
  }
  .menu-btn{
    position: absolute;
@@ -459,7 +459,7 @@ input{
   top: 13vh;
    font-size: 3vh;
    margin: 2vh;
-   cursor: pointer;
+     cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
  }
 
 /* SIDEBAR - FINE */
