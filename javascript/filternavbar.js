@@ -42,7 +42,7 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
       else if (hrefValue == "css/issuedada.css"){
 
             if (x.checked == true){
-              document.getElementById(value).style.backgroundColor = "red";
+              document.getElementById(value).style.backgroundColor = "#C0533E"; //C0555F
              }
             else if (x.checked == false) {
               document.getElementById(value).style.backgroundColor = "transparent";
@@ -58,10 +58,8 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
             }
       }
       $('#dadaicon').click(function(){
-        alert('Before changing style, please deselect the checkboxs in the sidebar.')
         document.getElementById(value).style.border = '0'; });
       $('#topolinoicon').click(function(){
-        alert('Before changing style, please deselect the checkboxs in the sidebar.')
         document.getElementById(value).style.backgroundColor = "transparent"; });
    }
  }
@@ -71,7 +69,7 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
 function underline(item, id){
   var hrefValueName = $(item).attr('href'); // es. #NickDavies
   var newValueName = hrefValueName.replace('#', '');  // #NickDavies --> NickDavies
-  $('[id^='+newValueName+']').css("text-decoration", "underline solid 0.5vh red"); // also take id of items that appears more than once
+  $('[id^='+newValueName+']').css("text-decoration", "underline solid 0.5vh #C0533E"); // also take id of items that appears more than once
   $('#'+id).css("display", "inline");   //show the eraser symbol for each underlined element
   //$('.fa-eraser').css("display", 'inline');
 };
