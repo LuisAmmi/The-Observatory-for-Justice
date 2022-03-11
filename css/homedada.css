@@ -723,12 +723,15 @@ h3:hover{
   text-align: center;
   display: block;
   margin: 2vh auto;
-  width: 80%;
+  width: 70%;
   border: 0.5vh double black;
 }
 .figdoc{
   text-align: center;
   display: block;
+}
+#imgscontornate{
+  width: auto;
 }
 #fontainreal{
   height: 40%;
@@ -808,6 +811,13 @@ figcaption{
 }
 footer{
   font-size: 1.8vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#footerpgraph{
+  background-image: url("../Documentation/dada/cocteau.jpeg");
+  background-position-y: center;
+
 }
 
 /* horizonal scrolling for images in Documentation*/
