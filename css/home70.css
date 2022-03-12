@@ -787,6 +787,15 @@ h3:hover{
   border-radius: 15%;
   width: 80%;
 }
+.imgdocT{
+  background-color: ghostwhite;
+  text-align: center;
+  display: block;
+  margin: 2vh auto;
+  padding: 1vh;
+  border-radius: 15%;
+  width: 100%;
+}
 
 .figdoc{
   text-align: center;
