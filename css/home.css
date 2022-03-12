@@ -299,7 +299,7 @@ ul.advimages {
   margin: 0;
   padding: 0;
   white-space: nowrap;
-  height: 50vh;
+  height: 60vh;
   overflow-x: scroll;
   overflow-y: hidden;
   cursor: url('../imgs/base/icons8-browser-50.png') 2 2, pointer;
@@ -313,7 +313,7 @@ li {
   margin: 3vh;
 }
 .advitem{
-  max-height: 45vh;
+  max-height: 55vh;
   margin: 3vh;
 }
 #quotation{
