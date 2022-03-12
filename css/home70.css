@@ -306,11 +306,11 @@ button{
   width: 62vh;
   position: relative;
   top: -84vh;
-  left: 100vh;
+  left: 102vh;
   height: 84vh;
   padding: 2vh 1vh 7vh 1vh;
   border-left: 0.5vh solid #A22428;
-  border-right: 0.5vh solid #A22428;
+  border-right: 0.5vh solid;
 }
 
 .finalpart{
@@ -762,7 +762,12 @@ h3:hover{
    font-size: 2vh;
    background-image: url("../imgs/70/sfondo lilla.png");
  }
-
+#panelcomic{
+  font-family: Arial;
+  text-transform: uppercase;
+  font-size: 2vh;
+  background-image: url("../imgs/70/sfondo rosa chiaro.png");
+}
  #panelsource, #panelsource2{
    text-transform: inherit;
  }
@@ -887,6 +892,17 @@ ul.eight{
   background-image: url("../imgs/70/sfondo lilla.png");
 }
 
+ul.advimages {
+  margin-bottom: 1vh;
+  padding: 0;
+  border: 0.5vh solid;
+  white-space: nowrap;
+  height: 50vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: url('../imgs/base/icons8-browser-50.png') 2 2, pointer;
+  background-image: url("../imgs/70/sfondo arancione.png");
+}
 li {
   display: inline;
   max-height: 40vh;
@@ -898,6 +914,14 @@ li {
     border-width: 3px 3px 5px 5px;
     border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
     transform: rotate(-2deg);
+}
+.advitem{
+  max-height: 45vh;
+  margin: 3vh;
+  border: solid black;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
 }
 .item2{
   border: solid black;

@@ -295,13 +295,25 @@ ul.images {
   overflow-y: hidden;
   cursor: url('../imgs/base/icons8-browser-50.png') 2 2, pointer;
 }
-
+ul.advimages {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  height: 50vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: url('../imgs/base/icons8-browser-50.png') 2 2, pointer;
+}
 li {
   display: inline;
   max-height: 40vh;
 }
 .item{
   max-height: 35vh;
+  margin: 3vh;
+}
+.advitem{
+  max-height: 45vh;
   margin: 3vh;
 }
 #quotation{
