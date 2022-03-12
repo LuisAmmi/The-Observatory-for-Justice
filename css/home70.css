@@ -771,7 +771,15 @@ h3:hover{
  #panelsource, #panelsource2{
    text-transform: inherit;
  }
-
+ .refmag{
+   column-count: 2;
+ }
+#fontpgraph{
+    background-image: url("../imgs/70/sfondo lilla.png");
+}
+#fontpgraph1{
+    background-image: url("../imgs/70/sfondo rosa.png");
+}
 #quotation{
   text-transform: uppercase;
   color: crimson;
@@ -784,7 +792,6 @@ h3:hover{
   display: block;
   margin: 2vh auto;
   padding: 1vh;
-  border-radius: 15%;
   width: 80%;
 }
 .imgdocT{
@@ -793,7 +800,6 @@ h3:hover{
   display: block;
   margin: 2vh auto;
   padding: 1vh;
-  border-radius: 15%;
   width: 100%;
 }
 
