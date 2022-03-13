@@ -48,7 +48,7 @@ $(document).ready(function(){
   //jquery for expand and collapse the SIDEBAR
   $('.menu-btn').click(function(){
     $('.container').css({
-      "max-width": "135vh",
+      "max-width": "73%",
       "margin-left": "3.5vh"
     });
 
