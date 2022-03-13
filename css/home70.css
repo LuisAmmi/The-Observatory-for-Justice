@@ -551,7 +551,6 @@ blockquote.speech {
   font-size: 2vh;
   column-count: 2;
   column-gap: 5vh;
-  column-rule: 0.5vh solid;
 }
 #projectparagraph::first-letter{
   font-size: 5vh;
@@ -671,7 +670,6 @@ hr{
   font-size: 2vh;
   column-count: 2;
   column-gap: 5vh;
-  column-rule: 0.5vh solid;
 }
 #markupparagraph::first-letter, #styleparagraph::first-letter {
   font-size: 5vh;
@@ -768,7 +766,7 @@ h3:hover{
   font-size: 2vh;
   background-image: url("../imgs/70/sfondo rosa chiaro.png");
 }
- #panelsource, #panelsource2{
+ #panelsource, #panelsource2, #panellayout, #panellayout2{
    text-transform: inherit;
  }
  .refmag{
