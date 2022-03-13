@@ -855,31 +855,6 @@ figcaption::first-letter{
   font-family: "PalookaBB";
 }
 
-/*bubble*/
-blockquote.bubble {
-  background-position: center;
-  background-repeat: no-repeat !important;
-  background-size: 100% 100%;
-  margin: 0 auto;
-  text-align: center;
-  height: 0;
-  box-sizing: content-box;
-  line-height: 1;
-}
-/*speech*/
-blockquote.speech {
-  background-image: url("../imgs/70/nuvola 2.png");
-  display: -webkit-inline-box;
-  font-style: italic;
-  font-size: small;
-  padding: 20% 20% 80% 15%;
-  position: relative;
-  bottom: -5vh;
-}
-
-#possibleaddfeature{
-  margin-top: -5vh;
-}
 
 #angrypaperino{
   margin-bottom: 2vh;
