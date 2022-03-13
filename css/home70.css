@@ -671,7 +671,7 @@ hr{
   column-count: 2;
   column-gap: 5vh;
 }
-#markupparagraph::first-letter, #styleparagraph::first-letter {
+#markupparagraph::first-letter, #styleparagraph::first-letter, .refmag::first-letter {
   font-size: 5vh;
   color: #C00022;
   display: block;

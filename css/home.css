@@ -268,7 +268,7 @@ h3:hover{
 
 .fotodesigner{
   border: 1vh;
-  max-width: 30%;
+  max-width: 35%;
   float:left;
   shape-outside: circle(50%);
   -webkit-shape-outside: circle(50%);
