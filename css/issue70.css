@@ -322,7 +322,7 @@ img{
 }
 
 .side-bar .menu .item a:hover{
-   background-color: #8621F8;
+  background-image: url("../imgs/70/sfondo rosa chiaro.png");
    transition: 0.3s ease;
  }
  .form-check{
@@ -339,7 +339,7 @@ input{
    top: 1vh;
  }
  .form-check:hover{
-   background-color: #8621F8;
+  background-image: url("../imgs/70/sfondo rosa chiaro.png");
    transition: 0.3s ease;
  }
  .side-bar .menu .item i{
