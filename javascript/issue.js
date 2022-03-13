@@ -58,7 +58,7 @@ $(document).ready(function(){
   });
   $('.close-btn').click(function(){
     $('.container').css({
-      "max-width": "168vh",
+      "max-width": "93%",
       "margin-left": "auto"
     });
     $('.side-bar').removeClass('active');
