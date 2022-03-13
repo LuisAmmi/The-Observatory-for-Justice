@@ -778,7 +778,7 @@ h3:hover{
     background-image: url("../imgs/70/sfondo lilla.png");
 }
 #fontpgraph1{
-    background-image: url("../imgs/70/sfondo rosa.png");
+    background-image: url("../imgs/70/sfondo rosa chiaro.png");
 }
 #quotation{
   text-transform: uppercase;
@@ -905,6 +905,9 @@ ul.six{
 }
 ul.eight{
   background-image: url("../imgs/70/sfondo lilla.png");
+}
+ul.white{
+  background-image: url("../imgs/70/sfondo bianco.png");
 }
 
 ul.advimages {
