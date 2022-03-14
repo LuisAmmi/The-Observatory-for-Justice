@@ -381,9 +381,12 @@ figcaption{
 
 .color-box{
   width:100%;
-  height: 130px;
-  border-top-left-radius:3px;
-  border-top-right-radius:3px;
+  height: 65%;
+  border-top-left-radius: 0.5vh;
+  border-top-right-radius: 0.5vh;
+  }
+
+
 }
 
 .AntiqueWhite{
