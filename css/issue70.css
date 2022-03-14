@@ -735,7 +735,6 @@ figcaption::first-letter{
   color: orange;
   font-size: 4vh;
   margin-top: auto;
-  background-size: 50vh;
 }
 
 #ma{
@@ -755,11 +754,13 @@ figcaption::first-letter{
 
 #header3{
   margin:0;
-  height: 120vh;
-  background-image: url("../imgs/70/header3.png");
+  background-image: url("../imgs/70/header3quiquo2.png");
+  min-height: 160%;
   background-repeat: no-repeat;
+  background-position-x: right;
   background-size: cover;
   margin-bottom: 2vh;
+
 }
 
 #bloody{
@@ -804,13 +805,14 @@ figcaption::first-letter{
 #police{
   border: 0.5vh solid;
   font-family: 'ComicStrip';
+  width: 22vw;
+  margin: auto;
   font-size: 8vh;
   font-style: italic;
   color: #297ebf;
   background-color: #fff;
   border-radius: 82%;
   display: block;
-  margin: 0px 10vh;
   text-shadow: 0 0 black;
 }
 
