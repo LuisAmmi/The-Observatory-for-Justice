@@ -698,7 +698,7 @@ h3:hover{
   max-height: 100%;
 }
 #colorsandpanel, #colorsandpanel2{
-  margin: 5vh 0;
+  margin: 5vh -3vw;
   flex-direction: row;
   display: flex;
   max-height: inherit;
@@ -712,7 +712,7 @@ h3:hover{
   margin-top: 0vh;
   margin-left: -1vh;
   min-height: 100%;
-  max-height: 200%
+  width: 80vw;
 
 }
 
@@ -881,8 +881,8 @@ li {
 }
 
 .color-palettes__item{
-  width: 17%;
   height: 21vh;
+  width: 9vw;
   background-color: #fff;
   margin-bottom: 1em;
   margin-right: 1vw;
