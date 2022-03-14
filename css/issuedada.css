@@ -325,6 +325,7 @@ button:hover{
   overflow-y: auto;
   transition: 0.6s ease;
   transition-property: left;
+  cursor: url('../imgs/dada/icons8-center-of-gravity-26.png'), auto;
 }
 
 .side-bar.active{
@@ -337,7 +338,7 @@ button:hover{
 }
 .item {
   position: relative;
-    cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
+  cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
 }
 .side-bar .menu .item a{
   color: #fff;
@@ -360,11 +361,13 @@ button:hover{
    display: block;
    padding: 0.5vh 7vh;
    margin-bottom: 0;
+  cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
  }
 input{
    display: flex;
    position: relative;
    top: 1vh;
+    cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
  }
  .form-check:hover{
    background-color: #cb3a35;
@@ -384,6 +387,7 @@ input{
 .sub-menu {
   background: rgba(0, 0, 0, 0.2);
   display: none;
+  cursor: url('../imgs/dada/icons8-hand-cursor-24.png'), auto;
  }
 
 .sub-inner-menu{

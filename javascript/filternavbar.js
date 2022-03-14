@@ -42,7 +42,7 @@ for (key in dict) {  // "covell", "diaz", "bolzaneto", "outside", "next"
       else if (hrefValue == "css/issuedada.css"){
 
             if (x.checked == true){
-              document.getElementById(value).style.backgroundColor = "#C0555F";
+              document.getElementById(value).style.backgroundColor = "rgb(192, 85, 95, 0.5";
              }
             else if (x.checked == false) {
               document.getElementById(value).style.backgroundColor = "transparent";
