@@ -840,6 +840,7 @@ h3:hover{
 .fotodesigner{
   float: left;
   border: 1vh;
+  margin-left: -3vw;
   max-width: 30%;
   border: solid black;
   border-width: 3px 3px 5px 5px;
@@ -851,9 +852,9 @@ h3:hover{
   font-family: 'Inkslinger BB';
   font-size: 1.8vh;
   text-transform: uppercase;
-  padding: 1vh 7vh 0 14vh;
-  width: 77vh;
-  height: 37vh;
+  padding: 1vh 8vw 0 8vw;
+  width: 47vw;
+  height: 36vh;
   background-image: url("../imgs/70/fumettodesigner.png");
   background-repeat: no-repeat;
 }
