@@ -877,16 +877,16 @@ li {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 40px 0;
+  padding: 2vh 0;
 }
 
 .color-palettes__item{
-  width:130px;
-  height: 180px;
+  width: 17%;
+  height: 21vh;
   background-color: #fff;
   margin-bottom: 1em;
   margin-right: 1vw;
-  border-radius:3px;
+  border-radius: 3px;
   box-shadow: 0 1px 5px rgba(0,0,0,.12);
 }
 
