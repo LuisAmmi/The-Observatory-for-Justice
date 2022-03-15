@@ -597,6 +597,7 @@ a {
   border: black solid 0.5vh;
 }
 figcaption{
+  margin-top:1vh;
   font-family: Arial;
 }
 figcaption::first-letter{
@@ -715,9 +716,10 @@ figcaption::first-letter{
   font-size: 4vh;
   text-align: center;
   border:0;
-  margin: 5vh 0 2vh 0;
+  width: min-content;
+  margin: 5vh auto;
   background-image: url("../imgs/70/nuvolagialla2.png");
-  background-size: 47vh;
+  background-size: 46vh;
   background-repeat: no-repeat;
 }
 
@@ -773,7 +775,6 @@ figcaption::first-letter{
   font-family: 'RuinaOne-Black';
   color: #297ebf;
 }
-
 
 #policebrutality{
   font-family:'Landslide';

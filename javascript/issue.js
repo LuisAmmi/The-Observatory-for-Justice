@@ -21,7 +21,7 @@ $(document).ready(function(){
     $("#possibleaddfeature").html('<p>Nobody wants to listen to what this story has to say. That is about <span class="mention concept" about="fascism" id="fascism4" data-wikidata-id="Q6223" data-label="fascism">fascism</span>. There are plenty of rumours that the police and carabinieri and prison staff belonged to <span class="mention concept" about="fascism" id="fascism5" data-wikidata-id="Q6223" data-label="fascism">fascist</span> groups, but no evidence to support that.<span class="mention person" about="Massimo Pastore" id="MassimoPastore2">Pastore</span> argues that that misses the bigger point: "It is not just a matter of a few drunken <span class="mention concept" about="fascism" id="fascism6" data-wikidata-id="Q6223" data-label="fascism">fascists</span>. This is mass behaviour by the police. No one said "No." This is a culture of <span class="mention concept" about="fascism" id="fascism7" data-wikidata-id="Q6223" data-label="fascism">fascism</span>.</p> <img class="imgarticle" id="angrypaperino" src="imgs/70/paperinoquestion.jpg"><p>At its heart, this involved what <span class="mention person" about="Enrico Zucca" id="EnricoZucca9">Zucca</span> described in his report as "a situation in which every rule of law appears to have been suspended."</p>');
     $("#end").html('<img id="quofine" src="imgs/70/quofine.png">');
     $('#badapples').html('<img class="imgarticle" id="dolceforno" alt="old advertising about the so-called Dolce Forno" src="imgs/70/dolceforno.jpg">');
-    $('#evidencebased').html('<img class="imgarticle" id="barbie" alt="old advertising about Barbie&rsquo;s dolls" src="Documentation/topolino/advertising/n982.jpeg">');
+    $('#evidencebased').html('<img class="imgarticle" id="barbie" alt="old advertising about Barbie&rsquo;s dolls" src="Documentation/topolino/advertising/n968nigga.jpeg">');
   });
 });
 // Funzione per aprire e chiudere SIDEBAR
@@ -75,14 +75,14 @@ $(document).ready(function(){
         $("#firstcol").css({"display": "contents"});
         $('#secondcol').css({"display": "none"});
         $('#thirdcol').css({"display": "none"});
-        $('.imgarticle').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "auto"});
+        $('.imgarticle').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "1vh auto"});
 
       });
       $("#article2").click(function(){ //  Clicca sul primo articolo per vederlo singolarmente
         $("#secondcol").css({"display": "contents"});
         $('#firstcol').css({"display": "none"});
         $('#thirdcol').css({"display": "none"});
-        $('.imgarticle').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "auto"});
+        $('.imgarticle').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "1vh auto"});
         $('#topolinoicon').click(function(){
           $('#articletitle2').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "auto"});
         });
@@ -91,7 +91,7 @@ $(document).ready(function(){
         $("#thirdcol").css({"display": "contents"});
         $('#firstcol').css({"display": "none"});
         $('#secondcol').css({"display": "none"});
-        $('.imgarticle').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "auto"});
+        $('.imgarticle').css({"width": "min-content", "min-width": "min-content", "display": "block", "text-align": "center", "margin": "1vh auto"});
       });
     });
 

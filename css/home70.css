@@ -744,7 +744,7 @@ h3:hover{
 .panel{
   display: none;
   font-family: Arial;
-  text-transform: uppercase;
+
   font-size: 2vh;
   margin: 0vh 10vh;
   padding: 2vh;
@@ -773,9 +773,11 @@ h3:hover{
    column-count: 2;
  }
 #fontpgraph{
+    text-transform: uppercase;
     background-image: url("../imgs/70/sfondo lilla.png");
 }
 #fontpgraph1{
+    text-transform: uppercase;
     background-image: url("../imgs/70/sfondo rosa chiaro.png");
 }
 #quotation{
@@ -803,7 +805,9 @@ h3:hover{
   text-align: center;
   display: block;
 }
-
+#Titlespecialquest{
+  width: 70%;
+}
 
  #fontainreal{
    height: 40%;
@@ -813,6 +817,10 @@ h3:hover{
 
  figcaption{
   font-family:'CooperBlack';
+  width: 80%;
+  margin: auto;
+  font-size: 1.8vh;
+
  }
  #mycollage{
    display: block;
