@@ -1,0 +1,571 @@
+II ARTICOLO
+mention person  v
+mention place   v
+mention ethnic_group (#black #white #latino) v
+mention type-of-aggression v
+                          shooting
+                          chokeholds
+mention concept
+                #brutality v
+                #fascism x
+                #torture  x
+                #use of force  v       <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q96441150" data-label="police violence">use of force</span>
+                #racism        v       <span class="mention concept" about="racism" id="?" data-wikidata-id="Q8461" data-label="racism">racism/span>
+                #racial bias v
+                #misconduct v
+                #police accountability v
+                #abuse of power v
+
+mention data/time v
+
+mention event   v   #killing of George Floyd <span class="mention event" about="killing of George Floyd" id="?"></span>
+                v   #killing of Eric Garner (Q17400785) <span class="mention event" about="killing of Eric Garner" id="?" data-wikidata-id="Q17400785" data-label="killing of Eric Garner"></span>
+
+mention institution x
+mention institution University  v
+
+mention institution Police Department v
+mention company v PubMed, Google scholar, GettyImage, Reuters
+mention company newspaper v   Nature
+-------------------------------------------------------------------------------------------------------------------------------------------
+III ARTICOLO
+mention person v
+mention place v
+mention ethnic_group  v   #black race #black citizens
+mention disorder          #mental disorder   (#mental illness)  v
+                          #dementia                             v
+                          #intellectual disability              v
+                          #bipolar                              v
+                          #schizophreni                         v
+
+mention concept           #brutality
+                          #fascism x
+                          #torture  x
+                          #use of force        <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q96441150" data-label="police violence">use of force</span>
+                          #racism    x          <span class="mention concept" about="racism" id="?" data-wikidata-id="Q8461" data-label="racism">racism/span>
+                          #racial bias x
+                          #misconduct  x
+                          #police accountability x
+                          #abuse of power      x
+
+#mention data/time  v
+
+mention Institution       #healt care system
+                          #social programs /
+                          #social support system
+                          #social service systems
+                          #criminal justice system/process
+
+mention company  v        #PubMed
+                          #Google scholar
+                          #Web of Science (Q1201886)
+                          #PsycINFO Q5542226
+                          #JSTOR
+                          #Criminal Justice Abstracts
+                          #Sociological Abstracts
+                          #National Criminal Justice Reference Service.
+                          GettyImage, Reuters
+mention company newspaper
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+I ARTICOLO
+mention person  v         #Mark Covell  v       <span class="mention person" about="" id="?"></span>
+                          #Enrico Zucca   v
+                          #Michael Gieser  v
+                          #Melanie Jonasch  v
+                          #Katherina Ottoway  v
+                          #Dan McQuillan    v
+                          #Norman Blair    v
+                          #Sam Buchanan    v
+                          #Nicola Doherty  v
+                          #Richard Moth    v
+                          #Daniel Albrech  v
+                          #Karl Boro       v
+                          #Jaraslaw Engel  v
+                          #Lena Zuhlke     v
+                          #Niels Martensen v
+                          #Mohammed Tabach v
+                          #Mussolini #duce v
+                          #Pinochet        v
+                          #Stefan Bauer    v
+                          #Marco Bistacchia v
+                          #Ester Percivati  v
+                          #David Larroquelle v
+                          #Tony Blair        v
+                          #Gianfranco Fini   v
+                          #Silvio Berlusconi v
+                          #Massimo Pastore   v
+
+mention place    v        #Genoa          v
+                          #Berlin         v
+                          #Stansted       v
+                          #New Zealand    v
+                          #London         v
+                          #Poland         v
+                          #San Martino hospital v
+                          #Bolzaneto     v
+                          #European Union   v
+
+#mention data/time   v    #July 21 2001
+                          <time datetime="1987-08-07">Aug. 7, 1987</time>
+
+mention event        v    #G8 (27th G8 summit (Q1143209)) <span class="mention event" about="27th G8 summit" id="?" data-wikidata-id="Q1143209" data-label="27th G8 summit"></span>
+                          G8 summit
+
+                     v    #2001 raid on Armando Diaz (Q3740141)  <span class="mention event" about="raid on Armando Diaz" id="?" data-wikidata-id="Q3740141" data-label="2001 raid on Armando Diaz"></span>
+                          Diaz raid
+
+mention ethnic_group  v   #black race #black citizens
+mention type-of-aggression
+                    v     BASTONATE/MANGANELLATE (BEATING) <span class="mention type-of-aggression" about="beating" id="?"></span>
+                          #thrashing him with their sticks  (manganellate/bastonate)
+                          #one cracked him round the head with his baton;
+                          #battered with truncheons
+                          #beat their heads
+                          #a baton slow
+                          #beating her head
+                          #beating and
+                          #beating us,
+                          #beating each person
+                          #beating the first
+                          #hit the parts of my body
+                          #flipped their batons around
+                          #an extra beating.
+                          #smashed him over the head,
+                          #and beaten by a dozen
+                          #She was beaten around the head
+                          #lashing her with their batons
+                          #beat them
+                          #beaten
+                          #savage beating
+
+                    v     CALCI   <span class="mention type-of-aggression" about="kicking" id="?"></span>
+                          #kicked him in the chest   (CALCIO nel petto)
+                          # by strolling over to use Covell as a football
+                          #bout of kicking
+                          #the other kicked him several times in the mouth
+                          #kicking her limp body,
+                          #kicking And
+                          #kicked from all sides on the floor
+                          #kicked
+
+                    v     TRASCINAMENTO  <span class="mention type-of-aggression" about="dragging" id="?"></span>
+                          #drag (trascinare)
+                          #was dragged out
+                          #dragged her out by her dreadlocks.
+                          #dragged Zuhlke into the ground-floor hall
+                          #dragged by her hair
+
+                    v     VIOLENZA VERBALE
+                          #shouting of insults; [verbal violence: Verbal abuse (Q3138174)]
+                          #injured not to move around or look out of the window,
+                          #shouted at
+                          #calling her a whore
+                          #threats of rape, anal and vaginal
+                          #threats...
+
+                    v     VIOLENZA SESSUALE
+                          #grabbed his groin and thrust it into her face [sexual misconduct (Q7458798)] <span class="mention type-of-aggression" about="sexual misconduct" id="?" data-wikidata-id="Q7458798" data-label="sexual misconduct"></span>
+
+                          #a knife to cut off hair from his victim [cut]
+                          #illegally incarcerated [false imprisonment (Q694752)]
+                          #humiliation
+                          #smoking while his blood ran out
+                          #kneed her in the groin while (ginocchiata)
+                          #battering  (pugni)
+                          #to batter them around
+
+mention concept           #fascism         v      <span class="mention concept" about="fascism" id="?" data-wikidata-id="Q6223" data-label="fascism">fascism</span>
+                          #neo-fascism     v      <span class="mention concept" about="neo-fascism" id="?" data-wikidata-id="Q696116" data-label="neo-fascism">neo-fascism</span>
+                          #torture         v     <span class="mention concept" about="torture" id="?" data-wikidata-id="Q132781" data-label="torture">torture</span>
+                          #use of force    x     <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q96441150" data-label="police violence">use of force</span>
+                          #racism (race problem) x
+                          #police brutality
+                          #racism        x
+                          #racial bias   x
+                          #misconduct    x
+                          #police accountability x
+                          #abuse of power x
+
+mention institution Police Department     v #Bolzaneto Department <span class="mention institution Police Department" about="Bolzaneto Department" id="?">Bolzaneto district</span>
+
+
+mention company         v  #Independent Media Center             <span class="mention company" about="Independent Media Center" id="?" data-wikidata-id="Q1137514" data-label="Independent Media Center"></span>
+mention company newspaper v   #La Repubblica                         <span class="mention company newspaper" about="la Repubblica" id="?" data-wikidata-id="Q85329" data-label="la Repubblica">la Repubblica</span>
+                          v  #Daily Mail --> Daily Mail (Q210534)   <span class="mention company newspaper" about="Daily Mail" id="?" data-wikidata-id="Q210534" data-label="Daily Mail">Daily Mail</span>
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+<span class="mention disorder" about="mental disorder" id="?" data-wikidata-id="Q12135" data-label="mental disorder">mental disorder</span>
+<a href=""><span class="mention company" about="GoogleScholar" id="?" data-wikidata-id="Q494817" data-label="Google Scholar">Google Scholar</span></a>
+<a href=""><span class="mention company" about="Medline" id="?" data-wikidata-id="Q1540899" data-label="MEDLINE">Medline</span></a>
+<a href=""><span class="mention company" about="Crossref" id="?" data-wikidata-id="Q5188229" data-label="Crossref">Crossref</span></a>
+
+#FBI
+#US Major League Baseball teams
+#Cambridge Centre for Evidence-Based Policing
+#Center for Police Research and Policy
+#Vera Institute of Justice Q7920786
+
+<span class="mention ?" about="?" id="?" data-wikidata-id="?" data-label="?">?</span>
+<span class="mention Institution Research" about="" id="?" data-wikidata-id="" data-label=""></span>
+
+
+*police brutality  Q1996993 <<-- compare 2 volte
+*racial bias Q16630756  <<-- compare spesso
+use of force Q971119   + "using excessive force"  <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q971119" data-label="use of force">use of force</span>
+*-->5 volte  <span class="mention concept" about="use of force" id="?" data-wikidata-id="Q96441150" data-label="police violence">use of force</span>
+*  police violence Q96441150 1volta
+* misconduct (Q6875295) <<--7 volte <span class="mention concept" about="misconduct" id="?" data-wikidata-id="Q6875295" data-label="misconduct">misconduct</span>
+* abuse of power Q1975478 <<-- 1 volta <span class="mention concept" about="abuse of power" id="?" data-wikidata-id="Q1975478" data-label="abuse of power">abuse of power</span>
+*police accountability (Q7209546) 4 volte <span class="mention concept" about="police accountability" id="?" data-wikidata-id="Q7209546" data-label="police accountability">police accountability</span>
+
+#homelessness (Q131327)
+#substance abuse (Q3184856)
+#mental disorder (Q12135)
+discrimination  169207
+#bad temper
+
+protest -->"demonstration" Q175331 (street protest)
+protest protest Q273120 (expression of objection)
+
+----------------------------------------------------------------------------------------
+<a href="#footn1b"><sup>1</sup></a>
+
+<div class="menu-btn">
+  <i class="fas fa-bars"></i>
+</div>
+<div class="side-bar">
+  <div class="close-btn">
+    <i class="fas fa-times"></i>
+  </div>
+  <div class="menu">
+
+    <div class="item">
+      <a class="sub-btn"><i class="fas fa-table"></i>Article1<i class="fas fa-angle-right dropdown"></i></a>
+      <div class="sub-menu">
+        <a href="#" class="sub-item"></i>Section<i class="fas fa-angle-right dropdown"></i></a>
+        <div class="sub-section">
+            <li><div class="form-check">
+                <input type="checkbox" class="form-check-input" active="0" id="covel">
+                <label class="form-check-label" for="covel">
+                    <strong>Section 1:</strong> Mark Covel's case
+                </label>
+                </div>
+            </li>
+            <li><div class="form-check">
+                <input type="checkbox" class="form-check-input" active="0" id="diaz">
+                <label class="form-check-label" for="diaz">
+                    <strong>Section 2:</strong> Report on Diaz Pertini school
+                </label>
+                </div>
+           </li>
+           <li><div class="form-check">
+                <input type="checkbox" class="form-check-input" active="0" id="bolzaneto">
+                <label class="form-check-label" for="bolzaneto">
+                    <strong>Section 3:</strong> The Bolzaneto District
+                </label>
+                </div>
+           </li>
+           <li><div class="form-check">
+                <input type="checkbox" class="form-check-input" active="0" id="outside">
+                <label class="form-check-label" for="outside">
+                    <strong>Section 4:</strong> The outside world
+                </label>
+                </div>
+           </li>
+           <li><div class="form-check">
+                <input type="checkbox" class="form-check-input" active="0" id="next">
+                <label class="form-check-label" for="next">
+                    <strong>Section 5:</strong> What happened next?
+                </label>
+                </div>
+           </li>
+      </div>
+        <a href="#" class="sub-item"></i>Metadata<i class="fas fa-angle-right dropdown"></i></a>
+    </div>
+
+
+  </div>
+    </div>
+    <div class="item">
+      <a class="sub-btn"><i class="fas fa-table"></i>Article2<i class="fas fa-angle-right dropdown"></i></a>
+      <div class="sub-menu">
+        <a href="#" class="sub-item"></i>Section<i class="fas fa-angle-right dropdown"></i></a>
+        <div class="sub-section">
+          <li>
+            <div class="form-check">
+          <input type="checkbox" class="form-check-input" active="0" id="intro">
+          <label class="form-check-label" for="intro">
+              <strong>Section 1:</strong> Intro
+          </label>
+              </div>
+          </li>
+      <li>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" active="0" id="badapple">
+          <label class="form-check-label" for="badapples">
+              <strong>Section 2:</strong> Bad apples
+          </label>
+        </div>
+      </li>
+      <li><div class="form-check">
+          <input type="checkbox" class="form-check-input" active="0" id="evidence">
+          <label class="form-check-label" for="evidence">
+              <strong>Section 3:</strong> Evidence-based policing
+          </label>
+        </div>
+      </li>
+      <li><div class="form-check">
+          <input type="checkbox" class="form-check-input" active="0" id="reference">
+          <label class="form-check-label" for="reference">
+              <strong>Section 4:</strong> References
+          </label>
+        </div>
+      </li>
+        </div>
+        <a href="#" class="sub-item"></i>Metadata<i class="fas fa-angle-right dropdown"></i></a>
+      </div>
+    </div>
+    <div class="item">
+      <a class="sub-btn"><i class="fas fa-table"></i>Article3<i class="fas fa-angle-right dropdown"></i></a>
+      <div class="sub-menu">
+        <a href="#" class="sub-item"></i>Section<i class="fas fa-angle-right dropdown"></i></a>
+        <a href="#" class="sub-item"></i>Metadata<i class="fas fa-angle-right dropdown"></i></a>
+      </div>
+    </div>
+    <div class="item"><a href="#"><i class="fas fa-desktop"></i>Forms</a></div>
+    <div class="item"><a href="#"><i class="fas fa-desktop"></i>About</a></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  //jquery for togle sub menus
+  $('.sub-btn').click(function(){
+    $(this).next('.sub-menu').slideToggle();
+    $(this).find('.dropdown').toggleClass('rotate');
+  });
+  //jquery for togle sub section
+  $('.sub-item').click(function(){
+    $(this).next('.sub-section').slideToggle();
+    $(this).find('.dropdown').toggleClass('rotate');
+  });
+
+  //jquery for expand and collapse the SIDEBAR
+  $('.menu-btn').click(function(){
+    $('.side-bar').addClass('active');
+    $('.menu-btn').css("visibility", "hidden");
+
+  });
+  $('.close-btn').click(function(){
+    $('.side-bar').removeClass('active');
+    $('.menu-btn').css("visibility", "visible");
+  });
+});
+</script>
+
+// SECTION HIGHLIGHT FUNZIONA
+$('#covel').click(function(){
+      if ($(this).prop("checked") == true)
+        {
+          $('#MarkCovelscase').css({"background-color": "#fff"});
+          $('#article1').scrollTop();
+        }
+      else if ($(this).prop("checked") == false)
+       {
+        $('#MarkCovelscase').css({"background-color": "transparent"});
+       }
+  });
+  /////
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="SergeiKarpukhin">
+      <label class="form-check-label" for="SergeiKarpukhin">
+          <strong>Sergei Karpukhin</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+       <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="MarkCovell">
+       <label class="form-check-label" for="MarkCovell">
+           <strong>Mark Covell</strong> (20)
+       </label>
+       </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+       <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="EnricoZucca">
+       <label class="form-check-label" for="EnricoZucca">
+           <strong>Enrico Zucca</strong> (9)
+       </label>
+       </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+       <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="MichaelGieser">
+       <label class="form-check-label" for="MichaelGieser">
+           <strong>Michael Gieser</strong> (4)
+       </label>
+       </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="MelanieJonasch">
+      <label class="form-check-label" for="MelanieJonasch">
+          <strong>Melanie Jonasch</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="KatherinaOttoway">
+      <label class="form-check-label" for="KatherinaOttoway">
+          <strong>Katherina Ottoway</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="DanMcQuillan">
+      <label class="form-check-label" for="DanMcQuillan">
+          <strong>Dan McQuillan</strong> (4)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="NormanBlair">
+      <label class="form-check-label" for="NormanBlair">
+          <strong>Norman Blair</strong> (3)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="SamBuchanan">
+      <label class="form-check-label" for="SamBuchanan">
+          <strong>Sam Buchanan</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="NicolaDoherty">
+      <label class="form-check-label" for="NicolaDoherty">
+          <strong>Nicola Doherty</strong> (2)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="RichardMoth">
+      <label class="form-check-label" for="RichardMoth">
+          <strong>Richard Moth</strong> (2)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="DanielAlbrecht">
+      <label class="form-check-label" for="DanielAlbrecht">
+          <strong>Daniel Albrecht</strong> (2)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="Karl Boro">
+      <label class="form-check-label" for="Karl Boro">
+          <strong>Karl Boro</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="JaraslawEngel">
+      <label class="form-check-label" for="JaraslawEngel">
+          <strong>Jaraslaw Engel</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="LenaZuhlke">
+      <label class="form-check-label" for="LenaZuhlke">
+          <strong>Lena Zuhlke</strong> (4)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="NielsMartensen">
+      <label class="form-check-label" for="NielsMartensen">
+          <strong>Niels Martensen</strong> (3)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="BenitoMussolini">
+      <label class="form-check-label" for="BenitoMussolini">
+          <strong>Benito Mussolini</strong> (3)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="AugustoPinochet">
+      <label class="form-check-label" for="AugustoPinochet">
+          <strong>Augusto Pinochet</strong> (2)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="MohammedTabach">
+      <label class="form-check-label" for="MohammedTabach">
+          <strong>Mohammed Tabach</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="StefanBauer">
+      <label class="form-check-label" for="StefanBauer">
+          <strong>Stefan Bauer</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="MarcoBistacchia">
+      <label class="form-check-label" for="MarcoBistacchia">
+          <strong>Marco Bistacchia</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="EsterPercivati">
+      <label class="form-check-label" for="EsterPercivati">
+          <strong>Ester Percivati</strong> (2)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="DavidLarroquelle">
+      <label class="form-check-label" for="DavidLarroquelle">
+          <strong>David Larroquelle</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="TonyBlair">
+      <label class="form-check-label" for="TonyBlair">
+          <strong>Tony Blair</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="GianfrancoFini">
+      <label class="form-check-label" for="GianfrancoFini">
+          <strong>Gianfranco Fini</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="SilvioBerlusconi">
+      <label class="form-check-label" for="SilvioBerlusconi">
+          <strong>Silvio Berlusconi</strong> (1)
+      </label>
+      </div>
+  </li>
+  <li><div class="sub-inner-inner-item form-check">
+      <input onclick="highlightSection(this)" type="checkbox" class="form-check-input" active="0" id="MassimoPastore">
+      <label class="form-check-label" for="MassimoPastore">
+          <strong>Massimo Pastore</strong> (2)
+      </label>
+      </div>
+  </li>
+</div>

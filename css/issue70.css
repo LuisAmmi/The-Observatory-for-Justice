@@ -735,7 +735,7 @@ figcaption::first-letter{
   margin-left: -1vh;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
   color: orange;
-  font-size: 4vh;
+  font-size: 2vw;
   margin-top: auto;
 }
 
@@ -806,7 +806,7 @@ figcaption::first-letter{
 #police{
   border: 0.5vh solid;
   font-family: 'ComicStrip';
-  width: 22vw;
+  width: 19vw;
   margin: auto;
   font-size: 8vh;
   font-style: italic;
@@ -821,7 +821,7 @@ figcaption::first-letter{
   font-family: "BingBamBoum";
   color: #db303e;
   padding: 1vh 6vh 1vh 4vh;
-  font-size: 8vh;
+  font-size: 4vw;
   display: block;
   text-align: center;
 }
