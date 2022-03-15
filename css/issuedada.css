@@ -117,7 +117,7 @@ body {
   background-image: url("../imgs/dada/sfondorosso4.png");
   background-size: contain;
   background-attachment: fixed;
-  cursor: url('../imgs/dada/icons8-center-of-gravity-26.png'), auto;
+  cursor: url('../imgs/dada/icons8-cursor-24.png'), auto;
 }
 
 .container {
@@ -325,7 +325,7 @@ button:hover{
   overflow-y: auto;
   transition: 0.6s ease;
   transition-property: left;
-  cursor: url('../imgs/dada/icons8-center-of-gravity-26.png'), auto;
+  cursor: url('../imgs/dada/icons8-cursor-24.png'), auto;
 }
 
 .side-bar.active{
